@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        red: '#A7010E',
+      },
+    },
   },
   plugins: [require('tailwindcss-animate')],
 };
