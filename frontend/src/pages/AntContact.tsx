@@ -1,7 +1,6 @@
 import React from 'react';
 import Headers from '@/components/headers/header';
-
-
+import Footer from '@/components/footers/footer';
 
 const AntContact = () => {
   return (
@@ -122,6 +121,9 @@ const AntContact = () => {
           </label>
         </div>
       </div >
+      <div>
+        <Footer />
+      </div>
     </>
   );
 };
