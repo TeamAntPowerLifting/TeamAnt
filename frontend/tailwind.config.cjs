@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         red: '#A7010E',
       },
+      screens: {
+        xs: '280px',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
