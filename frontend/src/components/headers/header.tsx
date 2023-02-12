@@ -8,11 +8,15 @@ const headers = () => {
 
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
-      <img className="ml-7 w-60" src={Log} alt="logo" />
+      <img
+        className="md:w-60 xs:w-48 lg:w-48 xl:w-60 ml-8"
+        src={Log}
+        alt="logo"
+      />
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2 mr-16"
+            className="HAMBURGER-ICON space-y-2 mr-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -42,7 +46,7 @@ const headers = () => {
           </div>
         </section>
 
-        <div className="DESKTOP-MENU hidden space-x-8 lg:flex mr-20">
+        <div className="DESKTOP-MENU hidden space-x-16 lg:flex pr-10">
           <HeaderTap location={location} />
         </div>
       </nav>

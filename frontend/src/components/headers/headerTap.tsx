@@ -74,39 +74,39 @@ const headerTap = (props: { location: { pathname: string } }) => {
     return (
       <>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToHome}
         >
           Home
         </div>
 
         <div
-          className="cursor-pointer hover:text-button border-b-2 border-red"
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
           onClick={moveToCAbout}
         >
           About
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaching}
         >
           Coaching
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToArticle}
         >
           Article
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Cantact
@@ -117,39 +117,39 @@ const headerTap = (props: { location: { pathname: string } }) => {
     return (
       <>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToHome}
         >
           Home
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCAbout}
         >
           About
         </div>
 
         <div
-          className="cursor-pointer hover:text-button border-b-2 border-red"
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
           onClick={moveToCoaching}
         >
           Coaching
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToArticle}
         >
           Article
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Cantact
@@ -160,39 +160,39 @@ const headerTap = (props: { location: { pathname: string } }) => {
     return (
       <>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToHome}
         >
           Home
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCAbout}
         >
           About
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaching}
         >
           Coaching
         </div>
         <div
-          className="cursor-pointer hover:text-button border-b-2 border-red"
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
           onClick={moveToCoaches}
         >
           Coaches
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToArticle}
         >
           Article
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Cantact
@@ -203,39 +203,39 @@ const headerTap = (props: { location: { pathname: string } }) => {
     return (
       <>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToHome}
         >
           Home
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCAbout}
         >
           About
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaching}
         >
           Coaching
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
         </div>
         <div
-          className="cursor-pointer hover:text-button border-b-2 border-red"
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
           onClick={moveToArticle}
         >
           Article
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Cantact
@@ -246,39 +246,39 @@ const headerTap = (props: { location: { pathname: string } }) => {
     return (
       <>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToHome}
         >
           Home
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCAbout}
         >
           About
         </div>
 
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaching}
         >
           Coaching
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
         </div>
         <div
-          className="cursor-pointer hover:text-button text-gray-600"
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToArticle}
         >
           Article
         </div>
         <div
-          className="cursor-pointer hover:text-button border-b-2 border-red"
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
           onClick={moveToCantact}
         >
           Cantact
