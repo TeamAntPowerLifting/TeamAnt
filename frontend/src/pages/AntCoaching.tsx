@@ -11,7 +11,7 @@ const AntCoaching = () => {
     <div className="flex flex-col h-screen">
       <Headers />
       <div className="flex-1">
-        <section className="items-center py-16 font-poppins dark:bg-gray-800">
+        <section className="items-center py-10 font-poppins dark:bg-gray-800">
           <div className="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
             <div className="max-w-xl mx-auto">
               <div className="text-center ">
