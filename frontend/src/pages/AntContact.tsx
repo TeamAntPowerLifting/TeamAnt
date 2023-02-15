@@ -11,7 +11,7 @@ const AntContact = () => {
       e.currentTarget, 'ylQ3THXuqiWqMF9nU')
       .then((result) => {
         console.log(result.text);
-      }, (error) => {
+      }, (error: any) => {
         console.log(error.text);
       });
     e.currentTarget.reset()
