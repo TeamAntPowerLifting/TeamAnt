@@ -23,6 +23,10 @@ const headerTap = (props: { location: { pathname: string } }) => {
     navigate('/article');
   };
 
+  const moveToPrice = () => {
+    navigate('/price');
+  };
+
   const moveToCantact = () => {
     navigate('/contact');
   };
@@ -49,6 +53,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToCoaching}
         >
           Coaching
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
@@ -95,6 +105,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
@@ -138,6 +154,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
@@ -178,6 +200,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToCoaching}
         >
           Coaching
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
@@ -224,6 +252,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
@@ -267,6 +301,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCoaches}
         >
           Coaches
@@ -285,8 +325,104 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
       </>
     );
+  } else if (props.location.pathname == '/price') {
+    return (
+      <>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToHome}
+        >
+          Home
+        </div>
+
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCAbout}
+        >
+          About
+        </div>
+
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCoaching}
+        >
+          Coaching
+        </div>
+        <div
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
+          onClick={moveToPrice}
+        >
+          Price
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCoaches}
+        >
+          Coaches
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToArticle}
+        >
+          Article
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCantact}
+        >
+          Cantact
+        </div>
+      </>
+    );
   } else {
-    return null;
+    return (
+      <>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToHome}
+        >
+          Home
+        </div>
+
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCAbout}
+        >
+          About
+        </div>
+
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCoaching}
+        >
+          Coaching
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToPrice}
+        >
+          Price
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCoaches}
+        >
+          Coaches
+        </div>
+        <div
+          className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
+          onClick={moveToArticle}
+        >
+          Article
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToCantact}
+        >
+          Cantact
+        </div>
+      </>
+    );
   }
 };
 
