@@ -1,7 +1,7 @@
 import React from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
-const AntMain = () => {
+const AntPrice = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
@@ -11,4 +11,4 @@ const AntMain = () => {
   );
 };
 
-export default AntMain;
+export default AntPrice;
