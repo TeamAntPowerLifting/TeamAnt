@@ -2,17 +2,14 @@ import React from 'react';
 
 const price = () => {
   return (
-    <div className="overflow-hidden bg-white border-2 border-transparent rounded-md">
+    <div className="overflow-hidden bg-gray-100 border-2 border-transparent rounded-md">
       <div className="p-6 md:py-8 md:px-9">
-        <h3 className="text-xl font-semibold text-black">Agency</h3>
-        <p className="mt-2.5 text-sm text-gray-600">
-          All the extended features to boost your agency career
-        </p>
+        <h3 className="text-xl font-semibold text-black">Online coaching</h3>
 
         <div className="flex items-end mt-5">
           <div className="flex items-start">
-            <span className="text-xl font-medium text-black"> $ </span>
-            <p className="text-6xl font-medium tracking-tight">99</p>
+            <span className="text-xl font-medium text-black"> ₩ </span>
+            <p className="text-5xl font-medium tracking-tight">140,000</p>
           </div>
           <span className="ml-0.5 text-lg text-gray-600"> / month </span>
         </div>
@@ -23,11 +20,11 @@ const price = () => {
           className="inline-flex items-center justify-center w-full px-4 py-3 mt-6 font-semibold text-white transition-all duration-200 border-2 border-transparent rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-80 focus:opacity-80"
           role=""
         >
-          Start 14 Days Free Trial
+          문의하기
         </a>
 
         <ul className="flex flex-col mt-8 space-y-4">
-          <li className="inline-flex items-center space-x-2">
+          {/* <li className="inline-flex items-center space-x-2">
             <svg
               className="flex-shrink-0 w-5 h-5 text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,10 +37,7 @@ const price = () => {
                 clip-rule="evenodd"
               />
             </svg>
-            <span className="text-base font-medium text-gray-900">
-              {' '}
-              100 Domain License{' '}
-            </span>
+
             <svg
               className="w-4 h-4 ml-0.5 text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +52,7 @@ const price = () => {
                 d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-          </li>
+          </li> */}
 
           <li className="inline-flex items-center space-x-2">
             <svg
@@ -75,7 +69,7 @@ const price = () => {
             </svg>
             <span className="text-base font-medium text-gray-900">
               {' '}
-              Full Celebration Library{' '}
+              1:1 레슨 8회{' '}
             </span>
           </li>
 
@@ -94,7 +88,7 @@ const price = () => {
             </svg>
             <span className="text-base font-medium text-gray-900">
               {' '}
-              120+ Coded Blocks{' '}
+              1:1 레슨 8회{' '}
             </span>
           </li>
 
@@ -113,7 +107,7 @@ const price = () => {
             </svg>
             <span className="text-base font-medium text-gray-900">
               {' '}
-              Design Files Included{' '}
+              1:1 레슨 8회{' '}
             </span>
           </li>
 
@@ -132,7 +126,7 @@ const price = () => {
             </svg>
             <span className="text-base font-medium text-gray-900">
               {' '}
-              Premium Support{' '}
+              1:1 레슨 8회{' '}
             </span>
           </li>
         </ul>
