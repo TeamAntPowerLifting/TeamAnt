@@ -46,7 +46,7 @@ const headers = () => {
           </div>
         </section>
 
-        <div className="DESKTOP-MENU hidden space-x-16 lg:flex pr-10">
+        <div className="DESKTOP-MENU hidden  lg:flex md:space-x-6 xs:space-x-12 lg:space-x-12 xl:space-x-16 pr-10">
           <HeaderTap location={location} />
         </div>
       </nav>
