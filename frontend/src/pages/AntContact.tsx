@@ -34,14 +34,21 @@ const AntContact = () => {
       <Headers />
       <div className="flex-1 pb-16">
         <section className="bg-white pt-16 ">
-          <h1 className="mb-10 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl text-center">
-            Contact Us
-          </h1>
-          <div className="border-b-2 border-black mx-40 "></div>
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="relative flex flex-col items-center">
+              <div className="absolute hidden md:block -top-14  text-[120px] text-gray-400 font-bold opacity-10">
+                Contact
+              </div>
+              <h2 className="w-full text-3xl font-bold text-center sm:text-4xl md:text-5xl">
+                {' '}
+                TeamAnt <span className="text-red"> Contact</span>
+              </h2>
+            </div>
+          </div>
 
           <form
             onSubmit={sendEmail}
-            className=" w-full md:w-2/3 mx-auto mt-10 my-7"
+            className=" w-full md:w-2/3 mx-auto mt-16 my-7"
           >
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full px-3">
@@ -135,9 +142,7 @@ const AntContact = () => {
           ANSWERS TO FREQUENTLY ASKED QUESTIONS
         </h1>
 
-        <div className="border-b-2 border-black mx-40 mb-30"></div>
-
-        <div className="shadow-md w-full md:w-2/3 mx-auto mt-4">
+        <div className="shadow-md w-full md:w-2/3 mx-auto mt-10">
           {/* Table */}
           <div id="FAQ_1" className="overflow-hidden border-t">
             <label>
