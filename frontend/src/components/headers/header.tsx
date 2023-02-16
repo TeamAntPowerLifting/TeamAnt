@@ -62,7 +62,7 @@ const headers = () => {
         top: 0;
         left: 0;
         background: white;
-        z-index: 10;
+        z-index: 100;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
