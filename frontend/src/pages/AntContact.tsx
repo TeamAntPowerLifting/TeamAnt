@@ -33,7 +33,7 @@ const AntContact = () => {
     <div className="flex flex-col h-screen">
       <Headers />
       <div className="flex-1 pb-16">
-        <section className="bg-white  pt-16 ">
+        <section className="bg-white pt-16 ">
           <h1 className="mb-10 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl text-center">
             Contact Us
           </h1>
