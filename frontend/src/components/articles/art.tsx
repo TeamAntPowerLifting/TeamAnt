@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const art = (props: any) => {
   const navigate = useNavigate();
   const ArticleClick = (props: any) => {
-    navigate(`/article/${props.idx}`, { state: props });
+    navigate(`/article/${props.id}`, { state: props });
   };
   return (
     <div className="lg:mx-20 mt-7">

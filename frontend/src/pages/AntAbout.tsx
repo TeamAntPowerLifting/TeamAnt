@@ -29,7 +29,7 @@ const AntAbout = () => {
                     </div>
                     <h2 className="w-full text-3xl font-bold text-center sm:text-4xl md:text-5xl">
                       {' '}
-                      Team ANT <span className="text-red"> About</span>
+                      TeamAnt <span className="text-red"> About</span>
                     </h2>
                   </div>
                 </div>

@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import { useLocation } from 'react-router-dom';
 
 const AntArticle = () => {
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className="flex flex-col h-screen">
       <Headers />
@@ -18,6 +23,9 @@ const AntArticle = () => {
             <div className="mx-5 mt-16">
               <img src={location.state.image} />
             </div>
+            <p className="text-center text-xs text-gray-400 mt-2">
+              {location.state.title2}
+            </p>
 
             <div className="px-5 text-lg w-full mx-auto whitespace-pre-wrap">
               <p className="my-5">{location.state.context}</p>

@@ -76,7 +76,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
@@ -125,7 +125,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
@@ -223,7 +223,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
@@ -272,7 +272,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
@@ -321,7 +321,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
@@ -370,7 +370,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
@@ -419,7 +419,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
-          Cantact
+          Contact
         </div>
       </>
     );
