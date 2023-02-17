@@ -12,7 +12,6 @@ import main4_1 from '../assets/images/main4_1.png';
 import MainArticle from '@/components/articles/mainArticle';
 
 const AntMain = () => {
-
   return (
     <div className="flex flex-col h-screen">
       <Headers />
@@ -60,30 +59,10 @@ const AntMain = () => {
                 <br />
                 중량을 올려나가고 싶으신 분들
               </p>
-
-
             </div>
             <div className="hidden lg:block"></div>
 
             <div>
-              <img className="object-cover mx-auto rounded-lg w-40 h-40" src={main3_3} alt="" />
-              <p className="mt-8 text-lg font-semibold leading-tight text-black">파워리프팅 시합을 준비하려는 분들</p>
-            </div>
-
-          </div>
-
-          <div className='grid grid-cols-5 text-center mt-20 '>
-            <div className="hidden lg:block"></div>
-
-            <div>
-              <img className="object-cover mx-auto rounded-lg w-40 h-40" src={main3_4} alt="" />
-              <p className="mt-8 text-lg font-semibold leading-tight text-black">바벨운동을 할 수 있지만,
-                어떻게 해나가야하는지 모르겠는 분들</p>
-            </div>
-            <div className="hidden lg:block"></div>
-            <div>
-              <img className="object-cover mx-auto rounded-lg w-40 h-40" src={main3_5} alt="" />
-              <p className="mt-8 text-lg font-semibold leading-tight text-black">정체기를 겪으며 중량이 멈춰있는 분들</p>
               <img
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_3}
@@ -125,29 +104,6 @@ const AntMain = () => {
           <div className="hidden lg:block"></div>
         </section>
 
-        <div className="border-b-2 border-red-500 mx-40 mb-20 "></div>
-
-        <div className=' ml-80'>
-          <p className='text-2xl font-bold text-gray-800 capitalize lg:text-3xl'>우리가 다른 팀과 다른점</p>
-        </div>
-
-        <section className='px-80'>
-          <div className='grid grid-cols-2 text-center my-20'>
-
-            <div className='mx-10'>
-              <img className="object-cover mx-auto  w-120 h-80" src={main4} alt="" />
-            </div>
-            <div className='mx-10 mt-5'>
-              <img className="object-cover mx-auto h-10" src={main4_1} alt="" />
-              <div>
-                <p className='text-lg font-bold text-gray-800 capitalize lg:text-lg'>The Strength Of Our Team</p>
-              </div>
-              <div className='mx-12'>
-                <p className='w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl'>
-                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만 아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰 차이점이 있다.
-                  언제나 목표를 향해 선수, 코치로써 달려가고 있습니다.
-                  오직 TeamANT만이 가지고 있는 경험과 노하우를 여러분들께 제공합니다.
-                </p>
         <div className="border-b-2 border-red mx-40 mb-20 "></div>
 
         <div className="my-20 ml-80">
@@ -156,9 +112,32 @@ const AntMain = () => {
           </p>
         </div>
 
-        <section>
-          <div className="grid grid-cols-2 text-center mt-20 "></div>
+        <section className='px-80'>
+          <div className='grid grid-cols-2 text-center my-20'>
+
+            <div className='mx-10'>
+              <img className="object-cover mx-auto  w-120 h-80" src={main4} alt="" />
+            </div>
+
+            <div className='mx-10 mt-5'>
+              <img className="object-cover mx-auto h-10" src={main4_1} alt="" />
+
+              <div>
+                <p className='text-lg font-bold text-gray-800 capitalize lg:text-lg'>The Strength Of Our Team</p>
+              </div>
+
+              <div className='mx-12'>
+                <p className='w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl'>
+                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만 아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰 차이점이 있다.
+                  언제나 목표를 향해 선수, 코치로써 달려가고 있습니다.
+                  오직 TeamANT만이 가지고 있는 경험과 노하우를 여러분들께 제공합니다.
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
+
+
         <div className="border-b-2 border-red mx-40 mb-20 "></div>
 
         <div className="my-7 ml-80">
@@ -169,24 +148,18 @@ const AntMain = () => {
 
         <section>
           <div className="text-center ">
-            <div className="max-w-2xl mx-auto text-center">
-              <div className="text-2xl text-gray">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="text-2xl text-gray ">
                 <MainArticle />
               </div>
             </div>
           </div>
         </section>
-
-        <div className="border-b-2 border-red-500 mx-40 mb-20 "></div>
-
-        <section >
-        </section>
-
-      </div >
+        <div className="border-b-2 border-red mx-40 mb-20 "></div>
+      </div>
       <Footer />
-    </div >
+    </div>
   );
 };
 
 export default AntMain;
-

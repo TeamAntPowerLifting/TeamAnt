@@ -13,11 +13,6 @@ const AntAbout = () => {
       <div className="flex flex-col h-screen">
         <Headers />
         <div className="flex-1">
-          {/* <img
-            className="object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
-            src={about}
-            alt=""
-          ></img> */}
 
           <section className="py-20 bg-white">
             <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
