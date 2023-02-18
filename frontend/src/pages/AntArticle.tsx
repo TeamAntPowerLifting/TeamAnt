@@ -13,7 +13,7 @@ const AntArticle = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1">
+      <div className="flex-1 pt-28">
         <div className="relative">
           <div className="w-full md: w-3/5 lg:w-2/5 mx-auto">
             <div className="w-full text-gray-800 text-center text-4xl px-5 font-bold leading-none mt-16">
