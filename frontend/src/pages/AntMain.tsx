@@ -13,11 +13,11 @@ import MainArticle from '@/components/articles/mainArticle';
 
 const AntMain = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen ">
       <Headers />
-      <div className="flex-1">
+      <div className="flex-1 pt-28">
         <img
-          className="object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
+          className="-mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
           src={main}
           alt=""
         />
@@ -112,31 +112,37 @@ const AntMain = () => {
           </p>
         </div>
 
-        <section className='px-80'>
-          <div className='grid grid-cols-2 text-center my-20'>
-
-            <div className='mx-10'>
-              <img className="object-cover mx-auto  w-120 h-80" src={main4} alt="" />
+        <section className="px-80">
+          <div className="grid grid-cols-2 text-center my-20">
+            <div className="mx-10">
+              <img
+                className="object-cover mx-auto  w-120 h-80"
+                src={main4}
+                alt=""
+              />
             </div>
 
-            <div className='mx-10 mt-5'>
+            <div className="mx-10 mt-5">
               <img className="object-cover mx-auto h-10" src={main4_1} alt="" />
 
               <div>
-                <p className='text-lg font-bold text-gray-800 capitalize lg:text-lg'>The Strength Of Our Team</p>
+                <p className="text-lg font-bold text-gray-800 capitalize lg:text-lg">
+                  The Strength Of Our Team
+                </p>
               </div>
 
-              <div className='mx-12'>
-                <p className='w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl'>
-                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만 아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰 차이점이 있다.
-                  언제나 목표를 향해 선수, 코치로써 달려가고 있습니다.
-                  오직 TeamANT만이 가지고 있는 경험과 노하우를 여러분들께 제공합니다.
+              <div className="mx-12">
+                <p className="w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl">
+                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만
+                  아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰
+                  차이점이 있다. 언제나 목표를 향해 선수, 코치로써 달려가고
+                  있습니다. 오직 TeamANT만이 가지고 있는 경험과 노하우를
+                  여러분들께 제공합니다.
                 </p>
               </div>
             </div>
           </div>
         </section>
-
 
         <div className="border-b-2 border-red mx-40 mb-20 "></div>
 
