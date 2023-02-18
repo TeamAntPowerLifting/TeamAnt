@@ -18,10 +18,10 @@ const AntMain = () => {
   return (
     <div className="flex flex-col h-screen ">
       <Headers />
-      <div className="flex-1">
+      <div className="flex-1  pt-28">
         <div className='mx-10'>
           <img
-            className="object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
+            className="-mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
             src={main}
             alt=""
           />
