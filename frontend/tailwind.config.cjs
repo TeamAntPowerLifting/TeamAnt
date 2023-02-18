@@ -10,6 +10,9 @@ module.exports = {
       screens: {
         xs: '280px',
       },
+      fontFamily: {
+        jua: ['"Jua"', 'sans-serif'],
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
