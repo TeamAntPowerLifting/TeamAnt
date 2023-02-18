@@ -6,7 +6,7 @@ const AntArticle = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1">
+      <div className="flex-1 pt-28">
         <Article />
       </div>
       <Footer />

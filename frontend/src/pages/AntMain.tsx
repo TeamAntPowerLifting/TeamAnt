@@ -16,7 +16,7 @@ import MainArticle from '@/components/articles/mainArticle';
 
 const AntMain = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen ">
       <Headers />
       <div className="flex-1">
         <div className='mx-10'>
@@ -142,7 +142,6 @@ const AntMain = () => {
           </div>
         </section>
 
-
         <div className="border-b-2 border-red mx-40 mb-20 "></div>
 
         <div className="my-7 ml-80">
@@ -189,7 +188,6 @@ const AntMain = () => {
           </div>
         </section>
 
-
       </div>
       <Footer />
     </div>
@@ -197,6 +195,3 @@ const AntMain = () => {
 };
 
 export default AntMain;
-
-
-
