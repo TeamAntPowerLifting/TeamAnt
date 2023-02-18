@@ -1,7 +1,7 @@
 import React from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
-import main from '../assets/images/main.png';
+import main from '../assets/images/newmain.png';
 import main3_1 from '../assets/images/main3_1.png';
 import main3_2 from '../assets/images/main3_2.png';
 import main3_3 from '../assets/images/main3_3.png';
@@ -9,6 +9,9 @@ import main3_4 from '../assets/images/main3_4.png';
 import main3_5 from '../assets/images/main3_5.png';
 import main4 from '../assets/images/main4.jpg';
 import main4_1 from '../assets/images/main4_1.png';
+import video1 from '../assets/images/video1.png';
+import video2 from '../assets/images/video2.png';
+import video3 from '../assets/images/video3.png';
 import MainArticle from '@/components/articles/mainArticle';
 
 const AntMain = () => {
@@ -16,11 +19,13 @@ const AntMain = () => {
     <div className="flex flex-col h-screen">
       <Headers />
       <div className="flex-1">
-        <img
-          className="object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
-          src={main}
-          alt=""
-        />
+        <div className='mx-10'>
+          <img
+            className="object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
+            src={main}
+            alt=""
+          />
+        </div>
         <div className="my-20 ml-80">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             파워리프팅 온라인 코칭이란?
@@ -156,6 +161,35 @@ const AntMain = () => {
           </div>
         </section>
         <div className="border-b-2 border-red mx-40 mb-20 "></div>
+
+        <section>
+          <div className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
+              <div>
+                <a href="https://youtu.be/O24EsmylWtg" title="" className="block aspect-w-4 aspect-h-3">
+                  <img className="object-cover w-full h-full cursor-pointer lg:hover:scale-110 transition-transform ease-in-out duration-500" src={video1} alt="" />
+                </a>
+                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-sky-500 bg-sky-100 mt-5 mb-3"> 세상에 이런일이 : 파워리프팅맨 </span>
+              </div>
+
+              <div>
+                <a href="https://youtu.be/s35Cx2BkWEs" title="" className="block aspect-w-4 aspect-h-3">
+                  <img className="object-cover w-full h-full cursor-pointer lg:hover:scale-110 transition-transform ease-in-out duration-500" src={video2} alt="" />
+                </a>
+                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-sky-500 bg-sky-100 mt-5"> 한국인 최초 아시아 1등 그랜드 슬램 </span>
+              </div>
+
+              <div>
+                <a href="https://youtu.be/-_ve13yz_6o" title="" className="block aspect-w-4 aspect-h-3">
+                  <img className="object-cover w-full h-full cursor-pointer lg:hover:scale-110 transition-transform ease-in-out duration-500" src={video3} alt="" />
+                </a>
+                <span className="flex-newraw px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-rose-500 bg-rose-100 mt-5"> 앤트맨 6주 파워리프팅 프로그램 </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
       </div>
       <Footer />
     </div>
@@ -163,3 +197,6 @@ const AntMain = () => {
 };
 
 export default AntMain;
+
+
+
