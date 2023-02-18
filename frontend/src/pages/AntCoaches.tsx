@@ -65,7 +65,7 @@ const AntCoaches = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1">
+      <div className="flex-1 pt-28">
         <div className="max-w-2xl mx-auto text-center mt-10">
           <div className="relative flex flex-col items-center">
             <div className="absolute hidden md:block -top-14  text-[120px] text-gray-400 font-bold opacity-10">
@@ -78,8 +78,8 @@ const AntCoaches = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center max-h-screen mt-16">
-          <ul className="mx-auto grid max-w-full w-full grid-cols-4 gap-x-5 px-8">
+        <div className="flex items-center justify-center max-h-screen mt-16 px-56">
+          <ul className="mx-auto grid max-w-full w-full grid-cols-4 gap-x-5 ">
             <li className="">
               <a
                 className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none transition-all duration-500 ease-in-out"
@@ -133,7 +133,7 @@ const AntCoaches = () => {
             </li>
           </ul>
         </div>
-        <div className="px-28">
+        <div className="px-56">
           <div className={openTab === 1 ? 'block' : 'hidden'} id="first">
             <Coache title={test[0]?.title} image={test[0]?.image} />
           </div>
