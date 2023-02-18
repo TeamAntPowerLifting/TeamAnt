@@ -32,7 +32,7 @@ const AntContact = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1 pb-16">
+      <div className="flex-1 pb-16 pt-28">
         <section className="bg-white pt-16 ">
           <div className="max-w-2xl mx-auto text-center">
             <div className="relative flex flex-col items-center">
@@ -41,7 +41,7 @@ const AntContact = () => {
               </div>
               <h2 className="w-full text-3xl font-bold text-center sm:text-4xl md:text-5xl">
                 {' '}
-                TeamAnt <span className="text-red"> Contact</span>
+                Contact <span className="text-red"> Us</span>
               </h2>
             </div>
           </div>
