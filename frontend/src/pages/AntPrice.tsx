@@ -2,6 +2,7 @@ import React from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import Price from '@/components/prices/price';
+import 'src/media.css';
 const AntPrice = () => {
   const content = [
     '훈련 전략, 빈도, 운동종목 등의 개인화',
@@ -43,13 +44,13 @@ const AntPrice = () => {
 
           <div className="px-full mx-auto max-w-screen-2xl">
             <div className="max-w-2xl mx-auto text-center">
-              <div className="mt-8 bg-white mb-10 shadow-lg left-0 p-6 border mt-2 border-indigo-300 rounded-lg mx-auto">
-                <div className="ml-10">
+              <div className="mt-8 bg-white mb-10 shadow-lg left-0 p-2 border mt-2 border-indigo-300 rounded-lg mx-auto">
+                <div className="ml-5">
                   {content.map((title: any, idx: any) => (
                     <>
                       <div className="text-left flex my-3 text-md" key={idx}>
                         <svg
-                          className="flex-shrink-0 w-5 h-5 mr-5 text-gray-400"
+                          className="flex-shrink-0 w-5 h-5 mr-2 text-gray-400"
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
                           fill="currentColor"
