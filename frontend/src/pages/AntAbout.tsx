@@ -6,6 +6,7 @@ import about1 from '../assets/images/about1.jpg';
 import about2 from '../assets/images/about2.jpg';
 import about3 from '../assets/images/about3.jpg';
 import about4 from '../assets/images/about4.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'src/media.css';
 const AntAbout = () => {
   return (
@@ -158,15 +159,15 @@ const AntAbout = () => {
               </div>
             </div>
           </section> */}
-          <section className="flex items-center  dark:bg-gray-800 mt-20">
+          <section className="flex items-center mt-20">
             <div className="p-4 mx-auto max-w-7xl">
               <div className="grid grid-cols-1 gap-4 lg:gap-20 sm:gap-4 sm:grid-cols-1 lg:grid-cols-1">
                 <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row dark:bg-gray-700"
+                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row"
                   href="#"
                 >
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
-                    <img
+                    <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
                       src={about1}
                       alt=""
@@ -175,12 +176,12 @@ const AntAbout = () => {
                       Exercise
                     </span> */}
                   </div>
-                  <div className="relative flex self-center flex-1 p-8 ml-0 bg-white border rounded shadow dark:border-gray-700 dark:bg-gray-700 lg:items-center lg:-ml-12">
+                  <div className="relative flex self-center flex-1 p-8 ml-0 bg-white border rounded shadow lg:items-center lg:-ml-12">
                     <div>
-                      <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase dark:text-blue-300">
+                      <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase ">
                         한국 파워리프팅의 선두주자가 함께합니다
                       </span>
-                      <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
+                      <h2 className="mb-3 text-2xl font-bold leading-9 text-black ">
                         Frontrunner
                       </h2>
                       <p className="text-sm leading-7 text-gray-400">
@@ -200,22 +201,22 @@ const AntAbout = () => {
                   </div>
                 </a>
                 <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row dark:bg-gray-700"
+                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row "
                   href="#"
                 >
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
-                    <img
+                    <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
                       src={about2}
                       alt=""
                     />
                   </div>
-                  <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow dark:border-gray-700 dark:bg-gray-700 lg:items-center lg:-ml-12">
-                    <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase dark:text-blue-300">
+                  <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow lg:items-center lg:-ml-12">
+                    <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase ">
                       {' '}
                       모든 코치진의 해외무대경험 有
                     </span>
-                    <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
+                    <h2 className="mb-3 text-2xl font-bold leading-9 text-black ">
                       Overseas Experience
                     </h2>
                     <p className="text-sm leading-7 text-gray-400">
@@ -226,11 +227,11 @@ const AntAbout = () => {
                   </div>
                 </a>
                 <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row dark:bg-gray-700"
+                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row "
                   href="#"
                 >
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
-                    <img
+                    <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
                       src={about3}
                       alt=""
@@ -239,12 +240,12 @@ const AntAbout = () => {
                       Exercise
                     </span>
                   </div>
-                  <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow dark:border-gray-700 dark:bg-gray-700 lg:items-center lg:-ml-12">
-                    <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase dark:text-blue-300">
+                  <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow  lg:items-center lg:-ml-12">
+                    <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase ">
                       {' '}
                       쌍방향성 소통을 중시합니다.
                     </span>
-                    <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
+                    <h2 className="mb-3 text-2xl font-bold leading-9 text-black ">
                       Two-Way Communication
                     </h2>
                     <p className="text-sm leading-7 text-gray-400">
@@ -258,22 +259,22 @@ const AntAbout = () => {
                   </div>
                 </a>
                 <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row dark:bg-gray-700"
+                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row "
                   href="#"
                 >
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
-                    <img
+                    <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
                       src={about4}
                       alt=""
                     />
                   </div>
-                  <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow dark:border-gray-700 dark:bg-gray-700 lg:items-center lg:-ml-12">
-                    <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase dark:text-blue-300">
+                  <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow lg:items-center lg:-ml-12">
+                    <span className="block mb-2 text-xs font-semibold text-blue-700 uppercase ">
                       {' '}
                       우리는 팀으로서 활동을 합니다
                     </span>
-                    <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
+                    <h2 className="mb-3 text-2xl font-bold leading-9 text-black">
                       Team Solidarity
                     </h2>
                     <p className="text-sm leading-7 text-gray-400">

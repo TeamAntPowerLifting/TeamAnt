@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import about1 from '../../assets/images/about1.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const coache = (props: any) => {
   return (
     <div>
@@ -22,7 +23,11 @@ const coache = (props: any) => {
             ></div>
             <div className="relative p-6 space-y-6 lg:p-5">
               <div>
-                <img className=" rounded-lg  ml-19" src={props.image} alt="" />
+                <LazyLoadImage
+                  className=" rounded-lg  ml-19"
+                  src={props.image}
+                  alt=""
+                />
                 {/* <div className="relative flex justify-around">
                   <div className="flex items-end">
                     <span className="text-8xl text-gray-800 font-bold leading-0">

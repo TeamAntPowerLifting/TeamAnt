@@ -10,13 +10,13 @@ import main3_5 from '../assets/images/main3_5.png';
 import main4 from '../assets/images/main4.jpg';
 import main4_1 from '../assets/images/main4_1.png';
 import MainArticle from '@/components/articles/mainArticle';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const AntMain = () => {
   return (
     <div className="flex flex-col h-screen ">
       <Headers />
       <div className="flex-1 pt-28">
-        <img
+        <LazyLoadImage
           className="-mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
           src={main}
           alt=""
@@ -38,7 +38,7 @@ const AntMain = () => {
         <section className="py-10 px-80">
           <div className="grid grid-cols-5 text-center">
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_1}
                 alt=""
@@ -49,7 +49,7 @@ const AntMain = () => {
             </div>
             <div className="hidden lg:block"></div>
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_2}
                 alt=""
@@ -63,7 +63,7 @@ const AntMain = () => {
             <div className="hidden lg:block"></div>
 
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_3}
                 alt=""
@@ -78,7 +78,7 @@ const AntMain = () => {
             <div className="hidden lg:block"></div>
 
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_4}
                 alt=""
@@ -91,7 +91,7 @@ const AntMain = () => {
             </div>
             <div className="hidden lg:block"></div>
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_5}
                 alt=""
@@ -115,7 +115,7 @@ const AntMain = () => {
         <section className="px-80">
           <div className="grid grid-cols-2 text-center my-20">
             <div className="mx-10">
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto  w-120 h-80"
                 src={main4}
                 alt=""
@@ -123,7 +123,11 @@ const AntMain = () => {
             </div>
 
             <div className="mx-10 mt-5">
-              <img className="object-cover mx-auto h-10" src={main4_1} alt="" />
+              <LazyLoadImage
+                className="object-cover mx-auto h-10"
+                src={main4_1}
+                alt=""
+              />
 
               <div>
                 <p className="text-lg font-bold text-gray-800 capitalize lg:text-lg">

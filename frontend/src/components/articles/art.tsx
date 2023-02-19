@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const art = (props: any) => {
   const navigate = useNavigate();
   const ArticleClick = (props: any) => {
@@ -8,7 +8,7 @@ const art = (props: any) => {
   };
   return (
     <div className="lg:mx-20 mt-7">
-      <img
+      <LazyLoadImage
         className="object-cover h-64 w-full rounded-lg "
         src={props.image}
         alt=""
