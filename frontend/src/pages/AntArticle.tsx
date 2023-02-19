@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import { useLocation } from 'react-router-dom';
+import 'src/media.css';
 
 const AntArticle = () => {
   const location = useLocation();
