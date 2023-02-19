@@ -1,14 +1,14 @@
 import React from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
-import main from '../assets/images/main.png';
-import main3_1 from '../assets/images/main3_1.png';
-import main3_2 from '../assets/images/main3_2.png';
-import main3_3 from '../assets/images/main3_3.png';
-import main3_4 from '../assets/images/main3_4.png';
-import main3_5 from '../assets/images/main3_5.png';
+import main from '../assets/images/main.jpg';
+import main3_1 from '../assets/images/main3_1.jpg';
+import main3_2 from '../assets/images/main3_2.jpg';
+import main3_3 from '../assets/images/main3_3.jpg';
+import main3_4 from '../assets/images/main3_4.jpg';
+import main3_5 from '../assets/images/main3_5.jpg';
 import main4 from '../assets/images/main4.jpg';
-import main4_1 from '../assets/images/main4_1.png';
+import main4_1 from '../assets/images/main4_1.jpg';
 import MainArticle from '@/components/articles/mainArticle';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 const AntMain = () => {

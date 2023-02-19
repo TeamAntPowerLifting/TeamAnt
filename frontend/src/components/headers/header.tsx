@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Log from '../../assets/images/HeaderLogo.png';
+import Log from '../../assets/images/HeaderLogo.jpg';
 import { useLocation } from 'react-router-dom';
 import HeaderTap from './headerTap';
 const headers = () => {
