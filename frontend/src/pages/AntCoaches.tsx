@@ -6,6 +6,7 @@ import Coache1 from '../assets/images/Coache1.png';
 import Coache2 from '../assets/images/Coache2.png';
 import Coache3 from '../assets/images/Coache3.png';
 import Coache4 from '../assets/images/Coache4.png';
+import 'src/media.css';
 const AntCoaches = () => {
   const [openTab, setOpenTap] = useState<number>(1);
   const test = [
@@ -78,7 +79,7 @@ const AntCoaches = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center max-h-screen mt-16 px-56">
+        <div className="flex items-center justify-center max-h-screen mt-16 sm:px-56">
           <ul className="mx-auto grid max-w-full w-full grid-cols-4 gap-x-5 ">
             <li className="">
               <a
@@ -133,7 +134,7 @@ const AntCoaches = () => {
             </li>
           </ul>
         </div>
-        <div className="px-56">
+        <div className="md:px-30">
           <div className={openTab === 1 ? 'block' : 'hidden'} id="first">
             <Coache title={test[0]?.title} image={test[0]?.image} />
           </div>
