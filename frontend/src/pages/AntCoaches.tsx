@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import Coache from '@/components/coaches/coache';
-import Coache1 from '../assets/images/Coache1.jpg';
-import Coache2 from '../assets/images/Coache2.jpg';
-import Coache3 from '../assets/images/Coache3.jpg';
-import Coache4 from '../assets/images/Coache4.jpg';
+import Coache1 from '../assets/images/Coache1.png';
+import Coache2 from '../assets/images/Coache2.png';
+import Coache3 from '../assets/images/Coache3.png';
+import Coache4 from '../assets/images/Coache4.png';
 import 'src/media.css';
 const AntCoaches = () => {
   const [openTab, setOpenTap] = useState<number>(1);

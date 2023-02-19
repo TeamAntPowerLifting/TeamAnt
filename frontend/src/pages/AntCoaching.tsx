@@ -1,11 +1,11 @@
 import React from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
-import graph from '../assets/images/graph.jpg';
-import online from '../assets/images/online.jpg';
-import plan from '../assets/images/plan.jpg';
-import servey from '../assets/images/servey.jpg';
-import youtube from '../assets/images/youtube.jpg';
+import graph from '../assets/images/graph.png';
+import online from '../assets/images/online.png';
+import plan from '../assets/images/plan.png';
+import servey from '../assets/images/servey.png';
+import youtube from '../assets/images/youtube.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'src/media.css';
 const AntCoaching = () => {
