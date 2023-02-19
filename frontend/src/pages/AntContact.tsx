@@ -32,7 +32,7 @@ const AntContact = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1 pb-16 pt-28">
+      <div className="flex-1 pb-16 px-10 pt-28">
         <section className="bg-white pt-16 ">
           <div className="max-w-2xl mx-auto text-center">
             <div className="relative flex flex-col items-center">
