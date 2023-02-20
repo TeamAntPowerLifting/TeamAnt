@@ -20,8 +20,8 @@ const AntPrice = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1 pt-28">
-        <section className="py-12 sm:py-14 lg:py-14">
+      <div className="flex-1 pt-28 pb-28">
+        <section className="pt-12 sm:pt-14 lg:pt-14">
           <div className="px-4 mx-auto max-w-4xl sm:px-6 lg:px-8">
             <div className="max-w-2xl mx-auto text-center">
               <div className="relative flex flex-col items-center">

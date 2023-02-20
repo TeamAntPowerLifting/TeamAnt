@@ -21,6 +21,7 @@ const AntContact = () => {
       .then(
         (result: any) => {
           console.log(result.text);
+          alert('메일 전송이 완료되었습니다.');
         },
         (error: any) => {
           console.log(error.text);
@@ -32,7 +33,7 @@ const AntContact = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1 pb-16 px-10 pt-28">
+      <div className="flex-1 pb-28 px-10 pt-28">
         <section className="bg-white pt-16 ">
           <div className="max-w-2xl mx-auto text-center">
             <div className="relative flex flex-col items-center">
@@ -122,18 +123,17 @@ const AntContact = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="md:flex md:items-center">
-              <div className="md:w-1/3">
+            <div className="md:flex md:items-center justify-end">
+              <div className="">
                 <button
                   name="message"
-                  className="shadow bg-gray-300 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                  className="shadow bg-gray-300 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded "
                   type="submit"
                   value="Send"
                 >
                   전송하기
                 </button>
               </div>
-              <div className="md:w-2/3"></div>
             </div>
           </form>
         </section>
@@ -141,6 +141,7 @@ const AntContact = () => {
         <h1 className="mt-20 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl text-center">
           ANSWERS TO FREQUENTLY ASKED QUESTIONS
         </h1>
+        <div className="border-b-4 rounded-md border-red w-1/4 mx-auto mt-3"></div>
 
         <div className="shadow-md w-full md:w-2/3 mx-auto mt-10">
           {/* Table */}
@@ -165,7 +166,7 @@ const AntContact = () => {
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
-              <div className="bg-gray-300 max-h-0 peer-checked:max-h-screen">
+              <div className="bg-gray-200 max-h-0 peer-checked:max-h-screen">
                 <p className="p-5  xs:p-10">
                   Contact 란에서 온라인코칭 신청 카테고리를 선택 후 신청을
                   해주시면 이메일을 통해 설문지를 제공해 드립니다. 설문지 작성
@@ -199,7 +200,7 @@ const AntContact = () => {
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
-              <div className="bg-gray-300 max-h-0 peer-checked:max-h-screen">
+              <div className="bg-gray-200 max-h-0 peer-checked:max-h-screen">
                 <p className="p-5  xs:p-10">
                   오프라인의 경우 코치님들마다 활동하는 지역과 체육관이 모두
                   다르기 때문에, 오프라인 레슨의 경우 체육관의 방침에 따라
@@ -232,7 +233,7 @@ const AntContact = () => {
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
-              <div className="bg-gray-300 max-h-0 peer-checked:max-h-screen">
+              <div className="bg-gray-200 max-h-0 peer-checked:max-h-screen">
                 <p className="p-5 xs:p-10">
                   물론이죠. 설문지에서 희망하시는 코치님을 선택하실 수 있습니다.
                 </p>
@@ -259,7 +260,7 @@ const AntContact = () => {
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
-              <div className="bg-gray-300 max-h-0 peer-checked:max-h-screen">
+              <div className="bg-gray-200 max-h-0 peer-checked:max-h-screen">
                 <p className="p-5 xs:p-10">
                   희망하시는 코치님이 있으시다면 해당 코치님께 연결해 드리지만,
                   그렇지 않은 경우, 작성해주신 설문지를 바탕으로 하여 최적의

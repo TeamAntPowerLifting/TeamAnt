@@ -8,11 +8,13 @@ const art = (props: any) => {
   };
   return (
     <div className="lg:mx-20 mt-7">
-      <LazyLoadImage
-        className="object-cover h-64 w-full rounded-lg "
-        src={props.image}
-        alt=""
-      />
+      <div>
+        <LazyLoadImage
+          className="object-cover h-64 w-full rounded-lg"
+          src={props.image}
+          alt=""
+        />
+      </div>
 
       <div className="flex flex-col justify-between py-6 ">
         <a

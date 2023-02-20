@@ -66,7 +66,7 @@ const AntCoaches = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1 pt-28">
+      <div className="flex-1 pt-28 pb-28">
         <div className="max-w-2xl mx-auto text-center mt-10">
           <div className="relative flex flex-col items-center">
             <div className="absolute hidden md:block -top-14  text-[120px] text-gray-400 font-bold opacity-10">

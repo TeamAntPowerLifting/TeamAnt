@@ -12,7 +12,7 @@ const AntCoaching = () => {
   return (
     <div className="flex flex-col h-screen">
       <Headers />
-      <div className="flex-1 pt-28">
+      <div className="flex-1 pt-28 pb-28">
         <div className="max-w-xl mx-auto mt-20">
           <div className="text-center ">
             <div className="relative flex flex-col items-center">
@@ -30,7 +30,7 @@ const AntCoaching = () => {
             </p>
           </div>
         </div>
-        <section className="py-16 lg:py-20 font-poppins">
+        <section className="pt-16 lg:pt-20 font-poppins">
           <div className="flex flex-col justify-center ">
             <div className="w-full mx-auto lg:max-w-4xl">
               <div className="relative">

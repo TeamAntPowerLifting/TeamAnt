@@ -28,7 +28,7 @@ const AntMain = () => {
   return (
     <div className="flex flex-col h-screen ">
       <Headers />
-      <div className="flex-1 mt-28">
+      <div className="flex-1 mt-28 pb-28">
         <div>
           <img
             className="mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left z-10 "
