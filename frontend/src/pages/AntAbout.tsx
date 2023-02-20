@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import about1 from '../assets/images/about1.jpg';
@@ -7,7 +7,13 @@ import about3 from '../assets/images/about3.jpg';
 import about4 from '../assets/images/about4.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'src/media.css';
+import { useLocation } from 'react-router-dom';
 const AntAbout = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <>
       <div className="flex flex-col h-screen">

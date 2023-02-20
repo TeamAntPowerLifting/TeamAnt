@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import Coache from '@/components/coaches/coache';
@@ -7,7 +7,13 @@ import Coache2 from '../assets/images/Coache2.png';
 import Coache3 from '../assets/images/Coache3.png';
 import Coache4 from '../assets/images/Coache4.png';
 import 'src/media.css';
+import { useLocation } from 'react-router-dom';
 const AntCoaches = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   const [openTab, setOpenTap] = useState<number>(1);
   const test = [
     {

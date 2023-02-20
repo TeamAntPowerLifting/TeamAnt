@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import emailjs from '@emailjs/browser';
+import { useLocation } from 'react-router-dom';
 <link
   rel="stylesheet"
   href="https://unpkg.com/flowbite@1.4.4/dist/flowbite.min.css"
 />;
 
 const AntContact = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 

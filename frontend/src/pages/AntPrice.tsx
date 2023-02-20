@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import Price from '@/components/prices/price';
 import 'src/media.css';
+import { useLocation } from 'react-router-dom';
 const AntPrice = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   const content = [
     '훈련 전략, 빈도, 운동종목 등의 개인화',
 

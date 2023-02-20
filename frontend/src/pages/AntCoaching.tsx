@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import graph from '../assets/images/graph.png';
@@ -8,7 +8,13 @@ import servey from '../assets/images/servey.png';
 import youtube from '../assets/images/youtube.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'src/media.css';
+import { useLocation } from 'react-router-dom';
 const AntCoaching = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <div className="flex flex-col h-screen">
       <Headers />

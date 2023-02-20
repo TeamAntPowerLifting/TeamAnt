@@ -1,18 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import Log from '../../assets/images/HeaderLogo.png';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import HeaderTap from './headerTap';
+
 const headers = () => {
   const location = useLocation();
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const navigate = useNavigate();
 
+  const moveToHome = () => {
+    navigate('/');
+  };
   return (
     <div className="fixed left-0 right-0 top-0 z-40 bg-white ">
-      <div className="flex items-center justify-between border-b border-gray-400 py-8">
+      {/* border-b border-gray-400 */}
+      <div className="flex items-center justify-between py-8">
         <img
-          className="md:w-72 xs:w-48 lg:w-48 xl:w-72 ml-8"
+          className="md:w-72 xs:w-56 lg:w-48 xl:w-72 ml-8 cursor-pointer"
           src={Log}
           alt="logo"
+          onClick={moveToHome}
         />
         <nav>
           <section className="MOBILE-MENU flex lg:hidden">

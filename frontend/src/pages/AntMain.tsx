@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import main from '../assets/images/newmain.png';
@@ -16,14 +16,13 @@ import video2 from '../assets/images/video2.png';
 import video3 from '../assets/images/video3.png';
 import MainArticle from '@/components/articles/mainArticle';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { useLocation } from 'react-router-dom';
 const AntMain = () => {
-  const different = {
-    context:
-      '우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만 아니라,\n\n' +
-      '코치진 모두가 해외 무대를 경험해보았다는 아주 큰 차이점이 있다.\n\n' +
-      '언제나 목표를 향해 선수, 코치로써 달려가고 있습니다.\n\n' +
-      '오직 TeamANT만이 가지고 있는 경험과 노하우를 여러분들께 제공합니다.',
-  };
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <div className="flex flex-col h-screen ">
@@ -36,7 +35,7 @@ const AntMain = () => {
             alt=""
           />
         </div>
-        <section className="py-20 xs:py-10">
+        <section className="py-10 sm:py-20">
           <div>
             <img
               className="object-cover mx-auto rounded-lg px-10"
@@ -48,7 +47,7 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <section className="py-30 xs:py-10">
+        <section className="py-30 xs:py-20 ">
           <div>
             <img
               className="object-cover mx-auto rounded-lg px-10"
@@ -58,9 +57,9 @@ const AntMain = () => {
           </div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-3/4 pt-8 mx-auto"></div>
 
-        <div className="pt-10 w-3/5 mx-auto">
+        <div className="pt-20 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             파워리프팅 온라인 코치! 누구에게 필요한가요?
           </p>
@@ -69,8 +68,8 @@ const AntMain = () => {
         <section className="">
           <div>
             <section className="py-10 bg-white sm:py-16 lg:py-24">
-              <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1  text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-3 sm:gap-12">
+              <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 px-10">
+                <div className="grid  grid-cols-1  text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-3 sm:gap-12">
                   <div>
                     <div className="flex items-center justify-center w-32 h-32 mx-auto bg-blue-100 rounded-full">
                       <img className="text-blue-600 w-20 h-20" src={main3_1} />
@@ -102,9 +101,9 @@ const AntMain = () => {
               </div>
             </section>
           </div>
-          <section className="py-10 bg-white sm:py-16 ">
+          <section className="py-10 bg-white sm:py-16">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-2 sm:gap-12">
+              <div className="grid grid-cols-1 w-3/4 mx-auto text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-2 sm:gap-12">
                 <div>
                   <div className="flex items-center justify-center w-32 h-32 mx-auto bg-blue-100 rounded-full ">
                     <img className="text-blue-600 w-20 h-20" src={main3_4} />
@@ -129,9 +128,9 @@ const AntMain = () => {
           <div className="hidden lg:block"></div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-3/4 py-10 mx-auto"></div>
 
-        <div className="pt-10 w-3/5 mx-auto ">
+        <div className="pt-20 w-3/5 mx-auto ">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             우리가 다른 팀과 다른점
           </p>
@@ -175,7 +174,7 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="pt-10 w-3/5 mx-auto">
+        <div className="pt-20 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             Article
           </p>
@@ -187,12 +186,12 @@ const AntMain = () => {
           </div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-3/4 mx-auto py-10"></div>
 
-        <section>
+        <section className="pt-5">
           <div className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
-              <div>
+              <div className="text-center">
                 <a
                   href="https://youtu.be/O24EsmylWtg"
                   title=""
@@ -204,13 +203,13 @@ const AntMain = () => {
                     alt=""
                   />
                 </a>
-                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-sky-500 bg-sky-100 mt-5 mb-3">
+                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-rose-500 bg-rose-100 mt-5 mb-3">
                   {' '}
                   세상에 이런일이 : 파워리프팅맨{' '}
                 </span>
               </div>
 
-              <div>
+              <div className="text-center">
                 <a
                   href="https://youtu.be/s35Cx2BkWEs"
                   title=""
@@ -228,7 +227,7 @@ const AntMain = () => {
                 </span>
               </div>
 
-              <div>
+              <div className="text-center">
                 <a
                   href="https://youtu.be/-_ve13yz_6o"
                   title=""
@@ -240,7 +239,7 @@ const AntMain = () => {
                     alt=""
                   />
                 </a>
-                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-rose-500 bg-rose-100 mt-5">
+                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-sky-500 bg-sky-100 mt-5">
                   {' '}
                   앤트맨 6주 파워리프팅 프로그램{' '}
                 </span>
