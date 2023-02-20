@@ -1,20 +1,21 @@
 import React from 'react';
 import articleContext from './articleContext';
 import Mainart from './mainart';
+import { useNavigate } from 'react-router-dom';
 
 const mainArticle = () => {
+  const navigate = useNavigate();
+  const ArticleClick = (props: any) => {
+    navigate(`/article/${props.props.id}`, { state: props.props });
+  };
   const article = articleContext.slice(0, 3);
   return (
     <div>
-      <section className="flex items-center bg-white  font-poppins">
-        <div className="p-4 mx-auto max-w-7xl">
-          <div className="flex flex-wrap justify-center -mx-36">
-            {article.map((i) => (
-              <Mainart key={i.id} props={i} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
+        {article.map((i) => (
+          <Mainart key={i.id} props={i} />
+        ))}
+      </div>
     </div>
   );
 };
