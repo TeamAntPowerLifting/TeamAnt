@@ -13,19 +13,17 @@ import video1 from '../assets/images/video1.png';
 import video2 from '../assets/images/video2.png';
 import video3 from '../assets/images/video3.png';
 import MainArticle from '@/components/articles/mainArticle';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const AntMain = () => {
   return (
     <div className="flex flex-col h-screen ">
       <Headers />
-      <div className="flex-1  pt-28">
-        <div className='mx-10'>
-          <img
-            className="-mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
-            src={main}
-            alt=""
-          />
-        </div>
+      <div className="flex-1 pt-28">
+        <LazyLoadImage
+          className="-mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
+          src={main}
+          alt=""
+        />
         <div className="my-20 ml-80">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             파워리프팅 온라인 코칭이란?
@@ -43,7 +41,7 @@ const AntMain = () => {
         <section className="py-10 px-80">
           <div className="grid grid-cols-5 text-center">
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_1}
                 alt=""
@@ -54,7 +52,7 @@ const AntMain = () => {
             </div>
             <div className="hidden lg:block"></div>
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_2}
                 alt=""
@@ -68,7 +66,7 @@ const AntMain = () => {
             <div className="hidden lg:block"></div>
 
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_3}
                 alt=""
@@ -83,7 +81,7 @@ const AntMain = () => {
             <div className="hidden lg:block"></div>
 
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_4}
                 alt=""
@@ -96,7 +94,7 @@ const AntMain = () => {
             </div>
             <div className="hidden lg:block"></div>
             <div>
-              <img
+              <LazyLoadImage
                 className="object-cover mx-auto rounded-lg w-40 h-40"
                 src={main3_5}
                 alt=""
@@ -117,15 +115,22 @@ const AntMain = () => {
           </p>
         </div>
 
-        <section className='px-80'>
-          <div className='grid grid-cols-2 text-center my-20'>
-
-            <div className='mx-10'>
-              <img className="object-cover mx-auto  w-120 h-80" src={main4} alt="" />
+        <section className="px-80">
+          <div className="grid grid-cols-2 text-center my-20">
+            <div className="mx-10">
+              <LazyLoadImage
+                className="object-cover mx-auto  w-120 h-80"
+                src={main4}
+                alt=""
+              />
             </div>
 
-            <div className='mx-10 mt-5'>
-              <img className="object-cover mx-auto h-10" src={main4_1} alt="" />
+            <div className="mx-10 mt-5">
+              <LazyLoadImage
+                className="object-cover mx-auto h-10"
+                src={main4_1}
+                alt=""
+              />
 
               <div>
                 <p className='text-lg font-bold text-gray-800 capitalize lg:text-lg'>The Strength Of Our Team</p>

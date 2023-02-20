@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import { useLocation } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'src/media.css';
 
 const AntArticle = () => {
   const location = useLocation();
@@ -21,7 +23,7 @@ const AntArticle = () => {
             </div>
 
             <div className="mx-5 mt-16">
-              <img src={location.state.image} />
+              <LazyLoadImage src={location.state.image} />
             </div>
             <p className="text-center text-xs text-gray-400 mt-2">
               {location.state.title2}

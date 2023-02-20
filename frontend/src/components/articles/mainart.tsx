@@ -8,7 +8,7 @@ const mainart = (props: any) => {
   return (
     <div className="w-full px-10 mb-6 md:w-1/2 lg:w-1/3">
       <div className="py-4">
-        <h2 className="mb-3 text-2xl font-bold leading-9 text-red-800 dark:text-white">
+        <h2 className="mb-3 text-2xl font-bold leading-9 text-red-800">
           {props.props.title}
         </h2>
         <p className="text-base leading-7 text-gray-400">

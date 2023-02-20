@@ -7,7 +7,7 @@ const article = () => {
   const article = articleContext;
   return (
     <div>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white ">
         <div className="container px-6 py-10 mx-auto">
           <div className="max-w-2xl mx-auto text-center">
             <div className="relative flex flex-col items-center">

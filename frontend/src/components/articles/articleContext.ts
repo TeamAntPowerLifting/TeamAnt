@@ -1,5 +1,5 @@
 import t from '../../assets/images/article.jpg';
-import s from '../../assets/images/1.jpg';
+import s from '../../assets/images/Coache1.png';
 
 const articleContext = [
   {
