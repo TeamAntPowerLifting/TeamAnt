@@ -2,6 +2,8 @@ import React from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import main from '../assets/images/newmain.png';
+import main1 from '../assets/images/main1.png';
+import main2 from '../assets/images/main2.png';
 import main3_1 from '../assets/images/main3_1.png';
 import main3_2 from '../assets/images/main3_2.png';
 import main3_3 from '../assets/images/main3_3.png';
@@ -15,33 +17,57 @@ import video3 from '../assets/images/video3.png';
 import MainArticle from '@/components/articles/mainArticle';
 
 const AntMain = () => {
+  const different = {
+    context:
+      "우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만 아니라,\n\n" +
+      "코치진 모두가 해외 무대를 경험해보았다는 아주 큰 차이점이 있다.\n\n" +
+      "언제나 목표를 향해 선수, 코치로써 달려가고 있습니다.\n\n" +
+      "오직 TeamANT만이 가지고 있는 경험과 노하우를 여러분들께 제공합니다."
+  }
+
   return (
     <div className="flex flex-col h-screen ">
       <Headers />
-      <div className="flex-1">
-        <div className='mx-10'>
+      <div className="flex-1 mt-28">
+        <div >
           <img
-            className="object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left "
+            className="mt-1 object-cover w-full h-45 md:object-left md:scale-100 md:origin-top-left z-10 "
             src={main}
             alt=""
           />
         </div>
-        <div className="my-20 ml-80">
-          <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
-            파워리프팅 온라인 코칭이란?
-          </p>
-        </div>
+        <section className='py-20 xs:py-10'>
+          <div>
+            <img
+              className="object-cover mx-auto rounded-lg px-10"
+              src={main1}
+              alt=""
+            />
+          </div>
+        </section>
 
-        <div className="border-b-2 border-red mx-40 mb-20 "></div>
+        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="my-20 ml-80">
+        <section className='py-30 xs:py-10'>
+          <div>
+            <img
+              className="object-cover mx-auto rounded-lg px-10"
+              src={main2}
+              alt=""
+            />
+          </div>
+        </section>
+
+        {/* <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+
+        <div className="pt-10 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             파워리프팅 온라인 코치! 누구에게 필요한가요?
           </p>
         </div>
 
-        <section className="py-10 px-80">
-          <div className="grid grid-cols-5 text-center">
+        <section className="py-10">
+          <div className="grid grid-cols-5 text-center sm:grid-cols-2 mt-14 md:gap-9">
             <div>
               <img
                 className="object-cover mx-auto rounded-lg w-40 h-40"
@@ -107,44 +133,55 @@ const AntMain = () => {
             </div>
           </div>
           <div className="hidden lg:block"></div>
-        </section>
+        </section> */}
 
-        <div className="border-b-2 border-red mx-40 mb-20 "></div>
+        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="my-20 ml-80">
+        <div className="pt-10 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             우리가 다른 팀과 다른점
           </p>
         </div>
 
-        <section className='px-80'>
-          <div className='grid grid-cols-2 text-center my-20'>
-
-            <div className='mx-10'>
-              <img className="object-cover mx-auto  w-120 h-80" src={main4} alt="" />
+        <section className="">
+          <div className="grid sm:grid-cols-2 grid-cols-1 text-center my-20">
+            <div className="">
+              <img
+                className="object-cover mx-auto  w-120 h-80"
+                src={main4}
+                alt=""
+              />
             </div>
 
-            <div className='mx-10 mt-5'>
-              <img className="object-cover mx-auto h-10" src={main4_1} alt="" />
+            <div className=" mt-5 pr-10">
+              <img
+                className="object-cover mx-auto h-10"
+                src={main4_1}
+                alt=""
+              />
 
               <div>
-                <p className='text-lg font-bold text-gray-800 capitalize lg:text-lg'>The Strength Of Our Team</p>
+                <p className="text-lg font-bold text-gray-800 capitalize lg:text-lg">
+                  The Strength Of Our Team
+                </p>
               </div>
 
-              <div className='mx-12'>
-                <p className='w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl'>
-                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만 아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰 차이점이 있다.
-                  언제나 목표를 향해 선수, 코치로써 달려가고 있습니다.
-                  오직 TeamANT만이 가지고 있는 경험과 노하우를 여러분들께 제공합니다.
+              <div className="mx-8">
+                <p className="w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl">
+                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만
+                  아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰
+                  차이점이 있다. 언제나 목표를 향해 선수, 코치로써 달려가고
+                  있습니다. 오직 TeamANT만이 가지고 있는 경험과 노하우를
+                  여러분들께 제공합니다.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        <div className="border-b-2 border-red mx-40 mb-20 "></div>
+        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="my-7 ml-80">
+        {/* <div className="pt-10 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             Article
           </p>
@@ -158,8 +195,9 @@ const AntMain = () => {
               </div>
             </div>
           </div>
-        </section>
-        <div className="border-b-2 border-red mx-40 mb-20 "></div>
+        </section> */}
+
+        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
         <section>
           <div className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -182,7 +220,7 @@ const AntMain = () => {
                 <a href="https://youtu.be/-_ve13yz_6o" title="" className="block aspect-w-4 aspect-h-3">
                   <img className="object-cover w-full h-full cursor-pointer lg:hover:scale-110 transition-transform ease-in-out duration-500" src={video3} alt="" />
                 </a>
-                <span className="flex-newraw px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-rose-500 bg-rose-100 mt-5"> 앤트맨 6주 파워리프팅 프로그램 </span>
+                <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest rounded-full text-rose-500 bg-rose-100 mt-5"> 앤트맨 6주 파워리프팅 프로그램 </span>
               </div>
             </div>
           </div>
@@ -190,7 +228,7 @@ const AntMain = () => {
 
       </div>
       <Footer />
-    </div>
+    </div >
   );
 };
 

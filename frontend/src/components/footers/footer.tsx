@@ -15,7 +15,7 @@ const footer = () => {
             All Rights Reserved. <br />
           </span>
           <div className="flex mt-4 space-x-6 justify-center mt-0">
-            <a href="#" className="text-gray-500 hover:text-white">
+            <a href="https://www.instagram.com/ant.powerlifting/?igshid=YmMyMTA2M2Y%3D" className="text-gray-500 hover:text-white">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"
@@ -30,7 +30,7 @@ const footer = () => {
               </svg>
               <span className="sr-only">Instagram page</span>
             </a>
-            <a href="#" className="text-gray-500 hover:text-white">
+            <a href="https://www.youtube.com/@59kgAntman" className="text-gray-500 hover:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 576 512"
@@ -43,6 +43,7 @@ const footer = () => {
               </svg>
               <span className="sr-only">Youtube page</span>
             </a>
+
           </div>
         </div>
       </footer>
