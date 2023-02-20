@@ -112,9 +112,6 @@ const AntAbout = () => {
                       src={about3}
                       alt=""
                     />
-                    <span className="absolute px-4 py-2 text-xs text-white bg-blue-500 rounded top-4 left-4">
-                      Exercise
-                    </span>
                   </div>
                   <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow  lg:items-center lg:-ml-12">
                     <span className="block mb-2 text-md font-semibold text-blue-700 uppercase ">
