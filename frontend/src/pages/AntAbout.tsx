@@ -41,10 +41,7 @@ const AntAbout = () => {
           <section className="flex items-center mt-20">
             <div className="p-4 mx-auto max-w-7xl">
               <div className="grid grid-cols-1 gap-4 lg:gap-20 sm:gap-4 sm:grid-cols-1 lg:grid-cols-1">
-                <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row"
-                  href="#"
-                >
+                <div className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row">
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                     <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
@@ -75,11 +72,8 @@ const AntAbout = () => {
                       </p>
                     </div>
                   </div>
-                </a>
-                <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row "
-                  href="#"
-                >
+                </div>
+                <div className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row ">
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                     <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
@@ -101,11 +95,8 @@ const AntAbout = () => {
                       가장 큰 차이점이자, 팀앤트의 강점이라고도 할 수 있습니다.
                     </p>
                   </div>
-                </a>
-                <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row "
-                  href="#"
-                >
+                </div>
+                <div className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row ">
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                     <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
@@ -130,11 +121,8 @@ const AntAbout = () => {
                       것을 목표로 하고 있습니다.
                     </p>
                   </div>
-                </a>
-                <a
-                  className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row "
-                  href="#"
-                >
+                </div>
+                <div className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row ">
                   <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                     <LazyLoadImage
                       className="object-cover w-full h-full transition-all hover:scale-110"
@@ -166,7 +154,7 @@ const AntAbout = () => {
                       레퍼런스가 되어 더욱 발전하는 코칭팀을 만들어낼 것이구요.
                     </p>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </section>
