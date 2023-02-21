@@ -67,9 +67,9 @@ const AntMain = () => {
 
         <section className="">
           <div>
-            <section className="py-10 bg-white sm:py-16 lg:py-24">
+            <section className="py-10 bg-white sm:pt-16 lg:pt-24">
               <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 px-10">
-                <div className="grid  grid-cols-1  text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-3 sm:gap-12">
+                <div className="grid grid-cols-1  text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-3 sm:gap-12">
                   <div>
                     <div className="flex items-center justify-center w-32 h-32 mx-auto bg-blue-100 rounded-full">
                       <img className="text-blue-600 w-20 h-20" src={main3_1} />
@@ -103,7 +103,7 @@ const AntMain = () => {
           </div>
           <section className="py-10 bg-white sm:py-16">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 w-3/4 mx-auto text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-2 sm:gap-12">
+              <div className="grid grid-cols-1 lg:w-3/4 mx-auto text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-2 sm:gap-12">
                 <div>
                   <div className="flex items-center justify-center w-32 h-32 mx-auto bg-blue-100 rounded-full ">
                     <img className="text-blue-600 w-20 h-20" src={main3_4} />
@@ -181,7 +181,7 @@ const AntMain = () => {
         </div>
 
         <section>
-          <div className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="px-14 mb-10 mx-auto sm:px-10 lg:px-16 max-w-7xl">
             <MainArticle />
           </div>
         </section>
