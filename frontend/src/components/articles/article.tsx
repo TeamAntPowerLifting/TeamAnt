@@ -20,7 +20,7 @@ const article = () => {
               </h2>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2">
+          <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
             {article.map((art, idx) => (
               <Art
                 date={art.date}
