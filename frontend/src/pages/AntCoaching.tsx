@@ -12,9 +12,9 @@ import { useLocation } from 'react-router-dom';
 const AntCoaching = () => {
   const location = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [location]);
   return (
     <div className="flex flex-col h-screen">
       <Headers />
@@ -40,14 +40,14 @@ const AntCoaching = () => {
           <div className="flex flex-col justify-center ">
             <div className="w-full mx-auto lg:max-w-4xl">
               <div className="relative">
-                <div className="absolute hidden w-px h-full transform -translate-x-1/2 bg-blue-300  lg:block left-1/2"></div>
+                <div className="absolute hidden w-1 h-1/4 -rotate-45  transform -translate-x-1/2 bg-blue-300  lg:block left-1/2"></div>
                 <div className="space-y-2 lg:space-y-4">
                   <div>
                     <div className="flex flex-col items-center lg:-mt-16">
-                      <div className="flex items-center justify-start w-full mx-auto">
+                      <div className="flex items-center lg:-ml-36 lg:mt-12 justify-start w-full mx-auto">
                         <div className="w-full lg:w-1/2 lg:pr-8">
                           <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8 ">
-                            <div className="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-3 -right-4">
+                            <div className="absolute inline-block  w-4 overflow-hidden -translate-y-1/2 top-3 -right-4">
                               <div className="hidden h-10 origin-bottom-left transform -rotate-45 bg-blue-600 shadow lg:block "></div>
                             </div>
                             <div className="relative z-20 p-6">
@@ -64,7 +64,7 @@ const AntCoaching = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="absolute flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full  left-1/2 sm:translate-y-0">
+                      <div className="absolute flex invisible lg:-ml-36 lg:mt-12 lg:visible l items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full  left-1/2 sm:translate-y-0">
                         <span className="text-blue-600 ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ const AntCoaching = () => {
                             viewBox="0 0 16 16"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"
                             />
                             <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
@@ -85,8 +85,9 @@ const AntCoaching = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="flex flex-col items-center lg:-mt-16">
-                      <div className="flex items-center justify-end w-full mx-auto">
+                    <div className="absolute hidden w-1 h-1/4 rotate-45 -mt-20  transform -translate-x-1/2 bg-blue-300  lg:block left-1/2"></div>
+                    <div className="flex flex-col items-center lg:-mt-16 ">
+                      <div className="flex items-center justify-end w-full mx-auto lg:ml-36 lg:-mt-12">
                         <div className="w-full lg:w-1/2 lg:pl-8">
                           <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8 ">
                             <div className="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-7 -left-4">
@@ -107,7 +108,7 @@ const AntCoaching = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="absolute invisible lg:visible flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
+                      <div className="absolute invisible lg:ml-36 lg:-mt-12 lg:visible flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
                         <span className="text-blue-600 ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -124,9 +125,10 @@ const AntCoaching = () => {
                     </div>
                   </div>
                   <div>
+                    <div className="absolute hidden w-1 h-1/4 -rotate-45  transform -translate-x-1/2 bg-blue-300 -mt-12 lg:block left-1/2"></div>
                     <div className="flex flex-col items-center lg:-mt-16">
                       <div className="flex items-center justify-start w-full mx-auto">
-                        <div className="w-full lg:w-1/2 lg:pr-8">
+                        <div className="w-full lg:w-1/2 lg:pr-8 lg:-ml-36 lg:-mt-5">
                           <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8 ">
                             <div className="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-3 -right-4">
                               <div className="hidden h-10 origin-bottom-left transform -rotate-45 bg-blue-600 shadow lg:block "></div>
@@ -143,7 +145,7 @@ const AntCoaching = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="absolute flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
+                      <div className="absolute lg:-ml-36 lg:-mt-5 flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
                         <span className="text-blue-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +156,7 @@ const AntCoaching = () => {
                             viewBox="0 0 16 16"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"
                             />
                             <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
@@ -165,9 +167,10 @@ const AntCoaching = () => {
                   </div>
                   <div>
                     <div className="flex flex-col items-center lg:-mt-16">
-                      <div className="flex items-center justify-end w-full mx-auto">
-                        <div className="w-full lg:w-1/2 lg:pl-8">
-                          <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8 ">
+                      <div className="absolute hidden w-1 h-1/4 rotate-45 -mt-10  transform -translate-x-1/2 bg-blue-300  lg:block left-1/2"></div>
+                      <div className="flex items-center justify-end w-full mx-auto lg:ml-36  lg:-mt-2">
+                        <div className="w-full lg:w-1/2 lg:pl-8 lg:ml-28  ">
+                          <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8">
                             <div className="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-7 -left-4">
                               <div className="hidden h-10 origin-top-right transform -rotate-45 bg-blue-600 lg:block drop-shadow-lg"></div>
                             </div>
@@ -185,7 +188,7 @@ const AntCoaching = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="absolute flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
+                      <div className="absolute lg:ml-36 lg:-mt-2 flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
                         <span className="text-blue-600 ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -204,7 +207,7 @@ const AntCoaching = () => {
                   </div>
                   <div>
                     <div className="flex flex-col items-center lg:-mt-16">
-                      <div className="flex items-center justify-start w-full mx-auto">
+                      <div className="flex items-center justify-start w-full mx-auto lg:-ml-36 lg: -mt-5">
                         <div className="w-full lg:w-1/2 lg:pr-8">
                           <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8 ">
                             <div className="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-3 -right-4">
@@ -225,7 +228,7 @@ const AntCoaching = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="absolute flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full  left-1/2 sm:translate-y-0">
+                      <div className="absolute flex invisible lg:visible items-center lg:-ml-36 lg: -mt-5 justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full  left-1/2 sm:translate-y-0">
                         <span className="text-blue-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +239,7 @@ const AntCoaching = () => {
                             viewBox="0 0 16 16"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"
                             />
                             <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
