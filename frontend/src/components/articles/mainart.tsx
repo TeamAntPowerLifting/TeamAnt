@@ -17,7 +17,7 @@ const mainart = (props: any) => {
       </div>
       <a
         onClick={() => ArticleClick(props)}
-        className="mb-0 bg-white text-base"
+        className="mb-0 bg-white text-base text-right left:0"
       >
         더보기
       </a>
