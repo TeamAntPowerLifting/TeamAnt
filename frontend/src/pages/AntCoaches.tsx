@@ -96,7 +96,7 @@ const AntCoaches = () => {
                 }}
                 href="#first"
               >
-                정지훈 Coache
+                정지훈 Coach
               </a>
             </li>
 
@@ -109,7 +109,7 @@ const AntCoaches = () => {
                 }}
                 href="#second"
               >
-                김준희 Coache
+                김준희 Coach
               </a>
             </li>
 
@@ -122,7 +122,7 @@ const AntCoaches = () => {
                 }}
                 href="#third"
               >
-                이지수 Coache
+                이지수 Coach
               </a>
             </li>
 
@@ -135,7 +135,7 @@ const AntCoaches = () => {
                 }}
                 href="#fourth"
               >
-                김강윤 Coache
+                김강윤 Coach
               </a>
             </li>
           </ul>
