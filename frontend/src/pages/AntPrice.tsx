@@ -1,11 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import Price from '@/components/prices/price';
+import OnlinePT from '@/components/prices/onlinePT';
+import OfflinePT from '@/components/prices/offlinePT';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';
 const AntPrice = () => {
   const location = useLocation();
+
+  const [openTab, setOpenTab] = useState<number>(1);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,7 +25,7 @@ const AntPrice = () => {
 
     '영상을 통한 자세 및 약점 보완에 대한 피드백 제공',
 
-    '훈련에 대한 참고자료 제공',
+    '훈련에 대한 참고자료 영상 제공',
   ];
   return (
     <div className="flex flex-col h-screen">
@@ -37,45 +41,47 @@ const AntPrice = () => {
                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                   Coaching <span className="text-red"> Price</span>
                 </h2>
-                <p className="max-w-md mx-auto mt-4 text-2xl leading-relaxed text-gray">
-                  Online Coaching
-                </p>
+                <div className="flex items-center justify-center max-h-screen mt-16 sm:px-10">
+                  <ul className="mx-auto grid max-w-full w-full grid-cols-2 gap-x-5 ">
+                    <li className="">
+                      <a
+                        className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none transition-all duration-500 ease-in-out"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setOpenTab(1);
+                        }}
+                        href="#first"
+                      >
+                        Online PT
+                      </a>
+                    </li>
+
+                    <li className="">
+                      <a
+                        className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none transition-all duration-500 ease-in-out"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setOpenTab(2);
+                        }}
+                        href="#second"
+                      >
+                        Offline PT
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
-              <Price price={`140,000`} month={`1`} />
-              <Price price={`400,000`} month={`3`} />
             </div>
           </div>
 
           <div className="px-full mx-auto max-w-screen-2xl">
-            <div className="max-w-2xl mx-auto text-center">
-              <div className="mt-8 bg-white mb-10 shadow-lg left-0 p-2 border mt-2 border-indigo-300 rounded-lg mx-auto">
-                <div className="ml-5">
-                  {content.map((title: any, idx: any) => (
-                    <>
-                      <div className="text-left flex my-3 text-md" key={idx}>
-                        <svg
-                          className="flex-shrink-0 w-5 h-5 mr-2 text-gray-400"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{' '}
-                        {title}
-                      </div>
-                    </>
-                  ))}
-                </div>
-              </div>
-              <p className="text-center text-lg">
-                {`※ Offline Coaching은 상단의 Contact를 통해 문의해주세요`}
-              </p>
+            {/* 온라인 코칭 */}
+            <div className={openTab === 1 ? 'block' : 'hidden'} id="first">
+              <OnlinePT />
+            </div>
+            {/* 오프라인 코칭 */}
+            <div className={openTab === 2 ? 'block' : 'hidden'} id="second">
+              <OfflinePT />
             </div>
           </div>
         </section>
