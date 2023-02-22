@@ -30,7 +30,7 @@ const coache = (props: any) => {
             <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 lg:p-16 border">
               {props.title.map((title: any, idx: any) => (
                 <div key={idx} className="mt-2 ">
-                  {idx + 1}. {title}
+                  {title}
                 </div>
               ))}
             </div>

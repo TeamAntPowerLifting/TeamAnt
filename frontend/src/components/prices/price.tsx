@@ -9,18 +9,28 @@ const price = (props: any) => {
   return (
     <div className="overflow-hidden bg-gray-100 border-2 border-transparent rounded-md">
       <div className="p-6 md:py-8 md:px-9">
-        <h3 className="text-xl font-semibold text-black">Online coaching</h3>
-
-        <div className="flex items-end mt-5">
-          <div className="flex items-start">
-            <span className="text-xl font-medium text-black"> ₩ </span>
-            <p className="text-5xl font-medium tracking-tight">{props.price}</p>
+        <h3 className="text-xl font-semibold text-black mb-5">{props.tab}</h3>
+        {props.tab == `Online caching` ? (
+          <div className="flex items-end mt-5">
+            <div className="flex items-start">
+              <span className="text-xl font-medium text-black"> ₩ </span>
+              <p className="text-5xl font-medium tracking-tight">
+                {props.price}
+              </p>
+            </div>
+            <span className="ml-0.5 text-lg text-gray-600">
+              {' '}
+              / {props.month}month{' '}
+            </span>
           </div>
-          <span className="ml-0.5 text-lg text-gray-600">
-            {' '}
-            / {props.month}month{' '}
-          </span>
-        </div>
+        ) : (
+          <div className="">
+            <span className="ml-0.5 text-lg text-gray-600">
+              {' '}
+              {props.content}
+            </span>
+          </div>
+        )}
 
         <a
           onClick={ArticleClick}
