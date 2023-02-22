@@ -6,6 +6,10 @@ import Coache1 from '../assets/images/Coache1.png';
 import Coache2 from '../assets/images/Coache2.png';
 import Coache3 from '../assets/images/Coache3.png';
 import Coache4 from '../assets/images/Coache4.png';
+import fmgym from '../assets/images/fmgym.jpeg';
+import actgym from '../assets/images/actgym.png';
+import gym from '../assets/images/gym.png';
+import strength from '../assets/images/strength.jpeg';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';
 const AntCoaches = () => {
@@ -30,6 +34,20 @@ const AntCoaches = () => {
         '파워리프팅 유튜브 59kg앤트맨 채널 운영중',
         'SBS 세상에 이런일이 1216회 출연',
       ],
+      locationImage: [
+        {
+          img: strength,
+          location:
+            'https://map.naver.com/v5/search/%EC%8A%A4%ED%8A%B8%EB%A0%9D%EC%8A%A4%EB%AE%A4%EC%A7%80%EC%97%84/place/1787752073?c=15,0,0,0,dh&isCorrectAnswer=true',
+          msg: null,
+        },
+        {
+          img: fmgym,
+          location:
+            'https://map.naver.com/v5/search/fmgym/place/1818968620?c=15,0,0,0,dh&isCorrectAnswer=true',
+          msg: null,
+        },
+      ],
       image: Coache1,
     },
     {
@@ -43,6 +61,13 @@ const AntCoaches = () => {
         '강남대학교 스포츠복지전공',
       ],
       image: Coache2,
+      locationImage: [
+        {
+          img: gym,
+          location: '',
+          msg: '문의요망',
+        },
+      ],
     },
     {
       title: [
@@ -54,6 +79,20 @@ const AntCoaches = () => {
         '용인대 체육학과',
       ],
       image: Coache3,
+      locationImage: [
+        {
+          img: strength,
+          location:
+            'https://map.naver.com/v5/search/%EC%8A%A4%ED%8A%B8%EB%A0%9D%EC%8A%A4%EB%AE%A4%EC%A7%80%EC%97%84/place/1787752073?c=15,0,0,0,dh&isCorrectAnswer=true',
+          msg: null,
+        },
+        {
+          img: actgym,
+          location:
+            'https://map.naver.com/v5/search/actgym/place/1966720325?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh',
+          msg: null,
+        },
+      ],
     },
     {
       title: [
@@ -66,6 +105,13 @@ const AntCoaches = () => {
         '한서대 물리치료학과',
       ],
       image: Coache4,
+      locationImage: [
+        {
+          img: gym,
+          location: '',
+          msg: '문의요망',
+        },
+      ],
     },
     ,
   ];
@@ -142,16 +188,32 @@ const AntCoaches = () => {
         </div>
         <div className="md:px-30">
           <div className={openTab === 1 ? 'block' : 'hidden'} id="first">
-            <Coache title={test[0]?.title} image={test[0]?.image} />
+            <Coache
+              title={test[0]?.title}
+              image={test[0]?.image}
+              locationImage={test[0]?.locationImage}
+            />
           </div>
           <div className={openTab === 2 ? 'block' : 'hidden'} id="second">
-            <Coache title={test[1]?.title} image={test[1]?.image} />
+            <Coache
+              title={test[1]?.title}
+              locationImage={test[1]?.locationImage}
+              image={test[1]?.image}
+            />
           </div>
           <div className={openTab === 3 ? 'block' : 'hidden'} id="third">
-            <Coache title={test[2]?.title} image={test[2]?.image} />
+            <Coache
+              title={test[2]?.title}
+              locationImage={test[2]?.locationImage}
+              image={test[2]?.image}
+            />
           </div>
           <div className={openTab === 4 ? 'block' : 'hidden'} id="fourth">
-            <Coache title={test[3]?.title} image={test[3]?.image} />
+            <Coache
+              title={test[3]?.title}
+              locationImage={test[3]?.locationImage}
+              image={test[3]?.image}
+            />
           </div>
         </div>
       </div>
