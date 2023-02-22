@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
-import main from '../assets/images/newmain.png';
+import main from '../assets/images/main.png';
 import main1 from '../assets/images/main1.png';
 import main2 from '../assets/images/main2.png';
 import main3_1 from '../assets/images/main3_1.png';
@@ -47,27 +47,27 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <section className="py-30 xs:py-20 ">
+        <section className="py-16 sm:py-20 md:px-40 px-10">
           <div>
             <img
-              className="object-cover mx-auto rounded-lg px-10"
+              className="object-cover mx-auto rounded-md w-3/4 h-2/5"
               src={main2}
               alt=""
             />
           </div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 pt-8 mx-auto"></div>
+        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="pt-20 w-3/5 mx-auto">
+        <div className="pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
-            파워리프팅 온라인 코치! 누구에게 필요한가요?
+            파워리프팅 온라인 코치! 누구에게 필요할까요?
           </p>
         </div>
 
         <section className="">
           <div>
-            <section className="py-10 bg-white sm:pt-16 lg:pt-24">
+            <section className="py-12 bg-white sm:pt-16 lg:pt-16">
               <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 px-10">
                 <div className="grid grid-cols-1  text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-3 sm:gap-12">
                   <div>
@@ -101,7 +101,8 @@ const AntMain = () => {
               </div>
             </section>
           </div>
-          <section className="py-10 bg-white sm:py-16">
+
+          <section className="pt-4 bg-white sm:pt-9 pb-11 sm:pb-16">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:w-3/4 mx-auto text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-2 sm:gap-12">
                 <div>
@@ -128,53 +129,9 @@ const AntMain = () => {
           <div className="hidden lg:block"></div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 py-10 mx-auto"></div>
-
-        <div className="pt-20 w-3/5 mx-auto ">
-          <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
-            우리가 다른 팀과 다른점
-          </p>
-        </div>
-
-        <section className="md:px-32">
-          <div className="grid sm:grid-cols-2 grid-cols-1 text-center my-20">
-            <div className="">
-              <LazyLoadImage
-                className="object-cover mx-auto  w-120 h-80"
-                src={main4}
-                alt=""
-              />
-            </div>
-
-            <div className=" mt-5 sm:mt-0 lg:w-4/5">
-              <LazyLoadImage
-                className="object-cover mx-auto h-10"
-                src={main4_1}
-                alt=""
-              />
-
-              <div>
-                <p className="text-lg font-bold text-gray-800 capitalize lg:text-lg">
-                  The Strength Of Our Team
-                </p>
-              </div>
-
-              <div className="mx-8 ">
-                <p className="w-full font-semibold mx-auto mt-8 text-lg text-center text-gray-700 intro sm:max-w-3xl">
-                  우리는 코치진 모두가 국내에서 정상을 달리고 있는 선수일 뿐만
-                  아니라, 코치진 모두가 해외 무대를 경험해보았다는 아주 큰
-                  차이점이 있다. 언제나 목표를 향해 선수, 코치로써 달려가고
-                  있습니다. 오직 TeamANT만이 가지고 있는 경험과 노하우를
-                  여러분들께 제공합니다.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="pt-20 w-3/5 mx-auto">
+        <div className="pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             Article
           </p>
@@ -188,7 +145,13 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto py-10"></div>
 
-        <section className="pt-5">
+        <div className="pt-16 w-3/5 mx-auto ">
+          <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
+            In Media
+          </p>
+        </div>
+
+        <section className="">
           <div className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
               <div className="text-center">
