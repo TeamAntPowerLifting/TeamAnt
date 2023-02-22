@@ -10,7 +10,7 @@ const price = (props: any) => {
     <div className="overflow-hidden bg-gray-100 border-2 border-transparent rounded-md">
       <div className="p-6 md:py-8 md:px-9">
         <h3 className="text-xl font-semibold text-black mb-5">{props.tab}</h3>
-        {props.tab == `Online caching` ? (
+        {props.tab == `Online coaching` ? (
           <div className="flex items-end mt-5">
             <div className="flex items-start">
               <span className="text-xl font-medium text-black"> ₩ </span>
