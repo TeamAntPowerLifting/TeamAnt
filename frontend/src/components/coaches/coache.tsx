@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import about1 from '../../assets/images/about1.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { useNavigate } from 'react-router-dom';
 const coache = (props: any) => {
+  const navigate = useNavigate();
+  const moveToContact = () => {
+    navigate(`/contact`);
+  };
   return (
     <div>
       <div className="container m-auto px-6 pt-10 md:px-12 lg:px-20">
@@ -33,6 +38,35 @@ const coache = (props: any) => {
                   {title}
                 </div>
               ))}
+              <div className="flex items-center justify-end mt-10">
+                {props.locationImage.map((image: any, idx: any) => (
+                  <div>
+                    {image.msg ? (
+                      <>
+                        <LazyLoadImage
+                          className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
+                          key={idx}
+                          src={image.img}
+                          alt=""
+                          onClick={moveToContact}
+                        />
+                        <div className="text-center mt-5">{image.msg}</div>
+                      </>
+                    ) : (
+                      <>
+                        <a key={idx} href={image.location}>
+                          <LazyLoadImage
+                            className="w-20 sm:w-40 rounded-lg  ml-19"
+                            key={idx}
+                            src={image.img}
+                            alt=""
+                          />
+                        </a>
+                      </>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
