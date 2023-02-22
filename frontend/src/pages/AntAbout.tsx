@@ -52,18 +52,18 @@ const AntAbout = () => {
                   <div className="relative flex self-center flex-1 p-8 ml-0 bg-white border rounded shadow lg:items-center lg:-ml-12">
                     <div>
                       <span className="block mb-2 text-md font-semibold text-blue-700 uppercase ">
-                        한국 파워리프팅의 선두주자가 함께합니다
-                      </span>
-                      <h2 className="mb-3 text-4xl font-bold leading-9 text-black ">
                         Frontrunner
+                      </span>
+                      <h2 className="mb-4 text-3xl font-bold leading-9 text-black ">
+                        한국 파워리프팅의 선두주자가 함께합니다.
                       </h2>
-                      <p className="text-sm leading-7 text-gray-400 mb-1">
+                      <p className="text-sm leading-7 text-gray-400 mb-2">
                         TeamAnt의 코치진 모두 국내에서 선두를 달리고 있으며, 특히 정지훈
                         코치의 경우 2022년 두바이에서 개최된 IPF 아시아
                         파워리프팅 국제경기에서 당당하게 1등을 했으며, 또한 모든
                         종목(스쿼트, 벤치프레스, 데드리프트, 종합기록)에서
                         금메달을 따내며 그랜드슬램을 달성했습니다. </p>
-                      <p className="text-sm leading-7 text-gray-400 mb-1">이렇게
+                      <p className="text-sm leading-7 text-gray-400 mb-2">이렇게
                         국제시합에서 모든 종목 금메달을 이룩한 것은 한국에
                         파워리프팅이 들어온 이후 최초이며, 또한 해당 시합에서
                         아시아 스쿼트 신기록을 갱신하기도 했습니다.</p>
@@ -86,12 +86,12 @@ const AntAbout = () => {
                   <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow lg:items-center lg:-ml-12">
                     <span className="block mb-2 text-md font-semibold text-blue-700  ">
                       {' '}
-                      TeamAnt 코칭팀만의 특징
-                    </span>
-                    <h2 className="mb-3 text-4xl font-bold leading-9 text-black ">
                       Overseas Experience
+                    </span>
+                    <h2 className="mb-4 text-3xl font-bold leading-9 text-black ">
+                      TeamAnt 코칭팀만의 특징
                     </h2>
-                    <p className="text-sm leading-7 text-gray-400 mb-1">
+                    <p className="text-sm leading-7 text-gray-400 mb-2">
                       팀앤트의 코치들은 모두 파워리프팅 국가대표로서 해외 무대를 경험해 보았다는 가장 큰 특징이 있습니다.
                       또한 아직 국내에 생소한 온라인 코칭 시스템을 해외로부터 직접 받아본 경험을 통해 이를 결과로 증명해냈고, 국내 파워리프팅 대회에 참여하시는 회원님들을 통해서도 증명해 냈습니다.</p>
                     <p className="text-sm leading-7 text-gray-400">
@@ -110,12 +110,12 @@ const AntAbout = () => {
                   <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow  lg:items-center lg:-ml-12">
                     <span className="block mb-2 text-md font-semibold text-blue-700 uppercase ">
                       {' '}
-                      쌍방향성 소통을 중시합니다.
-                    </span>
-                    <h2 className="mb-3 text-4xl font-bold leading-9 text-black ">
                       Two-Way Communication
+                    </span>
+                    <h2 className="mb-4 text-3xl font-bold leading-9 text-black ">
+                      쌍방향성 소통을 중시합니다.
                     </h2>
-                    <p className="text-sm leading-7 text-gray-400 mb-1">
+                    <p className="text-sm leading-7 text-gray-400 mb-2">
                       우리는 코칭은 수직적인 관계로 이루어지는 것이 아니라는
                       점을 강조하고 있습니다. 그러한 만큼, 수평적인 관계에서
                       클라이언트의 방향성을 함께 의논하고 제시하는 팀이라는 것을
@@ -138,12 +138,12 @@ const AntAbout = () => {
                   <div className="relative self-center flex-1 p-8 ml-0 bg-white border rounded shadow lg:items-center lg:-ml-12">
                     <span className="block mb-2 text-md font-semibold text-blue-700 uppercase ">
                       {' '}
-                      우리는 팀으로서 활동을 합니다
-                    </span>
-                    <h2 className="mb-3 text-4xl font-bold leading-9 text-black">
                       Team Solidarity
+                    </span>
+                    <h2 className="mb-4 text-3xl font-bold leading-9 text-black">
+                      우리는 팀으로서 활동을 합니다
                     </h2>
-                    <p className="text-sm leading-7 text-gray-400 mb-1">
+                    <p className="text-sm leading-7 text-gray-400 mb-2">
                       기본적으로 코칭은 1:1로 진행이 되지만, 세미나 진행 혹은
                       시합 현장에서의 서포팅과 같은 다양한 곳에서 담당 코치
                       이외의 코치에게도 도움을 받을 수 있습니다.

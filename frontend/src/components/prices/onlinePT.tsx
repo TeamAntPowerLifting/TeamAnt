@@ -49,9 +49,6 @@ const onlinePT = () => {
             ))}
           </div>
         </div>
-        <p className="text-center text-lg">
-          {`※ Offline Coaching은 상단의 Contact를 통해 문의해주세요`}
-        </p>
       </div>
     </div>
   );
