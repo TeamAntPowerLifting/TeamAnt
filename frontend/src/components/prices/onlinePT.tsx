@@ -21,8 +21,8 @@ const onlinePT = () => {
         Online Coaching
       </p>
       <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
-        <Price price={`140,000`} month={`1`} tab={`Online caching`} />
-        <Price price={`400,000`} month={`3`} tab={`Online caching`} />
+        <Price price={`140,000`} month={`1`} tab={`Online coaching`} />
+        <Price price={`400,000`} month={`3`} tab={`Online coaching`} />
       </div>
 
       <div className="max-w-2xl mx-auto text-center">
@@ -49,9 +49,6 @@ const onlinePT = () => {
             ))}
           </div>
         </div>
-        <p className="text-center text-lg">
-          {`※ Offline Coaching은 상단의 Contact를 통해 문의해주세요`}
-        </p>
       </div>
     </div>
   );

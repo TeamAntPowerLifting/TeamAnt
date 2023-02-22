@@ -61,7 +61,7 @@ const AntMain = () => {
 
         <div className="pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
-            파워리프팅 온라인 코치! 누구에게 필요할까요?
+            파워리프팅 온라인 코칭! 누구에게 필요할까요?
           </p>
         </div>
 
