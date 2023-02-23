@@ -20,15 +20,8 @@ const offlinePT = () => {
         Offline Coaching
       </p>
       <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
-        <Price
-          month={`1`}
-          tab={`Offline Coaching`}
-          content={``}
-        />
-        <Price
-          month={`1`}
-          tab={`OnePoint Coaching`}
-          content={``} />
+        <Price content={`/50min per session`} tab={`Offline coaching`} />
+        <Price content={`/50min per session`} tab={`OnePoint coaching`} />
       </div>
 
       <div className="max-w-2xl mx-auto text-center">
@@ -38,7 +31,7 @@ const offlinePT = () => {
               <>
                 <div className="text-left flex my-3 text-md" key={idx}>
                   <svg
-                    className="flex-shrink-0 w-5 h-5 mr-2 text-gray-400"
+                    className="flex-shrink-0 w-5 h-5 mr-2 text-gray-400 opacity-75"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -55,8 +48,13 @@ const offlinePT = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="max-w-4xl mx-auto text-center">
         <p className="text-center text-lg">
-          {`※ 코치님들이 활동하는 체육관이 모두 달라 코치님마다 진행 가능한 체육관의 위치가 다를 수 있고, 그에 따라 비용 또한 상이할 수 있습니다.`}
+          {`※ 코치님들이 활동하는 체육관이 모두 달라`}
+        </p>
+        <p className="text-center text-lg">
+          {`코치님마다 진행 가능한 체육관의 위치가 다를 수 있고, 그에 따라 비용 또한 상이할 수 있습니다.`}
         </p>
       </div>
     </div>
