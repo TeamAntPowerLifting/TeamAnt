@@ -40,12 +40,13 @@ const coache = (props: any) => {
               ))}
               <div className="flex items-center justify-end mt-24">
                 <p className="font-bold">
-                  {`오프라인 레슨 진행가능 체육관 :`}{' '}
+                  {`오프라인 레슨 진행가능 체육관 :`} <br />
+                  <span className="text-sm text-gray-500">{`(이미지 클릭시 위치 확인가능)`}</span>
                 </p>
                 {props.locationImage.map((image: any, idx: any) => (
                   <div>
                     {image.msg ? (
-                      <div className="w-28 ml-10">
+                      <div className="w-28 ml-5">
                         <LazyLoadImage
                           className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
                           key={idx}
