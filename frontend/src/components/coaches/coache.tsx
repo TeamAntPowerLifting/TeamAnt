@@ -38,11 +38,14 @@ const coache = (props: any) => {
                   {title}
                 </div>
               ))}
-              <div className="flex items-center justify-end mt-10">
+              <div className="flex items-center justify-end mt-24">
+                <p className="font-bold">
+                  {`오프라인 레슨 진행가능 체육관 :`}{' '}
+                </p>
                 {props.locationImage.map((image: any, idx: any) => (
                   <div>
                     {image.msg ? (
-                      <>
+                      <div className="w-28 ml-10">
                         <LazyLoadImage
                           className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
                           key={idx}
@@ -51,12 +54,12 @@ const coache = (props: any) => {
                           onClick={moveToContact}
                         />
                         <div className="text-center mt-5">{image.msg}</div>
-                      </>
+                      </div>
                     ) : (
                       <>
                         <a key={idx} href={image.location}>
                           <LazyLoadImage
-                            className="w-20 sm:w-40 rounded-lg  ml-19"
+                            className="w-20 sm:w-40 rounded-lg ml-19"
                             key={idx}
                             src={image.img}
                             alt=""
