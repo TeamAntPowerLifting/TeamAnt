@@ -21,7 +21,7 @@ const offlinePT = () => {
       </p>
       <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
         <Price content={`/50min per session`} tab={`Offline coaching`} />
-        <Price content={`/50min per session`} tab={`OnePoint coaching`} />
+        <Price content={`/50min per session`} tab={`OnePoint Lesson`} />
       </div>
 
       <div className="max-w-2xl mx-auto text-center">
