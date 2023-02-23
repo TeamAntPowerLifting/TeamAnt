@@ -9,8 +9,8 @@ const coache = (props: any) => {
   };
   return (
     <div>
-      <div className="container m-auto px-6 pt-10 md:px-12 lg:px-20">
-        <div className="mt-12 m-auto -space-y-4 items-center justify-center md:flex md:space-y-0 md:-space-x-4 xl:w-10/12">
+      <div className="container m-auto pt-10 md:px-5 lg:px-20 max-w-[90%]">
+        <div className="mt-12 m-auto -space-y-4 items-center justify-center md:flex md:space-y-0 md:-space-x-4 xl:w-10/12 ">
           <div className="relative z-10 -mx-4 group md:w-6/12 md:mx-0 lg:w-5/12">
             <div
               aria-hidden="true"

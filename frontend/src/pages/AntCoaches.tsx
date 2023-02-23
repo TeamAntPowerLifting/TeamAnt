@@ -131,7 +131,7 @@ const AntCoaches = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center max-h-screen mt-16 sm:px-56">
+        <div className="flex items-center justify-center max-h-screen mt-16 px-38 md:px-56">
           <ul className="mx-auto grid max-w-full w-full grid-cols-4 gap-x-5 ">
             <li className="">
               <a
