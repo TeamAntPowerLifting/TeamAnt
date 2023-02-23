@@ -32,7 +32,7 @@ const coache = (props: any) => {
               aria-hidden="true"
               className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-lg transition duration-500 group-hover:scale-105"
             ></div>
-            <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 lg:p-16 border">
+            <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-18 lg:p-14 border">
               {props.title.map((title: any, idx: any) => (
                 <div key={idx} className="mt-2 ">
                   {title}
@@ -40,7 +40,8 @@ const coache = (props: any) => {
               ))}
               <div className="flex items-center justify-end mt-24">
                 <p className="font-bold">
-                  {`오프라인 레슨 진행가능 체육관 :`}{' '}
+                  {`오프라인 레슨 진행가능 체육관 :`} <br />
+                  <span className="text-sm text-gray-500">{`(이미지 클릭시 위치 확인가능)`}</span>
                 </p>
                 {props.locationImage.map((image: any, idx: any) => (
                   <div>
