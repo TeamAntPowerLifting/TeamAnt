@@ -30,7 +30,7 @@ const AntMain = () => {
       <div className="flex-1 mt-28 pb-28 ">
         <div>
           <img
-            className="mt-1 object-cover w-full lg:h-45 h-59  md:object-left md:scale-100 md:origin-top-left z-10 "
+            className="mt-1 object-fill w-full sm:h-50 sm:object-cover h-60 md:object-left md:scale-100 md:origin-top-left z-10 "
             src={main}
             alt=""
           />
@@ -38,7 +38,7 @@ const AntMain = () => {
         <section className="py-10 sm:py-20">
           <div className="">
             <img
-              className="object-cover mx-auto rounded-lg lg:w-2/3 w-[100%]"
+              className="object-fill mx-auto rounded-lg sm:h-50 sm:object-cover h-60  lg:w-2/3 w-[100%]"
               src={main1}
               alt=""
             />
