@@ -32,7 +32,7 @@ const coache = (props: any) => {
               aria-hidden="true"
               className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-lg transition duration-500 group-hover:scale-105"
             ></div>
-            <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 lg:p-16 border">
+            <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-18 lg:p-14 border">
               {props.title.map((title: any, idx: any) => (
                 <div key={idx} className="mt-2 ">
                   {title}
@@ -46,7 +46,7 @@ const coache = (props: any) => {
                 {props.locationImage.map((image: any, idx: any) => (
                   <div>
                     {image.msg ? (
-                      <div className="w-28 ml-5">
+                      <div className="w-28 ml-10">
                         <LazyLoadImage
                           className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
                           key={idx}
