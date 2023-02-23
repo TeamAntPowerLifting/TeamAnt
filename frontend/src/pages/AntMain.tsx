@@ -38,7 +38,7 @@ const AntMain = () => {
         <section className="py-10 sm:py-20">
           <div className="">
             <img
-              className="object-cover mx-auto rounded-lg lg:w-2/3 w-[90%]"
+              className="object-cover mx-auto rounded-lg lg:w-2/3 w-[100%]"
               src={main1}
               alt=""
             />
@@ -47,10 +47,10 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <section className="py-16 sm:py-20 md:px-40 px-10">
+        <section className="py-10 lg:py-20 lg:px-40 ">
           <div>
             <img
-              className="object-cover mx-auto rounded-md w-3/4 h-2/5"
+              className="object-cover mx-auto rounded-md lg:w-3/4 h-2/5 w-[100%]"
               src={main2}
               alt=""
             />
