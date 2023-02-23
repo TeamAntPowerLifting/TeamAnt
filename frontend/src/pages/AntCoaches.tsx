@@ -32,7 +32,7 @@ const AntCoaches = () => {
         '2022 Korea Powerlifting Championship -59kg체급 1위',
         '2021 Grandprix Powerlifting Championship -59kg체급 1위',
         '파워리프팅 유튜브 59kg앤트맨 채널 운영중',
-        'SBD 공식 지원선수',
+        'SBD Korea 공식 지원선수',
         'SBS 세상에 이런일이 1216회 출연',
       ],
       locationImage: [
