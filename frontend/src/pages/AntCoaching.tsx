@@ -16,13 +16,13 @@ const AntCoaching = () => {
     <div className="flex flex-col h-screen">
       <Headers />
       <div className="flex-1 pt-28 pb-28">
-        <div className="max-w-2xl mx-auto mt-10">
+        <div className="max-w-xl lg:max-w-2xl mx-auto mt-10">
           <div className="text-center ">
             <div className="relative flex flex-col items-center ">
               <div className="absolute hidden md:block -top-14 text-[120px] text-gray-400 font-bold opacity-10 ">
                 Coaching
               </div>
-              <h1 className="text-5xl font-bold leading-tight ">
+              <h1 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl ">
                 {' '}
                 TeamAnt<span className="text-red"> Coaching Service</span>{' '}
               </h1>
