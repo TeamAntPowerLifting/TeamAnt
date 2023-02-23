@@ -24,7 +24,7 @@ const AntCoaching = () => {
               </div>
               <h1 className="text-5xl font-bold leading-tight ">
                 {' '}
-                TeamAnt <span className="text-red"> Service</span>{' '}
+                TeamAnt Coaching<span className="text-red"> Service</span>{' '}
               </h1>
               <div className="flex mt-1 mb-10 overflow-hidden rounded w-14"></div>
             </div>
