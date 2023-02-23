@@ -36,9 +36,9 @@ const AntMain = () => {
           />
         </div>
         <section className="py-10 sm:py-20">
-          <div>
+          <div className="">
             <img
-              className="object-cover mx-auto rounded-lg px-10"
+              className="object-cover mx-auto rounded-lg w-2/3"
               src={main1}
               alt=""
             />
