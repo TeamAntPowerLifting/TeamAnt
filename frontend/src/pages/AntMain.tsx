@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import main from '../assets/images/main.png';
+import smain from '../assets/images/smain.png';
 import main1 from '../assets/images/main1.png';
 import main2 from '../assets/images/main2.png';
 import main3_1 from '../assets/images/main3_1.png';
@@ -9,8 +10,6 @@ import main3_2 from '../assets/images/main3_2.png';
 import main3_3 from '../assets/images/main3_3.png';
 import main3_4 from '../assets/images/main3_4.png';
 import main3_5 from '../assets/images/main3_5.png';
-import main4 from '../assets/images/main4.jpg';
-import main4_1 from '../assets/images/main4_1.png';
 import video1 from '../assets/images/video1.png';
 import video2 from '../assets/images/video2.png';
 import video3 from '../assets/images/video3.png';
@@ -29,11 +28,16 @@ const AntMain = () => {
       <Headers />
       <div className="flex-1 mt-28 pb-28 ">
         <div>
-          <img
-            className="mt-1 object-fill w-full sm:h-[100%] h-52  md:object-left md:scale-100 md:origin-top-left z-10 "
-            src={main}
-            alt=""
-          />
+          <picture>
+            <source media="(max-width: 500px)" srcSet={smain} />
+            <source media="(min-width: 501px)" srcSet={main} />
+            <img
+              className="mt-1 object-fill w-full sm:h-[100%] h-52  md:object-left md:scale-100 md:origin-top-left z-10 "
+              src={main}
+              alt=""
+            />
+          </picture>
+
         </div>
         <section className="py-10 sm:py-20">
           <div className="">
