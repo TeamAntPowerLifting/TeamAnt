@@ -2,7 +2,20 @@ import React, { useState } from 'react';
 import about1 from '../../assets/images/about1.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useNavigate } from 'react-router-dom';
-const coache = (props: any) => {
+
+interface locationImageType {
+  img: string;
+  location: string;
+  msg: string | null;
+}
+
+interface coache {
+  title: string[] | undefined;
+  locationImage: locationImageType[] | undefined;
+  image: string | undefined;
+}
+
+const coache = (props: coache) => {
   const navigate = useNavigate();
   const moveToContact = () => {
     navigate(`/contact`);
@@ -33,7 +46,7 @@ const coache = (props: any) => {
               className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-lg transition duration-500 group-hover:scale-105"
             ></div>
             <div className="relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-18 lg:p-14 border">
-              {props.title.map((title: any, idx: any) => (
+              {props.title?.map((title: string, idx: number) => (
                 <div key={idx} className="mt-2 ">
                   {title}
                 </div>
@@ -43,33 +56,35 @@ const coache = (props: any) => {
                   {`오프라인 레슨 진행가능 체육관 :`} <br />
                   <span className="text-sm text-gray-500">{`(이미지 클릭시 위치 확인가능)`}</span>
                 </p>
-                {props.locationImage.map((image: any, idx: any) => (
-                  <div>
-                    {image.msg ? (
-                      <div className="w-28 ml-10">
-                        <LazyLoadImage
-                          className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
-                          key={idx}
-                          src={image.img}
-                          alt=""
-                          onClick={moveToContact}
-                        />
-                        <div className="text-center mt-5">{image.msg}</div>
-                      </div>
-                    ) : (
-                      <>
-                        <a key={idx} href={image.location}>
+                {props.locationImage?.map(
+                  (image: locationImageType, idx: number) => (
+                    <div>
+                      {image.msg ? (
+                        <div className="w-28 ml-10">
                           <LazyLoadImage
-                            className="w-20 sm:w-40 rounded-lg ml-19"
+                            className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
                             key={idx}
                             src={image.img}
                             alt=""
+                            onClick={moveToContact}
                           />
-                        </a>
-                      </>
-                    )}
-                  </div>
-                ))}
+                          <div className="text-center mt-5">{image.msg}</div>
+                        </div>
+                      ) : (
+                        <>
+                          <a key={idx} href={image.location}>
+                            <LazyLoadImage
+                              className="w-20 sm:w-40 rounded-lg ml-19"
+                              key={idx}
+                              src={image.img}
+                              alt=""
+                            />
+                          </a>
+                        </>
+                      )}
+                    </div>
+                  ),
+                )}
               </div>
             </div>
           </div>

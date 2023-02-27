@@ -20,14 +20,23 @@ const offlinePT = () => {
         Offline Coaching
       </p>
       <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
-        <Price content={`/50min per session`} tab={`Offline coaching`} />
-        <Price content={`/50min per session`} tab={`OnePoint Lesson`} />
+        <Price
+          content={`/50min per session`}
+          tab={`Offline coaching`}
+          price={null}
+          month={null}
+        />
+        <Price
+          content={`/50min per session`}
+          tab={`OnePoint Lesson`}
+          price={null}
+          month={null}
+        />
       </div>
-
       <div className="max-w-2xl mx-auto text-center">
         <div className="mt-8 bg-white mb-10 shadow-lg left-0 p-2 border mt-2 border-indigo-300 rounded-lg mx-auto">
           <div className="ml-5">
-            {content.map((title: any, idx: any) => (
+            {content.map((title: string, idx: number) => (
               <>
                 <div className="text-left flex my-3 text-md" key={idx}>
                   <svg
