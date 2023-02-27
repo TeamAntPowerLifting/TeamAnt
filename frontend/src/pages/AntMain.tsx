@@ -59,7 +59,7 @@ const AntMain = () => {
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto ">
-          <p className="break-normal text-2xl font-bold text-gray-800 capitalize lg:text-3xl sm:w-auto w-462">
+          <p className="break-normal text-2xl font-bold text-gray-800 capitalize lg:text-3xl sm:w-auto w-278">
             파워리프팅 온라인 코칭! 누구에게 필요할까요?
           </p>
         </div>
