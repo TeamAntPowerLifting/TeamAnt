@@ -28,16 +28,11 @@ const AntMain = () => {
       <Headers />
       <div className="flex-1 mt-28 pb-28 ">
         <div>
-          <picture>
-            <source media="(max-width: 500px)" srcSet={smain} />
-            <source media="(min-width: 501px)" srcSet={main} />
-            <img
-              className="mt-1 object-fill w-full sm:h-[100%] h-52  md:object-left md:scale-100 md:origin-top-left z-10 "
-              src={main}
-              alt=""
-            />
-          </picture>
-
+          <img
+            className="mt-1 object-fill w-full sm:h-[100%] h-52  md:object-left md:scale-100 md:origin-top-left z-10 "
+            src={main}
+            alt=""
+          />
         </div>
         <section className="py-10 sm:py-20">
           <div className="">
