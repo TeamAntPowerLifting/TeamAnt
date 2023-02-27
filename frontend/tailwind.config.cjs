@@ -11,7 +11,7 @@ module.exports = {
         xs: '280px',
       },
       width: {
-        278: '17.38rem',
+        235: '14.69rem',
       },
       fontFamily: {
         jua: ['"Jua"', 'sans-serif'],
