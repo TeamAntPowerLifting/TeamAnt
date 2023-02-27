@@ -1,8 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-const mainart = (props: any) => {
+interface contextType {
+  id: number;
+  title: string;
+  title2: string;
+  context: string;
+  date: string;
+  image: string;
+}
+type props = {
+  props: contextType;
+};
+const mainart = (props: props) => {
   const navigate = useNavigate();
-  const ArticleClick = (props: any) => {
+  const ArticleClick = (props: props) => {
     navigate(`/article/${props.props.id}`, { state: props.props });
   };
   return (

@@ -1,7 +1,15 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const price = (props: any) => {
+interface priceProps {
+  tab: String;
+  price: String | null;
+  month: String | null;
+  content: String | null;
+}
+type PtType = Pick<priceProps, 'tab' | 'month' | 'price' | 'content'>;
+
+const price = (props: PtType) => {
   const navigate = useNavigate();
   const ArticleClick = () => {
     navigate('/contact/');
