@@ -34,7 +34,7 @@ const AntMain = () => {
             alt=""
           />
         </div>
-        <section className="py-10 sm:py-20">
+        <section className="py-12 sm:py-20">
           <div className="">
             <img
               className="object-fill mx-auto rounded-lg sm:h-[100%] h-52  lg:w-2/3 w-[100%]"
@@ -46,7 +46,7 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <section className="py-10 lg:py-20 lg:px-40 ">
+        <section className="py-12 lg:py-20 lg:px-40 ">
           <div>
             <img
               className="object-cover mx-auto rounded-md lg:w-3/4 h-2/5 w-[100%]"
@@ -58,8 +58,8 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="pt-16 w-3/5 mx-auto">
-          <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
+        <div className="pt-12 sm:pt-16 w-3/5 mx-auto ">
+          <p className="break-normal text-2xl font-bold text-gray-800 capitalize lg:text-3xl sm:w-auto w-462">
             파워리프팅 온라인 코칭! 누구에게 필요할까요?
           </p>
         </div>
@@ -130,7 +130,7 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
-        <div className="pt-16 w-3/5 mx-auto">
+        <div className="pt-12 sm:pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             Article
           </p>
@@ -144,7 +144,7 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto py-10"></div>
 
-        <div className="pt-16 w-3/5 mx-auto ">
+        <div className="pt-12 sm:pt-16 w-3/5 mx-auto ">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
             In Media
           </p>
