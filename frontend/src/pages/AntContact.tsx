@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
-import emailjs from '@emailjs/browser';
+import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { useLocation } from 'react-router-dom';
 <link
   rel="stylesheet"
@@ -25,11 +25,11 @@ const AntContact = () => {
         'ylQ3THXuqiWqMF9nU',
       )
       .then(
-        (result: any) => {
+        (result: EmailJSResponseStatus) => {
           console.log(result.text);
           alert('메일 전송이 완료되었습니다.');
         },
-        (error: any) => {
+        (error: EmailJSResponseStatus) => {
           console.log(error.text);
         },
       );
