@@ -5,9 +5,6 @@ import { useNavigate } from 'react-router-dom';
 
 const mainArticle = () => {
   const navigate = useNavigate();
-  const ArticleClick = (props: any) => {
-    navigate(`/article/${props.props.id}`, { state: props.props });
-  };
   const article = articleContext.slice(0, 3);
   return (
     <div>
