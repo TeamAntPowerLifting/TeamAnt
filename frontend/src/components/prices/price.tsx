@@ -2,14 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 interface priceProps {
-  tab: String;
-  price: String | null;
-  month: String | null;
-  content: String | null;
+  tab: string;
+  price: string | null;
+  month: string | null;
+  content: string | null;
 }
 type PtType = Pick<priceProps, 'tab' | 'month' | 'price' | 'content'>;
 
-const price = (props: PtType) => {
+const Price = (props: PtType) => {
   const navigate = useNavigate();
   const ArticleClick = () => {
     navigate('/contact/');
@@ -53,4 +53,4 @@ const price = (props: PtType) => {
   );
 };
 
-export default price;
+export default Price;
