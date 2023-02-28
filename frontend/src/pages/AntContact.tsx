@@ -19,8 +19,8 @@ const AntContact = () => {
 
     emailjs
       .sendForm(
-        'service_5qlpg9b',
-        'template_gwkutmb',
+        'service_dtafjou',
+        'template_cukpf0d',
         e.currentTarget,
         'ylQ3THXuqiWqMF9nU',
       )
@@ -125,14 +125,13 @@ const AntContact = () => {
                 </label>
                 <textarea
                   className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
-                  id="message"
+                  name="message" required
                 ></textarea>
               </div>
             </div>
             <div className="md:flex md:items-center justify-end">
               <div className="">
                 <button
-                  name="message"
                   className="shadow bg-gray-300 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded "
                   type="submit"
                   value="Send"
