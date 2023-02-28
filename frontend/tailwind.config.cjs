@@ -14,7 +14,7 @@ module.exports = {
         235: '14.69rem',
       },
       fontFamily: {
-        jua: ['"Jua"', 'sans-serif'],
+        sans: ['Merriweather Sans', 'sans-serif'],
       },
     },
   },
