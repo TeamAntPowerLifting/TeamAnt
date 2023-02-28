@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/header';
-import Footer from '@/components/footers/footer';
+import Headers from '@/components/headers/Header';
+import Footer from '@/components/footers/Footer';
 import main from '../assets/images/main.png';
 import smain from '../assets/images/smain.png';
 import main1 from '../assets/images/main1.png';
@@ -13,7 +13,7 @@ import main3_5 from '../assets/images/main3_5.png';
 import video1 from '../assets/images/video1.png';
 import video2 from '../assets/images/video2.png';
 import video3 from '../assets/images/video3.png';
-import MainArticle from '@/components/articles/mainArticle';
+import MainArticle from '@/components/articles/MainArticleTop3';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useLocation } from 'react-router-dom';
 const AntMain = () => {
@@ -58,13 +58,14 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
 
+        {/* 본문 */}
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto ">
           <p className="break-normal text-2xl font-bold text-gray-800 capitalize lg:text-3xl sm:w-auto w-235">
             파워리프팅 온라인 코칭! 누구에게 필요할까요?
           </p>
         </div>
 
-        <section className="">
+        <section>
           <div>
             <section className="py-12 bg-white sm:pt-16 lg:pt-16">
               <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 px-10">
