@@ -30,6 +30,9 @@ const headerTap = (props: { location: { pathname: string } }) => {
   const moveToCantact = () => {
     navigate('/contact');
   };
+  const moveToReview = () => {
+    navigate('/review');
+  };
 
   if (props.location.pathname == '/') {
     return (
@@ -71,6 +74,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToArticle}
         >
           Article
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
@@ -123,6 +132,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Contact
@@ -169,6 +184,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToArticle}
         >
           Article
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
@@ -221,6 +242,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Contact
@@ -270,6 +297,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Contact
@@ -316,6 +349,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToArticle}
         >
           Article
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-xl"
@@ -368,6 +407,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
           onClick={moveToCantact}
         >
           Contact
@@ -414,6 +459,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToArticle}
         >
           Article
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-xl"
+          onClick={moveToReview}
+        >
+          Review
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-xl"
