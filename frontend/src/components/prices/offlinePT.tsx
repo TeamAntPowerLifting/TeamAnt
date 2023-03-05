@@ -1,7 +1,7 @@
 import React from 'react';
-import Price from '../prices/price';
+import Price from './Price';
 
-const offlinePT = () => {
+const OfflinePT = () => {
   const content = [
     '3대 운동인 스쿼트, 벤치프레스, 데드리프트에 대한 이해와 습득',
 
@@ -37,23 +37,21 @@ const offlinePT = () => {
         <div className="mt-8 bg-white mb-10 shadow-lg left-0 p-2 border mt-2 border-indigo-300 rounded-lg mx-auto">
           <div className="ml-5">
             {content.map((title: string, idx: number) => (
-              <>
-                <div className="text-left flex my-3 text-md" key={idx}>
-                  <svg
-                    className="flex-shrink-0 w-5 h-5 mr-2 text-gray-400 opacity-75"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>{' '}
-                  {title}
-                </div>
-              </>
+              <div className="text-left flex my-3 text-md" key={idx}>
+                <svg
+                  className="flex-shrink-0 w-5 h-5 mr-2 text-gray-400 opacity-75"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>{' '}
+                {title}
+              </div>
             ))}
           </div>
         </div>
@@ -70,4 +68,4 @@ const offlinePT = () => {
   );
 };
 
-export default offlinePT;
+export default OfflinePT;

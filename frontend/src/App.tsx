@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Headers from './components/headers/header';
+import Headers from './components/headers/Header';
 import AntMain from './pages/AntMain';
 import AntAbout from './pages/AntAbout';
 import AntCoaching from './pages/AntCoaching';

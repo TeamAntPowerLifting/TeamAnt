@@ -10,7 +10,7 @@ interface contextType {
   date: string;
   image: string;
 }
-const art = (props: contextType) => {
+const ArticleList = (props: contextType) => {
   const navigate = useNavigate();
   const ArticleClick = (props: contextType) => {
     navigate(`/article/${props.id}`, { state: props });
@@ -46,4 +46,4 @@ const art = (props: contextType) => {
   );
 };
 
-export default art;
+export default ArticleList;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-const headerTap = (props: { location: { pathname: string } }) => {
+const HeaderTap = (props: { location: { pathname: string } }) => {
   const navigate = useNavigate();
 
   const moveToHome = () => {
@@ -426,4 +426,4 @@ const headerTap = (props: { location: { pathname: string } }) => {
   }
 };
 
-export default headerTap;
+export default HeaderTap;

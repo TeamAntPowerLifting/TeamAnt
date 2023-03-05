@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/header';
-import Footer from '@/components/footers/footer';
+import Headers from '@/components/headers/Header';
+import Footer from '@/components/footers/Footer';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { useLocation } from 'react-router-dom';
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/flowbite@1.4.4/dist/flowbite.min.css"
-/>;
+import SubTtitle from '@/components/titles/SubTtitle';
 
 const AntContact = () => {
   const location = useLocation();
@@ -14,6 +11,7 @@ const AntContact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
+
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -40,19 +38,10 @@ const AntContact = () => {
     <div className="flex flex-col h-screen">
       <Headers />
       <div className="flex-1 pb-28 px-10 pt-28">
-        <section className="bg-white pt-16 ">
-          <div className="max-w-2xl mx-auto text-center">
-            <div className="relative flex flex-col items-center">
-              <div className="absolute hidden md:block -top-14  text-[120px] text-gray-400 font-bold opacity-10">
-                Contact
-              </div>
-              <h2 className="w-full text-3xl font-bold text-center sm:text-4xl md:text-5xl">
-                {' '}
-                Contact <span className="text-red"> Us</span>
-              </h2>
-            </div>
+        <section className="bg-white pt-10 ">
+          <div className="pb-10">
+            <SubTtitle title1={`Contact`} title2={`Contact`} title3={`Us`} />
           </div>
-
           <form
             onSubmit={sendEmail}
             className=" w-full md:w-2/3 mx-auto mt-16 my-7"

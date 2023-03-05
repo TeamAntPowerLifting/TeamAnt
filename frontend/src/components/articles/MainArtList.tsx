@@ -11,7 +11,7 @@ interface contextType {
 type props = {
   props: contextType;
 };
-const mainart = (props: props) => {
+const MainArtList = (props: props) => {
   const navigate = useNavigate();
   const ArticleClick = (props: props) => {
     navigate(`/article/${props.props.id}`, { state: props.props });
@@ -36,4 +36,4 @@ const mainart = (props: props) => {
   );
 };
 
-export default mainart;
+export default MainArtList;
