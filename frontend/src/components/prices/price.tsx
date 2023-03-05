@@ -22,7 +22,7 @@ const Price = (props: PtType) => {
           <div className="flex items-end mt-5">
             <div className="flex items-start">
               <span className="text-xl font-medium text-black"> ₩ </span>
-              <p className="text-5xl font-medium tracking-tight">
+              <p className="text-4xl font-medium tracking-tight">
                 {props.price}
               </p>
             </div>
