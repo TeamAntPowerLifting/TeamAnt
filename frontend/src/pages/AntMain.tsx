@@ -1,10 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Headers from '@/components/headers/header';
 import Footer from '@/components/footers/footer';
 import main from '../assets/images/main.png';
 import smain from '../assets/images/smain.png';
 import main1 from '../assets/images/main1.png';
 import main2 from '../assets/images/main2.png';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 import main3_1 from '../assets/images/main3_1.png';
 import main3_2 from '../assets/images/main3_2.png';
 import main3_3 from '../assets/images/main3_3.png';
@@ -16,8 +18,21 @@ import video3 from '../assets/images/video3.png';
 import MainArticle from '@/components/articles/mainArticle';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useLocation } from 'react-router-dom';
+import review1 from '../assets/images/review1.png';
+import review2 from '../assets/images/review2.png';
+import review3 from '../assets/images/review3.png';
+import review4 from '../assets/images/review4.png';
+import review5 from '../assets/images/review5.png';
+import review6 from '../assets/images/review6.png';
 const AntMain = () => {
   const location = useLocation();
+
+  const responsive = {
+    0: { items: 1 },
+    600: { items: 2 },
+    1024: { items: 3 },
+  };
+  const review = [review1, review3, review6, review4, review5, review2];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -126,6 +141,29 @@ const AntMain = () => {
             </div>
           </section>
           <div className="hidden lg:block"></div>
+        </section>
+
+        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+
+        <div className="pt-12 sm:pt-16 w-3/5 mx-auto">
+          <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
+            Review
+          </p>
+        </div>
+
+        <section className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:mt-16">
+          <AliceCarousel
+            autoPlay={true}
+            responsive={responsive}
+            autoPlayInterval={2000}
+            autoPlayDirection="rtl"
+          >
+            {review.map((i) => (
+              <div className="yours-custom-class mx-10">
+                <img src={i} />
+              </div>
+            ))}
+          </AliceCarousel>
         </section>
 
         <div className="border-b-2 border-red w-3/4 mx-auto"></div>
