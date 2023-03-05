@@ -1,7 +1,7 @@
 import t from '../../assets/images/article.jpg';
 import s from '../../assets/images/Coache1.png';
 
-const articleContext = [
+const ArticleContext = [
   {
     id: 0,
     title: '우리가 코칭 ‘팀’으로써 형성한 이유',
@@ -72,4 +72,4 @@ const articleContext = [
   },
 ];
 
-export default articleContext;
+export default ArticleContext;

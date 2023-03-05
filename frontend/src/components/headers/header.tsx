@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Log from '../../assets/images/HeaderLogo.png';
 import { useLocation, useNavigate } from 'react-router-dom';
-import HeaderTap from './headerTap';
+import HeaderTap from './HeaderTap';
 
-const headers = () => {
+const Header = () => {
   const location = useLocation();
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navigate = useNavigate();
@@ -82,4 +82,4 @@ const headers = () => {
   );
 };
 
-export default headers;
+export default Header;

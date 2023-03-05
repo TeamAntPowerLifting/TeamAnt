@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Headers from '@/components/headers/header';
-import Footer from '@/components/footers/footer';
-import OnlineProcess from '@/components/coachings/onlineProcess';
-import OfflineProcess from '@/components/coachings/offlineProcess';
+import Headers from '@/components/headers/Header';
+import Footer from '@/components/footers/Footer';
+import OnlineProcess from '@/components/coachings/OnlineProcess';
+import OfflineProcess from '@/components/coachings/OfflineProcess';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';
+import SubTtitle from '@/components/titles/SubTtitle';
 const AntCoaching = () => {
   const location = useLocation();
   const [openTab, setOpenTab] = useState<number>(1);
@@ -17,16 +18,13 @@ const AntCoaching = () => {
       <Headers />
       <div className="flex-1 pt-28 pb-28">
         <div className="max-w-xl lg:max-w-2xl mx-auto mt-10">
-          <div className="text-center ">
-            <div className="relative flex flex-col items-center ">
-              <div className="absolute hidden md:block -top-14 text-[120px] text-gray-400 font-bold opacity-10 ">
-                Coaching
-              </div>
-              <h1 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl ">
-                {' '}
-                TeamAnt<span className="text-red"> Coaching Service</span>{' '}
-              </h1>
-              <div className="flex mt-1 mb-10 overflow-hidden rounded w-14"></div>
+          <div className="text-center">
+            <div className="pb-10">
+              <SubTtitle
+                title1={`Coaching`}
+                title2={`TeamAnt`}
+                title3={`Coaching Service`}
+              />
             </div>
             <div className="flex items-center justify-center max-h-screen mt-10 sm:px-10">
               <ul className="mx-auto grid max-w-full w-full grid-cols-2 gap-x-5 ">

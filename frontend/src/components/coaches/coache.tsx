@@ -15,7 +15,7 @@ interface coache {
   image: string | undefined;
 }
 
-const coache = (props: coache) => {
+const Coache = (props: coache) => {
   const navigate = useNavigate();
   const moveToContact = () => {
     navigate(`/contact`);
@@ -58,7 +58,7 @@ const coache = (props: coache) => {
                 </p>
                 {props.locationImage?.map(
                   (image: locationImageType, idx: number) => (
-                    <div>
+                    <div key={idx}>
                       {image.msg ? (
                         <div className="w-28 ml-10">
                           <LazyLoadImage
@@ -94,4 +94,4 @@ const coache = (props: coache) => {
   );
 };
 
-export default coache;
+export default Coache;
