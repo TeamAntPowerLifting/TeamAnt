@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Headers from '@/components/headers/Header';
-import Footer from '@/components/footers/Footer';
+import Headers from '@/components/headers/headers';
+import Footer from '@/components/footers/footers';
 import OnlineProcess from '@/components/coachings/onlineProcess';
 import OfflineProcess from '@/components/coachings/offlineProcess';
 import 'src/media.css';

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/Header';
-import Footer from '@/components/footers/Footer';
+import Headers from '@/components/headers/headers';
+import Footer from '@/components/footers/footers';
 import { useLocation } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'src/media.css';

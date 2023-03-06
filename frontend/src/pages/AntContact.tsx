@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/Header';
-import Footer from '@/components/footers/Footer';
+import Headers from '@/components/headers/headers';
+import Footer from '@/components/footers/footers';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { useLocation } from 'react-router-dom';
 import SubTtitle from '@/components/titles/SubTtitle';
@@ -114,7 +114,8 @@ const AntContact = () => {
                 </label>
                 <textarea
                   className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
-                  name="message" required
+                  name="message"
+                  required
                 ></textarea>
               </div>
             </div>
