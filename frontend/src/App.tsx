@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Headers from './components/headers/Header';
 import AntMain from './pages/AntMain';
 import AntAbout from './pages/AntAbout';
 import AntCoaching from './pages/AntCoaching';
@@ -8,6 +7,7 @@ import AntArticleList from './pages/AntArticleList';
 import AntContact from './pages/AntContact';
 import AntPrice from './pages/AntPrice';
 import AntArticle from './pages/AntArticle';
+import AntReviews from './pages/AntReviews';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/about" element={<AntAbout />} />
         <Route path="/coaching" element={<AntCoaching />} />
         <Route path="/coaches" element={<AntCoaches />} />
+        <Route path="/reviews" element={<AntReviews />} />
         <Route path="/price" element={<AntPrice />} />
         <Route path="/article" element={<AntArticleList />} />
         <Route path="/article/:id" element={<AntArticle />} />

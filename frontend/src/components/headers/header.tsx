@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Log from '../../assets/images/HeaderLogo.png';
 import { useLocation, useNavigate } from 'react-router-dom';
-import HeaderTap from './HeaderTap';
+import HeaderTap from './headerTap';
 
 const Header = () => {
   const location = useLocation();
