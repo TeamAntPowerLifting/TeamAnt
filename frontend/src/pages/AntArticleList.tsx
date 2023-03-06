@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Headers from '@/components/headers/Header';
 import Footer from '@/components/footers/Footer';
-import Article from '@/components/articles/Article';
+import Article from '@/components/articles/article';
 import { useLocation } from 'react-router-dom';
 import SubTtitle from '@/components/titles/SubTtitle';
 const AntArticle = () => {

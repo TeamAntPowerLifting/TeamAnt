@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Headers from '@/components/headers/Header';
 import Footer from '@/components/footers/Footer';
-import Price from '@/components/prices/Price';
-import OnlinePT from '@/components/prices/OnlinePT';
-import OfflinePT from '@/components/prices/OfflinePT';
+import OnlinePT from '@/components/prices/onlinePT';
+import OfflinePT from '@/components/prices/offlinePT';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';
 import SubTtitle from '@/components/titles/SubTtitle';

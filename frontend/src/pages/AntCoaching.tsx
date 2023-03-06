@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Headers from '@/components/headers/Header';
 import Footer from '@/components/footers/Footer';
-import OnlineProcess from '@/components/coachings/OnlineProcess';
-import OfflineProcess from '@/components/coachings/OfflineProcess';
+import OnlineProcess from '@/components/coachings/onlineProcess';
+import OfflineProcess from '@/components/coachings/offlineProcess';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';
 import SubTtitle from '@/components/titles/SubTtitle';

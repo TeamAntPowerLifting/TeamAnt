@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Headers from '@/components/headers/Header';
 import Footer from '@/components/footers/Footer';
-import Coache from '@/components/coaches/Coache';
+import Coache from '@/components/coaches/coache';
 import CoacheContext from '@/constants/coaches/CoachContext';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';

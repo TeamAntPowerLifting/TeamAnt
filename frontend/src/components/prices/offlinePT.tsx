@@ -1,5 +1,5 @@
 import React from 'react';
-import Price from './Price';
+import Price from './price';
 
 const OfflinePT = () => {
   const content = [
