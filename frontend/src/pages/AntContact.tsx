@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/Header';
-import Footer from '@/components/footers/Footer';
+import Headers from '@/components/headers/header';
+import Footer from '@/components/footers/footer';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { useLocation } from 'react-router-dom';
 import SubTtitle from '@/components/titles/SubTtitle';

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/Header';
-import Footer from '@/components/footers/Footer';
+import Headers from '@/components/headers/header';
+import Footer from '@/components/footers/footer';
 import main from '../assets/images/main.png';
 import smain from '../assets/images/smain.png';
 import main1 from '../assets/images/main1.png';
@@ -152,7 +152,8 @@ const AntMain = () => {
           </p>
         </div>
 
-        <section className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:mt-16">
+
+        <section className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-16">
           <AliceCarousel
             autoPlay={true}
             responsive={responsive}
@@ -161,7 +162,9 @@ const AntMain = () => {
           >
             {review.map((i) => (
               <div className="yours-custom-class mx-10">
-                <img src={i} />
+                <a className='' href="http://localhost:3000/reviews">
+                  <img src={i} />
+                </a>
               </div>
             ))}
           </AliceCarousel>
