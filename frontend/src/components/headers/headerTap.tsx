@@ -74,7 +74,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -129,7 +129,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -184,7 +184,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -239,7 +239,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -294,7 +294,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -349,7 +349,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
@@ -404,7 +404,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -459,7 +459,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -514,7 +514,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
-          Reviews
+          Testimonial
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
