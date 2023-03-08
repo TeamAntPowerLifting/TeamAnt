@@ -4,19 +4,20 @@ import 'swiper/swiper.min.css';
 import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
 import 'swiper/css';
-import review1 from '../assets/images/review1.png';
-import review2 from '../assets/images/review2.png';
-import review3 from '../assets/images/review3.png';
-import review4 from '../assets/images/review4.png';
-import review5 from '../assets/images/review5.png';
+import reviews1 from '../assets/images/reviews1.png';
+import reviews2 from '../assets/images/reviews2.png';
+import reviews3 from '../assets/images/reviews3.png';
+import reviews4 from '../assets/images/reviews4.png';
+import reviews5 from '../assets/images/reviews5.png';
 import SubTtitle from '@/components/titles/SubTtitle';
-import review6 from '../assets/images/review6.png';
+import reviews6 from '../assets/images/reviews6.png';
+
 
 // import required modules
 import { Pagination } from 'swiper';
 
 const AntReviews = () => {
-  const review = [review1, review3, review6, review4, review5, review2];
+  const review = [reviews1, reviews3, reviews6, reviews4, reviews5, reviews2];
   return (
     <>
       <div className="flex flex-col h-screen ">
@@ -51,7 +52,7 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인 + 오프라인</span>
-                    <div className="blog-slider__title">윤일권 회원님</div>
+                    <div className="blog-slider__title">운동에 대한 흥미와 열정을 일깨워준 수업</div>
                     <div className="blog-slider__text">
                       안녕하세요 저는 1월 3일부터 정지훈 코치님께 오프라인
                       수업을 받고 있습니다. 수업은 너무너무 만족스럽고,
@@ -97,7 +98,7 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인 + 오프라인</span>
-                    <div className="blog-slider__title">윤일권 회원님</div>
+                    <div className="blog-slider__title">TeamAnt를 선택한 3가지 이유</div>
                     <div className="blog-slider__text">
                       일단 처음 온라인 코칭을 받게 된 계기는, 오프라인
                       원포인트로 정지훈 코치님께 스,벤,데 3세션을 모두 티칭
@@ -145,7 +146,7 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인 + 오프라인</span>
-                    <div className="blog-slider__title">윤일권 회원님</div>
+                    <div className="blog-slider__title">이제는 대회 입상을 목표로</div>
                     <div className="blog-slider__text">
                       삼대500을 목전에 두고 처음 앤트맨님께 원포인트 레슨을
                       받았습니다. 한달만에 4달간 못뚫었던 데드200을 뚫고 210을
@@ -176,7 +177,7 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인</span>
-                    <div className="blog-slider__title">윤일권 회원님</div>
+                    <div className="blog-slider__title">★온라인 코칭 추천 포인트★</div>
                     <div className="blog-slider__text">
                       파워리프팅을 진지하게 하는사람으로서 정체기를 어떻게
                       뚫어야 하나 고민하던 중 마침 지훈코치님과 온라인코칭을
@@ -210,7 +211,7 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인</span>
-                    <div className="blog-slider__title">윤일권 회원님</div>
+                    <div className="blog-slider__title">2년간 정체기 극복</div>
                     <div className="blog-slider__text">
                       안녕하세요, 저는 총 8년째 리프팅을 하고 있는 20대
                       직장인입니다.
@@ -254,7 +255,7 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">오프라인</span>
-                    <div className="blog-slider__title">윤일권 회원님</div>
+                    <div className="blog-slider__title">부상을 극복한 성장</div>
                     <div className="blog-slider__text">
                       슬개건 부상으로 2년간 정말 여러가지 방법으로 시도해봤지만
                       제대로 된 효과를 보지 못했었고, 스쿼트는 어느정도 포기하고
