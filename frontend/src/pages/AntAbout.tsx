@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Headers from '@/components/headers/Header';
-import Footer from '@/components/footers/Footer';
+import Headers from '@/components/headers/headers';
+import Footer from '@/components/footers/footers';
 import about1 from '../assets/images/about1.jpg';
 import about2 from '../assets/images/about2.jpg';
 import about3 from '../assets/images/about3.jpg';
