@@ -148,7 +148,7 @@ const AntMain = () => {
 
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
-            Review
+            Client Testimonial
           </p>
         </div>
 

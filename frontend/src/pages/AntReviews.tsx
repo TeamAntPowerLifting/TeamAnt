@@ -25,9 +25,9 @@ const AntReviews = () => {
         <div className="flex-1 mt-28 pb-28 ">
           <div className="pt-10">
             <SubTtitle
-              title1={`Reviews`}
-              title2={`TeamAnt`}
-              title3={`Reviews`}
+              title1={`Testimonial`}
+              title2={`Client`}
+              title3={`Testimonial`}
             />
           </div>
           <div className="flex items-center justify-center">
