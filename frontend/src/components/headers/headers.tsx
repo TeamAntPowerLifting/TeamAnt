@@ -3,7 +3,7 @@ import Log from '../../assets/images/HeaderLogo.png';
 import { useLocation, useNavigate } from 'react-router-dom';
 import HeaderTap from './headerTap';
 
-const Header = () => {
+const header = () => {
   const location = useLocation();
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navigate = useNavigate();
@@ -82,4 +82,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default header;

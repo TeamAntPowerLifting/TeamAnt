@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.min.css';
-import Headers from '@/components/headers/header';
-import Footer from '@/components/footers/footer';
+import Headers from '@/components/headers/headers';
+import Footer from '@/components/footers/footers';
 import 'swiper/css';
 import reviews1 from '../assets/images/reviews1.png';
 import reviews2 from '../assets/images/reviews2.png';
