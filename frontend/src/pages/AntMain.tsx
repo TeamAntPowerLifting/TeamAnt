@@ -8,6 +8,7 @@ import main2 from '../assets/images/main2.png';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import main3_1 from '../assets/images/main3_1.png';
+import { useNavigate } from 'react-router-dom';
 import main3_2 from '../assets/images/main3_2.png';
 import main3_3 from '../assets/images/main3_3.png';
 import main3_4 from '../assets/images/main3_4.png';
@@ -26,7 +27,10 @@ import review5 from '../assets/images/review5.png';
 import review6 from '../assets/images/review6.png';
 const AntMain = () => {
   const location = useLocation();
-
+  const navigate = useNavigate();
+  const ReviewClick = () => {
+    navigate(`/reviews`);
+  };
   const responsive = {
     0: { items: 1 },
     600: { items: 2 },
@@ -152,7 +156,6 @@ const AntMain = () => {
           </p>
         </div>
 
-
         <section className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-16">
           <AliceCarousel
             autoPlay={true}
@@ -162,7 +165,7 @@ const AntMain = () => {
           >
             {review.map((i) => (
               <div className="yours-custom-class mx-10">
-                <a className='' href="http://localhost:3000/reviews">
+                <a className="" onClick={ReviewClick}>
                   <img src={i} />
                 </a>
               </div>
