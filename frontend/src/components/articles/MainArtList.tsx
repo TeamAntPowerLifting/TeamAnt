@@ -19,6 +19,11 @@ const MainArtList = (props: props) => {
   return (
     <div className="">
       <div className="py-4">
+        <img
+          className="object-cover h-48 cursor-pointer lg:hover:scale-110 transition-transform ease-in-out duration-500 mb-10"
+          src={props.props.image}
+          alt=""
+        />
         <h2 className="mb-3 text-2xl font-bold leading-9 text-red-800">
           {props.props.title}
         </h2>
@@ -28,7 +33,7 @@ const MainArtList = (props: props) => {
       </div>
       <a
         onClick={() => ArticleClick(props)}
-        className="mb-0 bg-white text-base text-right left:0"
+        className="mb-0 bg-white text-base text-right left:0 cursor-pointer "
       >
         더보기
       </a>
