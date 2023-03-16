@@ -1,10 +1,11 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import graph from '../../assets/images/graph.png';
+import feedback from '../../assets/images/feedback.png';
 import online from '../../assets/images/online.png';
 import plan from '../../assets/images/plan.png';
 import servey from '../../assets/images/servey.png';
 import youtube from '../../assets/images/youtube.png';
+import graph from '../../assets/images/graph.png';
 const onlineProcess = () => {
   return (
     <div>
@@ -147,7 +148,7 @@ const onlineProcess = () => {
                                 촬영한 운동영상을 통한 피드백 제공
                               </span>
                             </div>
-                            <LazyLoadImage src={graph} className="mt-4 mb-2" />
+                            <LazyLoadImage src={feedback} className="mt-4 mb-2" />
                           </div>
                         </div>
                       </div>
@@ -207,6 +208,42 @@ const onlineProcess = () => {
                             d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"
                           />
                           <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex flex-col items-center lg:-mt-16">
+                    <div className="flex items-center justify-end w-full mx-auto">
+                      <div className="w-full lg:w-1/2 lg:pl-8">
+                        <div className="relative flex-1 mb-16 bg-white rounded shadow lg:mb-8 ">
+                          <div className="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-7 -left-4">
+                            <div className="hidden h-10 origin-top-right transform -rotate-45 bg-blue-600 lg:block drop-shadow-lg"></div>
+                          </div>
+                          <div className="relative z-20 p-6">
+                            <div className="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
+                              <span className="text-md text-gray-100">
+                                훈련 기간에 따른 나의 성장곡선 확인 가능
+                              </span>
+                            </div>
+                            <LazyLoadImage src={graph} className="mt-4 mb-2" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute flex invisible lg:visible items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-blue-100 border border-blue-600 rounded-full left-1/2 sm:translate-y-0">
+                      <span className="text-blue-600 ">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          className="bi bi-clock"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
                         </svg>
                       </span>
                     </div>
