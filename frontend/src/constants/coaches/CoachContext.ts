@@ -43,11 +43,11 @@ const CoacheContext = [
     title: [
       'IPF 74/83kg 파워리프터',
       '차의과대학교 스포츠의학대학원 선수트레이닝전공 석사과정',
+      '대한운동사협회 자격증(KACEP)',
       '2022 IPF -74kg체급 국가대표',
       '2022 IPF두바이 아시아 파워리프팅 선발전 -74kg체급 2위',
       '2022 Korea Powerlifting Championship -66kg체급 1위',
       '2020 WPC/AWPC -67.5kg체급 2위',
-      '대한운동사협회 자격증(KACEP)',
       '강남대학교 스포츠복지전공',
     ],
     image: Coache2,
