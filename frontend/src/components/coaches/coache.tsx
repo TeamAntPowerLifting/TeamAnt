@@ -61,20 +61,20 @@ const Coache = (props: coache) => {
                     <div key={idx}>
                       {image.msg ? (
                         <div className="w-28 ml-10">
-                          <LazyLoadImage
-                            className="w-20 sm:w-40 rounded-lg cursor-pointer ml-19"
+                          <img
+                            className="w-20 rounded-lg cursor-pointer ml-19"
                             key={idx}
                             src={image.img}
                             alt=""
                             onClick={moveToContact}
                           />
-                          <div className="text-center mt-5">{image.msg}</div>
+                          <div className="ml-3 mt-5">{image.msg}</div>
                         </div>
                       ) : (
                         <>
                           <a key={idx} href={image.location}>
-                            <LazyLoadImage
-                              className="w-20 sm:w-40 rounded-lg ml-19"
+                            <img
+                              className="w-20 rounded-lg ml-19"
                               key={idx}
                               src={image.img}
                               alt=""
