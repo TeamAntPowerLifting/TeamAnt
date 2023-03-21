@@ -62,7 +62,7 @@ const AntMain = () => {
           </div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
         <section className="py-12 lg:py-20 lg:px-40 ">
           <div>
@@ -74,7 +74,7 @@ const AntMain = () => {
           </div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
         {/* 본문 */}
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto ">
@@ -147,7 +147,7 @@ const AntMain = () => {
           <div className="hidden lg:block"></div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
@@ -172,7 +172,7 @@ const AntMain = () => {
           </AliceCarousel>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto"></div>
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
@@ -186,7 +186,7 @@ const AntMain = () => {
           </div>
         </section>
 
-        <div className="border-b-2 border-red w-3/4 mx-auto py-10"></div>
+        <div className="border-b-2 border-red w-4/5 mx-auto py-10"></div>
 
         <div className="pt-12 sm:pt-16 w-3/5 mx-auto ">
           <p className="text-2xl font-bold text-gray-800 capitalize lg:text-3xl">
