@@ -4,6 +4,7 @@ import Footer from '@/components/footers/footers';
 import main from '../assets/images/main.png';
 import main1 from '../assets/images/main1.png';
 import main2 from '../assets/images/main2.png';
+import main2_before from '../assets/images/main2_before.png';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import main3_1 from '../assets/images/main3_1.png';
@@ -48,6 +49,7 @@ const AntMain = () => {
             alt=""
           />
         </div>
+
         <section className="py-12 sm:py-20">
           <div className="">
             <img
@@ -60,13 +62,25 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
-        <section className="py-12 lg:py-20 lg:px-40 ">
-          <div>
-            <img
-              className="object-cover mx-auto rounded-md lg:w-3/4 h-2/5 w-[100%]"
-              src={main2}
-              alt=""
-            />
+        <section className="py-12 lg:py-20 lg:px-80">
+          <div className="flex items-end space-x-8 mx-auto lg:max-w-full">
+            <div style={{ flex: '0 0 45%' }}>
+              <img
+                src={main2}
+                alt="Image"
+                className="object-cover mx-auto sm:h-[100%] h-52 w-full rounded-md"
+              />
+            </div>
+            <div style={{ flex: '1 1 55%' }}>
+              <h3 className="break-normal hover:subpixel-antialiased text-2xl font-extrabold text-gray-800 capitalize lg:text-3xl sm:w-auto w-235 mb-5">
+                파워리프팅 온리인 코칭이란?</h3>
+              <p className="para break-normal text-xl font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto w-235
+              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+                나의 운동의 구애를 받지 않으며, 시간과 공간의 제약을<br />
+                받지 않으면서도 비용 효율적으로 관리를 받을 수 있는<br />
+                온라인 시스템입니다.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -253,6 +267,7 @@ const AntMain = () => {
       </div>
       <Footer />
     </div>
+
   );
 };
 
