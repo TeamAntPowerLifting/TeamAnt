@@ -34,9 +34,9 @@ const AntMain = () => {
   };
   const review = [review1, review3, review6, review4, review5, review2];
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [location]);
 
   return (
     <div className="flex flex-col h-screen ">
@@ -62,8 +62,8 @@ const AntMain = () => {
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
-        <section className="py-12 lg:py-20 lg:px-80">
-          <div className="flex items-end space-x-8 mx-auto lg:max-w-full">
+        <section className="py-12 lg:py-20 xl:px-60 sm:px-32 px-10">
+          <div className="sm:flex items-end space-x-8 mx-auto lg:max-w-full ">
             <div style={{ flex: '0 0 45%' }}>
               <img
                 src={main2}
@@ -72,13 +72,20 @@ const AntMain = () => {
               />
             </div>
             <div style={{ flex: '1 1 55%' }}>
-              <h3 className="break-normal hover:subpixel-antialiased text-2xl font-extrabold text-gray-800 capitalize lg:text-3xl sm:w-auto w-235 mb-5">
-                파워리프팅 온리인 코칭이란?</h3>
-              <p className="para break-normal text-xl font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto w-235
-              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                나의 운동의 구애를 받지 않으며, 시간과 공간의 제약을<br />
-                받지 않으면서도 비용 효율적으로 관리를 받을 수 있는<br />
-                온라인 시스템입니다.
+              <h3
+                style={{ textShadow: ' 1.5px 1.5px 2px #C0C0C0' }}
+                className="mt-5 break-normal text-md hover:subpixel-antialiased text-md sm:text-lg font-extrabold text-gray-800 capitalize lg:text-3xl sm:w-auto mb-5 "
+              >
+                파워리프팅 온리인 코칭이란?
+              </h3>
+              <p
+                className="2xl:mr-36 para break-normal text-md font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto"
+                style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                id="textShadow"
+              >
+                나의 운동의 구애를 받지 않으며, 시간과 공간의 제약을 받지
+                않으면서도 비용 효율적으로 관리를 받을 수 있는 온라인
+                시스템입니다.
               </p>
             </div>
           </div>
@@ -165,7 +172,6 @@ const AntMain = () => {
           </p>
         </div>
 
-
         <section className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-16">
           <AliceCarousel
             autoPlay={true}
@@ -175,7 +181,7 @@ const AntMain = () => {
           >
             {review.map((i) => (
               <div className="yours-custom-class mx-10">
-                <a className='' href="http://localhost:3000/reviews">
+                <a className="" href="http://localhost:3000/reviews">
                   <img src={i} />
                 </a>
               </div>
@@ -267,7 +273,6 @@ const AntMain = () => {
       </div>
       <Footer />
     </div>
-
   );
 };
 
