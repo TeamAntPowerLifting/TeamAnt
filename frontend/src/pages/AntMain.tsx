@@ -3,6 +3,9 @@ import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
 import main from '../assets/images/main.png';
 import main1 from '../assets/images/main1.png';
+import main1_1 from '../assets/images/main1_1.png';
+import main1_2 from '../assets/images/main1_2.png';
+import main1_logo from '../assets/images/main1_logo.png';
 import main2 from '../assets/images/main2.png';
 import main2_before from '../assets/images/main2_before.png';
 import AliceCarousel from 'react-alice-carousel';
@@ -59,6 +62,47 @@ const AntMain = () => {
             />
           </div>
         </section>
+
+        <section className="py-12 sm:py-20 lg:px-60">
+          <div className='grid grid-cols-3 mx-auto lg-max-w-full'>
+            <div className="grid grid-cols-1 mx-0 inset-y-0 right-0">
+              <img
+                className="object-cover justify-self-end rounded-lg inset-y-0 right-0 h-72"
+                src={main1_1}
+                alt=""
+              />
+              <p className='para break-normal text-lg font-extrabold text-gray-800 capitalize lg:text-xl sm:w-auto w-235 text-right
+              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
+                파워리프팅 아시아 1등<br />
+                아시아 스쿼트 신기록 보유자<br />
+                국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
+              </p>
+            </div>
+            <div className='items-center justify-center flex'>
+              <img
+                className="object-fill mx-auto rounded-lg h-1/4 mx-0 "
+                src={main1_logo}
+                alt=""
+              />
+            </div>
+            <div className="grid grid-cols-1 mx-0 justify-end">
+              <p className='para break-normal text-lg font-extrabold text-gray-800 capitalize lg:text-xl sm:w-auto w-235 align-bottom 
+              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
+                선수로서 증명해낸 결과와 실력<br />
+                모든 코치진의 국제시합 경험<br />
+                풍부한 티칭경험과 레퍼런스
+              </p>
+              <img
+                className="object-cover mx-auto rounded-lg "
+                src={main1_2}
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+
+
+
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
