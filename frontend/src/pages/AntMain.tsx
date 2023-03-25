@@ -37,9 +37,9 @@ const AntMain = () => {
   };
   const review = [review1, review3, review6, review4, review5, review2];
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [location]);
 
   return (
     <div className="flex flex-col h-screen ">
@@ -64,45 +64,46 @@ const AntMain = () => {
         </section>
 
         <section className="py-12 sm:py-20 lg:px-60">
-          <div className='grid grid-cols-3 mx-auto lg-max-w-full'>
-            <div className="grid grid-cols-1 mx-0 inset-y-0 right-0">
-              <img
-                className="object-cover justify-self-end rounded-lg inset-y-0 right-0 h-72"
-                src={main1_1}
-                alt=""
-              />
-              <p className='para break-normal text-lg font-extrabold text-gray-800 capitalize lg:text-xl sm:w-auto w-235 text-right
-              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
-                파워리프팅 아시아 1등<br />
-                아시아 스쿼트 신기록 보유자<br />
-                국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
-              </p>
+          <div className="flex mx-auto lg-max-w-full">
+            <div className="w-[520px]">
+              <div className="flex justify-end">
+                {' '}
+                <img
+                  className="object-cover rounded-lg inset-y-0 h-1/2 "
+                  src={main1_1}
+                  alt=""
+                />
+              </div>
+
+              <div className=" text-lg font-extrabold text-gray-800  lg:text-xl sm:w-auto w-235 text-right">
+                <p>파워리프팅 아시아 1등</p>
+                <p>아시아 스쿼트 신기록 보유자</p>
+                <p>국내 최초 파워리프팅 국제시합 그랜드 슬램 달성</p>
+              </div>
             </div>
-            <div className='items-center justify-center flex'>
+
+            <div className="items-center justify-center flex">
               <img
-                className="object-fill mx-auto rounded-lg h-1/4 mx-0 "
+                className="object-fill mx-auto rounded-lg  mx-10 w-56"
                 src={main1_logo}
                 alt=""
               />
             </div>
-            <div className="grid grid-cols-1 mx-0 justify-end">
-              <p className='para break-normal text-lg font-extrabold text-gray-800 capitalize lg:text-xl sm:w-auto w-235 align-bottom 
-              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
-                선수로서 증명해낸 결과와 실력<br />
-                모든 코치진의 국제시합 경험<br />
-                풍부한 티칭경험과 레퍼런스
-              </p>
+
+            <div className="w-[450px] mt-10">
+              <div className="text-lg font-extrabold text-gray-800 lg:text-xl sm:w-auto">
+                <p>선수로서 증명해낸 결과와 실력</p>
+                <p>모든 코치진의 국제시합 경험</p>
+                <p>풍부한 티칭경험과 레퍼런스</p>
+              </div>
               <img
-                className="object-cover mx-auto rounded-lg "
+                className="object-fill mx-auto rounded-lg h-1/"
                 src={main1_2}
                 alt=""
               />
             </div>
           </div>
         </section>
-
-
-
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
@@ -117,11 +118,16 @@ const AntMain = () => {
             </div>
             <div style={{ flex: '1 1 55%' }}>
               <h3 className="break-normal hover:subpixel-antialiased text-2xl font-extrabold text-gray-800 capitalize lg:text-3xl sm:w-auto w-235 mb-5">
-                파워리프팅 온리인 코칭이란?</h3>
-              <p className="para break-normal text-xl font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto w-235
-              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                나의 운동의 구애를 받지 않으며, 시간과 공간의 제약을<br />
-                받지 않으면서도 비용 효율적으로 관리를 받을 수 있는<br />
+                파워리프팅 온리인 코칭이란?
+              </h3>
+              <p
+                className="para break-normal text-xl font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto w-235
+              drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+              >
+                나의 운동의 구애를 받지 않으며, 시간과 공간의 제약을
+                <br />
+                받지 않으면서도 비용 효율적으로 관리를 받을 수 있는
+                <br />
                 온라인 시스템입니다.
               </p>
             </div>
@@ -209,7 +215,6 @@ const AntMain = () => {
           </p>
         </div>
 
-
         <section className="px-4 mb-10 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-16">
           <AliceCarousel
             autoPlay={true}
@@ -219,7 +224,7 @@ const AntMain = () => {
           >
             {review.map((i) => (
               <div className="yours-custom-class mx-10">
-                <a className='' href="http://localhost:3000/reviews">
+                <a className="" href="http://localhost:3000/reviews">
                   <img src={i} />
                 </a>
               </div>
@@ -311,7 +316,6 @@ const AntMain = () => {
       </div>
       <Footer />
     </div>
-
   );
 };
 
