@@ -53,7 +53,7 @@ const AntMain = () => {
           />
         </div>
 
-        <section className="py-12 sm:py-20">
+        {/* <section className="py-12 sm:py-20">
           <div className="">
             <img
               className="object-fill mx-auto rounded-lg sm:h-[100%] h-52  lg:w-2/3 w-[100%]"
@@ -61,7 +61,7 @@ const AntMain = () => {
               alt=""
             />
           </div>
-        </section>
+        </section> */}
 
         <section className="py-12 sm:py-20 lg:px-60">
           <div className="flex mx-auto lg-max-w-full">
@@ -75,7 +75,10 @@ const AntMain = () => {
                 />
               </div>
 
-              <div className=" text-lg font-extrabold text-gray-800  lg:text-xl sm:w-auto w-235 text-right">
+              <div
+                className=" text-md font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto  text-right mt-3"
+                style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+              >
                 <p>파워리프팅 아시아 1등</p>
                 <p>아시아 스쿼트 신기록 보유자</p>
                 <p>국내 최초 파워리프팅 국제시합 그랜드 슬램 달성</p>
@@ -84,20 +87,23 @@ const AntMain = () => {
 
             <div className="items-center justify-center flex">
               <img
-                className="object-fill mx-auto rounded-lg  mx-10 w-56"
+                className="object-fill mx-auto rounded-lg  mx- w-56"
                 src={main1_logo}
                 alt=""
               />
             </div>
 
-            <div className="w-[450px] mt-10">
-              <div className="text-lg font-extrabold text-gray-800 lg:text-xl sm:w-auto">
+            <div className="w-[520px] mt-10">
+              <div
+                className="text-md font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto"
+                style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+              >
                 <p>선수로서 증명해낸 결과와 실력</p>
                 <p>모든 코치진의 국제시합 경험</p>
                 <p>풍부한 티칭경험과 레퍼런스</p>
               </div>
               <img
-                className="object-fill mx-auto rounded-lg h-1/"
+                className="object-fill mx-auto rounded-lg mt-3"
                 src={main1_2}
                 alt=""
               />
