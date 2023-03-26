@@ -57,7 +57,7 @@ const AntMain = () => {
           />
         </div>
 
-        <section className="py-12 lg:py-20 xl:px-60 sm:px-32 px-10">
+        <section className="py-12 sm:py-20 lg:px-60">
           <div className="flex mx-auto lg-max-w-full">
             <div className="w-[520px]">
               <div className="flex justify-end">
@@ -98,7 +98,7 @@ const AntMain = () => {
               </div>
 
               <img
-                className="object-fill mx-auto xl:h-4/5 object-scale-down"
+                className="object-fill mx-auto lg:h-4/5 md:h-3/5 sm:h-2/5"
                 src={main1_2}
                 alt=""
               />
