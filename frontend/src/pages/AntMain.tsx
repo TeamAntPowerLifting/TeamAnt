@@ -69,7 +69,7 @@ const AntMain = () => {
                 />
               </div>
 
-              <div className="font-extrabold text-gray-800 w-auto w-235 text-right">
+              <div className="font-extrabold text-gray-800 w-auto text-right">
                 <p className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                 style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}>파워리프팅 아시아 1등</p>
                 <p className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
@@ -98,7 +98,7 @@ const AntMain = () => {
               </div>
 
               <img
-                className="object-fill mx-auto xl:h-4/5 lg:5/2 sm: 2/5"
+                className="object-fill mx-auto xl:h-4/5 object-scale-down"
                 src={main1_2}
                 alt=""
               />
