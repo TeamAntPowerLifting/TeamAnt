@@ -57,7 +57,7 @@ const AntMain = () => {
           />
         </div>
 
-        <section className="py-12 sm:py-20 lg:px-60">
+        <section className="py-12 lg:py-20 xl:px-60 sm:px-32 px-10">
           <div className="flex mx-auto lg-max-w-full">
             <div className="w-[520px]">
               <div className="flex justify-end">
