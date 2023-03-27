@@ -88,7 +88,7 @@ const AntMain = () => {
             </div>
 
             <div className="w-[450px] mt-10">
-            <div className="font-extrabold text-gray-800 w-auto w-235">
+            <div className="font-extrabold text-gray-800 w-auto">
                 <p className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                 style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}>선수로서 증명해낸 결과와 실력</p>
                 <p className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
