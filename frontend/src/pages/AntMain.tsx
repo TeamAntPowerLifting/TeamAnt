@@ -58,18 +58,18 @@ const AntMain = () => {
         </div>
 
         <section className="py-12 sm:py-20 lg:px-60 px-10">
-          <div className="flex mx-auto lg-max-w-full">
-            <div className="w-[520px]">
+          <div className="md:flex mx-auto lg-max-w-full">
+            <div className="w-auto flex md:flex-col">
               <div className="flex justify-end">
                 {' '}
                 <img
-                  className="object-cover inset-y-0 md:h-72 sm:h-52 h-40"
+                  className="object-fill inset-y-0 md:h-72 sm:h-52 h-40"
                   src={main1_1}
                   alt=""
                 />
               </div>
 
-              <div className="font-extrabold text-gray-800 w-auto text-right">
+              <div className="font-extrabold text-gray-800 w-auto" id="f_m">
                 <p
                   className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                   style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -92,7 +92,7 @@ const AntMain = () => {
               </div>
             </div>
 
-            <div className="items-center justify-center flex">
+            <div className="items-center justify-center flex ">
               <img
                 className="object-fill mx-auto rounded-lg  mx-8 w-44"
                 src={main1_logo}
@@ -100,8 +100,11 @@ const AntMain = () => {
               />
             </div>
 
-            <div className="w-[450px] mt-10">
-              <div className="font-extrabold text-gray-800 w-auto">
+            <div className="w-auto md:mt-10 flex justify-end md:flex-col">
+              <div
+                className="font-extrabold text-gray-800 w-auto text-left"
+                id="s_m"
+              >
                 <p
                   className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                   style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -121,19 +124,22 @@ const AntMain = () => {
                   풍부한 티칭경험과 레퍼런스
                 </p>
               </div>
-
-              <img
-                className="object-cover md:mr-0 mr-10"
-                src={main1_2}
-                alt=""
-              />
+              <div className="flex justify-end">
+                {' '}
+                <img
+                  className="object-fill inset-y-0 md:h-72 sm:h-52 h-40"
+                  src={main1_2}
+                  alt=""
+                />
+              </div>
+              {/* <img className="object-fill md:mr-0 mr-10" src={main1_2} alt="" /> */}
             </div>
           </div>
         </section>
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
-        <section className="py-12 sm:py-20 lg:px-60 px-10">
+        {/* <section className="py-12 sm:py-20 lg:px-60 px-10">
           <div className="grid grid-cols-3 mx-auto lg-max-w-full">
             <div className="w-[520px]  justify-self-end">
                 <img
@@ -197,7 +203,7 @@ const AntMain = () => {
             </div>
 
           </div>
-        </section>
+        </section> */}
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
@@ -207,7 +213,7 @@ const AntMain = () => {
               <img
                 src={main2}
                 alt="Image"
-                className="object-cover mx-auto sm:h-[100%] h-52 w-full rounded-md"
+                className="object-fill mx-auto sm:h-[100%] h-52 w-full rounded-md"
               />
             </div>
             <div style={{ flex: '1 1 55%' }}>
@@ -411,6 +417,19 @@ const AntMain = () => {
         </section>
       </div>
       <Footer />
+      <style>
+        {`
+      #f_m  {
+        text-align: inherit;
+      }
+      @media screen and (max-width: 768px) {
+        #s_m{
+          text-align:right
+        }
+      }
+     
+    `}
+      </style>
     </div>
   );
 };
