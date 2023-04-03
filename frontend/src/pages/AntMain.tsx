@@ -3,8 +3,8 @@ import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
 import main from '../assets/images/main.png';
 import main1 from '../assets/images/main1.png';
-import main1_1 from '../assets/images/main1_1.png';
-import main1_2 from '../assets/images/main1_2.png';
+import main1_1 from '../assets/images/main1_1.jpeg';
+import main1_2 from '../assets/images/main1_2.jpeg';
 import main1_logo from '../assets/images/main1_logo.png';
 import main2 from '../assets/images/main2.png';
 import main2_before from '../assets/images/main2_before.png';
@@ -128,6 +128,74 @@ const AntMain = () => {
                 alt=""
               />
             </div>
+          </div>
+        </section>
+
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
+
+        <section className="py-12 sm:py-20 lg:px-60 px-10">
+          <div className="grid grid-cols-3 mx-auto lg-max-w-full">
+            <div className="w-[520px]  justify-self-end">
+                <img
+                  className="object-cover inset-x-0 md:h-72 sm:h-52 h-40 " 
+                  src={main1_1}
+                  alt=""
+                />
+                <p
+                  className="para break-normal text-right font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  파워리프팅 아시아 1등
+                </p>
+                <p
+                  className="para break-normal text-right font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  아시아 스쿼트 신기록 보유자
+                </p>
+                <p
+                  className="para break-normal text-right font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  {' '}
+                  국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
+                </p>
+            </div>
+
+            <div className="items-center justify-center flex">
+              <img
+                className="object-fill mx-0 rounded-lg w-44"
+                src={main1_logo}
+                alt=""
+              />
+            </div>
+
+            <div className="w-[450px] mt-10 ">
+                <p
+                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  선수로서 증명해낸 결과와 실력
+                </p>
+                <p
+                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  모든 코치진의 국제시합 경험
+                </p>
+                <p
+                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  풍부한 티칭경험과 레퍼런스
+                </p>
+              <img
+                className="object-cover md:mr-0 mr-10"
+                src={main1_2}
+                alt=""
+              />
+            </div>
+
           </div>
         </section>
 
