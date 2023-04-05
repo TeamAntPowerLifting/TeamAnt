@@ -63,7 +63,7 @@ const AntMain = () => {
               <div className="flex justify-end">
                 {' '}
                 <img
-                  className="object-fill inset-y-0 md:h-72 sm:h-52 h-40"
+                  className="object-fill inset-y-0 md:h-72 sm:h-44 h-32"
                   src={main1_1}
                   alt=""
                 />
@@ -94,7 +94,7 @@ const AntMain = () => {
 
             <div className="items-center justify-center flex ">
               <img
-                className="object-fill mx-auto rounded-lg  mx-8 w-44"
+                className="object-fill mx-auto rounded-lg  mx-8 lg:w-44  sm:w-32 w-24"
                 src={main1_logo}
                 alt=""
               />
@@ -127,7 +127,7 @@ const AntMain = () => {
               <div className="flex justify-end">
                 {' '}
                 <img
-                  className="object-fill inset-y-0 md:h-72 sm:h-52 h-40"
+                  className="object-fill inset-y-0 md:h-72 sm:h-36 h-28"
                   src={main1_2}
                   alt=""
                 />
