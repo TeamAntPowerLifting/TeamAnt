@@ -57,7 +57,7 @@ const AntMain = () => {
           />
         </div>
 
-        <section className="py-12 sm:py-20 lg:px-60 px-10">
+        <section className="py-12 sm:py-20 lg:px-60 lg:ml-16 px-10 ">
           <div className="md:flex mx-auto lg-max-w-full">
             <div className="w-auto flex md:flex-col">
               <div className="flex justify-end">
@@ -69,7 +69,7 @@ const AntMain = () => {
                 />
               </div>
 
-              <div className="font-extrabold text-gray-800 w-auto" id="f_m">
+              <div className="font-extrabold text-gray-800 w-auto md:ml-0 ml-4" id="f_m">
                 <p
                   className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                   style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -102,7 +102,7 @@ const AntMain = () => {
 
             <div className="w-auto md:mt-10 flex justify-end md:flex-col">
               <div
-                className="font-extrabold text-gray-800 w-auto text-left"
+                className="font-extrabold text-gray-800 w-auto text-left md:mr-0 mr-4"
                 id="s_m"
               >
                 <p
