@@ -3,8 +3,8 @@ import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
 import main from '../assets/images/main.png';
 import main1 from '../assets/images/main1.png';
-import main1_1 from '../assets/images/main1_1.png';
-import main1_2 from '../assets/images/main1_2.png';
+import main1_1 from '../assets/images/main1_1.jpeg';
+import main1_2 from '../assets/images/main1_2.jpeg';
 import main1_logo from '../assets/images/main1_logo.png';
 import main2 from '../assets/images/main2.png';
 import main2_before from '../assets/images/main2_before.png';
@@ -58,18 +58,18 @@ const AntMain = () => {
         </div>
 
         <section className="py-12 sm:py-20 lg:px-60 px-10">
-          <div className="flex mx-auto lg-max-w-full">
-            <div className="w-[520px]">
+          <div className="md:flex mx-auto lg-max-w-full">
+            <div className="w-auto flex md:flex-col">
               <div className="flex justify-end">
                 {' '}
                 <img
-                  className="object-cover inset-y-0 md:h-72 sm:h-52 h-40"
+                  className="object-fill inset-y-0 md:h-72 sm:h-44 h-32"
                   src={main1_1}
                   alt=""
                 />
               </div>
 
-              <div className="font-extrabold text-gray-800 w-auto text-right">
+              <div className="font-extrabold text-gray-800 w-auto" id="f_m">
                 <p
                   className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                   style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -92,16 +92,19 @@ const AntMain = () => {
               </div>
             </div>
 
-            <div className="items-center justify-center flex">
+            <div className="items-center justify-center flex ">
               <img
-                className="object-fill mx-auto rounded-lg  mx-8 w-44"
+                className="object-fill mx-auto rounded-lg  mx-8 lg:w-44  sm:w-32 w-24"
                 src={main1_logo}
                 alt=""
               />
             </div>
 
-            <div className="w-[450px] mt-10">
-              <div className="font-extrabold text-gray-800 w-auto">
+            <div className="w-auto md:mt-10 flex justify-end md:flex-col">
+              <div
+                className="font-extrabold text-gray-800 w-auto text-left"
+                id="s_m"
+              >
                 <p
                   className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
                   style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -121,15 +124,86 @@ const AntMain = () => {
                   풍부한 티칭경험과 레퍼런스
                 </p>
               </div>
+              <div className="flex justify-end">
+                {' '}
+                <img
+                  className="object-fill inset-y-0 md:h-72 sm:h-36 h-28"
+                  src={main1_2}
+                  alt=""
+                />
+              </div>
+              {/* <img className="object-fill md:mr-0 mr-10" src={main1_2} alt="" /> */}
+            </div>
+          </div>
+        </section>
 
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
+
+        {/* <section className="py-12 sm:py-20 lg:px-60 px-10">
+          <div className="grid grid-cols-3 mx-auto lg-max-w-full">
+            <div className="w-[520px]  justify-self-end">
+                <img
+                  className="object-cover inset-x-0 md:h-72 sm:h-52 h-40 " 
+                  src={main1_1}
+                  alt=""
+                />
+                <p
+                  className="para break-normal text-right font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  파워리프팅 아시아 1등
+                </p>
+                <p
+                  className="para break-normal text-right font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  아시아 스쿼트 신기록 보유자
+                </p>
+                <p
+                  className="para break-normal text-right font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  {' '}
+                  국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
+                </p>
+            </div>
+
+            <div className="items-center justify-center flex">
+              <img
+                className="object-fill mx-0 rounded-lg w-44"
+                src={main1_logo}
+                alt=""
+              />
+            </div>
+
+            <div className="w-[450px] mt-10 ">
+                <p
+                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  선수로서 증명해낸 결과와 실력
+                </p>
+                <p
+                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  모든 코치진의 국제시합 경험
+                </p>
+                <p
+                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
+                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+                >
+                  풍부한 티칭경험과 레퍼런스
+                </p>
               <img
                 className="object-cover md:mr-0 mr-10"
                 src={main1_2}
                 alt=""
               />
             </div>
+
           </div>
-        </section>
+        </section> */}
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
@@ -139,7 +213,7 @@ const AntMain = () => {
               <img
                 src={main2}
                 alt="Image"
-                className="object-cover mx-auto sm:h-[100%] h-52 w-full rounded-md"
+                className="object-fill mx-auto sm:h-[100%] h-52 w-full rounded-md"
               />
             </div>
             <div style={{ flex: '1 1 55%' }}>
@@ -343,6 +417,19 @@ const AntMain = () => {
         </section>
       </div>
       <Footer />
+      <style>
+        {`
+      #f_m  {
+        text-align: inherit;
+      }
+      @media screen and (max-width: 768px) {
+        #s_m{
+          text-align:right
+        }
+      }
+     
+    `}
+      </style>
     </div>
   );
 };
