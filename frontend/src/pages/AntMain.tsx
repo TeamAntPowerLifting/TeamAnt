@@ -2,12 +2,10 @@ import React, { useEffect } from 'react';
 import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
 import main from '../assets/images/main.png';
-import main1 from '../assets/images/main1.png';
-import main1_1 from '../assets/images/main1_1.jpeg';
-import main1_2 from '../assets/images/main1_2.jpeg';
+import main1_1 from '../assets/images/main1_1.png';
+import main1_2 from '../assets/images/main1_2.png';
 import main1_logo from '../assets/images/main1_logo.png';
 import main2 from '../assets/images/main2.png';
-import main2_before from '../assets/images/main2_before.png';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import main3_1 from '../assets/images/main3_1.png';
@@ -57,85 +55,66 @@ const AntMain = () => {
           />
         </div>
 
-        <section className="py-12 sm:py-20 lg:px-60 lg:ml-16 px-10 ">
-          <div className="md:flex mx-auto lg-max-w-full">
-            <div className="w-auto flex md:flex-col">
-              <div className="flex justify-end">
-                {' '}
-                <img
-                  className="object-fill inset-y-0 md:h-72 sm:h-44 h-32"
-                  src={main1_1}
-                  alt=""
-                />
-              </div>
+        <div className='w-full h-fit my-12'>
+          <p
+            className="font-serif break-normal text-center text-black-900 capitalize lg:text-8xl md:text-7xl sm:text-6xl xs:text-4xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            We Life Weights
+          </p>
+        </div>
 
-              <div className="font-extrabold text-gray-800 w-auto md:ml-0 ml-4" id="f_m">
-                <p
-                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
-                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-                >
-                  파워리프팅 아시아 1등
-                </p>
-                <p
-                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
-                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-                >
-                  아시아 스쿼트 신기록 보유자
-                </p>
-                <p
-                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
-                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-                >
-                  {' '}
-                  국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
-                </p>
-              </div>
-            </div>
+        <div className='items-center justify-center flex'>
+          <img
+            className="object-fill mx-0 rounded-lg w-52"
+            src={main1_logo}
+            alt=""
+          />
+        </div>
 
-            <div className="items-center justify-center flex ">
-              <img
-                className="object-fill mx-auto rounded-lg  mx-8 lg:w-44  sm:w-32 w-24"
-                src={main1_logo}
-                alt=""
-              />
-            </div>
+        <div className='py-12 lg:py-20 xl:px-60'>
+          <img
+            className="object-fill w-full sm:h-[100%] h-52 "
+            src={main1_1}
+            alt=""
+          />
+        </div>
+        <div className='w-full h-fit'>
+          <p
+            className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            '정지훈' IPF56kg Powerlifter
+          </p>
+        </div>
+        <div className='w-full h-fit mt-10'>
+          <p
+            className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            파워리프팅 아시아 1등
+          </p>
+          <p
+            className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            아시아 스쿼트 신기록 보유자
+          </p>
+          <p
+            className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
+          </p>
+        </div>
 
-            <div className="w-auto md:mt-10 flex justify-end md:flex-col">
-              <div
-                className="font-extrabold text-gray-800 w-auto text-left md:mr-0 mr-4"
-                id="s_m"
-              >
-                <p
-                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
-                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-                >
-                  선수로서 증명해낸 결과와 실력
-                </p>
-                <p
-                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
-                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-                >
-                  모든 코치진의 국제시합 경험
-                </p>
-                <p
-                  className="para break-normal  font-extrabold text-gray-800 capitalize text-xs sm:text-base md:text-lg lg:text-xl sm:w-auto"
-                  style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-                >
-                  풍부한 티칭경험과 레퍼런스
-                </p>
-              </div>
-              <div className="flex justify-end">
-                {' '}
-                <img
-                  className="object-fill inset-y-0 md:h-72 sm:h-36 h-28"
-                  src={main1_2}
-                  alt=""
-                />
-              </div>
-              {/* <img className="object-fill md:mr-0 mr-10" src={main1_2} alt="" /> */}
-            </div>
-          </div>
-        </section>
+        <div className='py-12 lg:py-20 xl:px-60 '>
+          <img
+            className=" object-fill w-full sm:h-[100%] h-52 "
+            src={main1_2}
+            alt=""
+          />
+        </div>
 
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
