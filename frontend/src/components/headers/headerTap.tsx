@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 const headerTap = (props: { location: { pathname: string } }) => {
   const navigate = useNavigate();
+  const url = 'https://www.naver.com';
 
   const moveToHome = () => {
     navigate('/');
@@ -34,8 +35,9 @@ const headerTap = (props: { location: { pathname: string } }) => {
   const moveToCantact = () => {
     navigate('/contact');
   };
-  const moveToStore = () => {};
-
+  const moveToStore = () => {
+    window.open(url);
+  };
   if (props.location.pathname == '/') {
     return (
       <>
