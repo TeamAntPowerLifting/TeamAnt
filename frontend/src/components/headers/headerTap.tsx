@@ -34,6 +34,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
   const moveToCantact = () => {
     navigate('/contact');
   };
+  const moveToStore = () => {};
 
   if (props.location.pathname == '/') {
     return (
@@ -75,6 +76,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -133,6 +140,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -185,6 +198,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -243,6 +262,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -298,6 +323,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -350,6 +381,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
@@ -408,6 +445,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -463,6 +506,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -515,6 +564,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
