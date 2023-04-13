@@ -114,8 +114,65 @@ const AntMain = () => {
             src={main1_2}
             alt=""
           />
+
+          <div className='w-full h-fit my-12'>
+            <p
+              className="font-serif break-normal text-left text-black-900 capitalize lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              Trust the Taper, Trust the Team
+            </p>
+            <p
+              className="mt-12 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              모든 코치진의 국제시합 경험
+            </p>
+            <p
+              className="mt-5 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              풍부한 티칭경험과 레퍼런스
+            </p>
+          </div>
         </div>
 
+
+        <div className="border-b-2 border-red w-4/5 mx-auto"></div>
+        <div className='py-12 lg:py-20 xl:px-60'>
+        <p
+          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+        >
+          " 우리 팀앤트는 여러분과의 쌍방향성 소통, 풍부한 경험과
+        </p>
+        <p
+          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+        >
+        레퍼런스를 통해, 코치로서의 역량을  발휘하며
+        </p>
+        <p
+          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+        >
+        여러분이 목표하는 바를 향해 갈 수 있도록 최선을 다할 것입니다.
+          </p>
+          <p
+          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+        >
+        여러분의 가능성은 여러분이 생각하는 것보다 훨씬 높으며,
+
+          </p>
+          <p
+          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+        >
+        그 포텐셜과 잠재력을 끌어내 드리겠습니다. "
+
+          </p>
+        </div>
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
 
         {/* <section className="py-12 sm:py-20 lg:px-60 px-10">
