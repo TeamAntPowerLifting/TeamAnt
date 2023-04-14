@@ -76,12 +76,6 @@ const CoacheContext = [
           'https://map.naver.com/v5/search/%EC%8A%A4%ED%8A%B8%EB%A0%9D%EC%8A%A4%EB%AE%A4%EC%A7%80%EC%97%84/place/1787752073?c=15,0,0,0,dh&isCorrectAnswer=true',
         msg: null,
       },
-      {
-        img: actgym,
-        location:
-          'https://map.naver.com/v5/search/actgym/place/1966720325?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh',
-        msg: null,
-      },
     ],
   },
   {
