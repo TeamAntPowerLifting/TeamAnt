@@ -9,22 +9,18 @@ import AntPrice from './pages/AntPrice';
 import AntArticle from './pages/AntArticle';
 import AntReviews from './pages/AntReviews';
 
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<AntMain />} />
-        <Route path="/about" element={<AntAbout />} />
-        <Route path="/coaching" element={<AntCoaching />} />
-        <Route path="/coaches" element={<AntCoaches />} />
-        <Route path="/reviews" element={<AntReviews />} />
-        <Route path="/price" element={<AntPrice />} />
-        <Route path="/article" element={<AntArticleList />} />
-        <Route path="/article/:id" element={<AntArticle />} />
-        <Route path="/contact" element={<AntContact />} />
-      </Routes>
-    </Router>
-  );
-}
-
-export default App;
+export default (
+  <Router>
+    <Routes>
+      <Route path="/" element={<AntMain />} />
+      <Route path="/about" element={<AntAbout />} />
+      <Route path="/coaching" element={<AntCoaching />} />
+      <Route path="/coaches" element={<AntCoaches />} />
+      <Route path="/reviews" element={<AntReviews />} />
+      <Route path="/price" element={<AntPrice />} />
+      <Route path="/article" element={<AntArticleList />} />
+      <Route path="/article/:id" element={<AntArticle />} />
+      <Route path="/contact" element={<AntContact />} />
+    </Routes>
+  </Router>
+);
