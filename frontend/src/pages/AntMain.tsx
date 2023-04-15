@@ -84,7 +84,7 @@ const AntMain = () => {
             className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
             style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
           >
-            '정지훈' IPF56kg Powerlifter
+            '정지훈' 56kg Powerlifter
           </p>
         </div>
         <div className='w-full h-fit mt-10'>
