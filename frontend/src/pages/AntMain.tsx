@@ -26,6 +26,8 @@ import review3 from '../assets/images/review3.png';
 import review4 from '../assets/images/review4.png';
 import review5 from '../assets/images/review5.png';
 import review6 from '../assets/images/review6.png';
+import review7 from '../assets/images/review7.png';
+import review8 from '../assets/images/review8.png';
 const AntMain = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -37,7 +39,16 @@ const AntMain = () => {
     600: { items: 2 },
     1024: { items: 3 },
   };
-  const review = [review1, review3, review6, review4, review5, review2];
+  const review = [
+    review1,
+    review3,
+    review6,
+    review8,
+    review4,
+    review5,
+    review7,
+    review2,
+  ];
 
   // useEffect(() => {
   //   window.scrollTo(0, 0);
@@ -55,7 +66,7 @@ const AntMain = () => {
           />
         </div>
 
-        <div className='w-full h-fit my-12'>
+        <div className="w-full h-fit my-12 ">
           <p
             className="font-serif break-normal text-center text-black-900 capitalize lg:text-8xl md:text-7xl sm:text-6xl xs:text-4xl"
             style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -64,7 +75,7 @@ const AntMain = () => {
           </p>
         </div>
 
-        <div className='items-center justify-center flex'>
+        <div className="items-center justify-center flex">
           <img
             className="object-fill mx-0 rounded-lg w-52"
             src={main1_logo}
@@ -72,64 +83,66 @@ const AntMain = () => {
           />
         </div>
 
-        <div className='py-12 lg:py-20 xl:px-60'>
+        <div className="py-12 lg:py-20 xl:px-60">
           <img
             className="object-fill w-full sm:h-[100%] h-52 "
             src={main1_1}
             alt=""
           />
         </div>
-        <div className='w-full h-fit'>
-          <p
-            className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
-            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-          >
-            '정지훈' 56kg Powerlifter
-          </p>
-        </div>
-        <div className='w-full h-fit mt-10'>
-          <p
-            className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
-            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-          >
-            파워리프팅 아시아 1등
-          </p>
-          <p
-            className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
-            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-          >
-            아시아 스쿼트 신기록 보유자
-          </p>
-          <p
-            className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
-            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-          >
-            국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
-          </p>
+        <div className="px-4 mx-auto sm:px-6 lg:px-8">
+          <div className="w-full h-fit">
+            <p
+              className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              '정지훈' 56kg Powerlifter
+            </p>
+          </div>
+          <div className="w-full h-fit mt-10">
+            <p
+              className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              파워리프팅 아시아 1등
+            </p>
+            <p
+              className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              아시아 스쿼트 신기록 보유자
+            </p>
+            <p
+              className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+            >
+              국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
+            </p>
+          </div>
         </div>
 
-        <div className='py-12 lg:py-20 xl:px-60 '>
+        <div className="py-12 lg:py-20 xl:px-52 ">
           <img
             className=" object-fill w-full sm:h-[100%] h-52 "
             src={main1_2}
             alt=""
           />
 
-          <div className='w-full h-fit my-12'>
+          <div className="w-full h-fit my-8">
             <p
-              className="font-serif break-normal text-left text-black-900 capitalize lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl"
+              className="pl-1 font-serif break-normal text-left text-black-900 capitalize lg:text-6xl md:text-5xl sm:text-4xl x:text-3xl xs:text-xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               Trust the Taper, Trust the Team
             </p>
             <p
-              className="mt-12 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              className="mt-12 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               모든 코치진의 국제시합 경험
             </p>
             <p
-              className="mt-5 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              className="mt-5 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               풍부한 티칭경험과 레퍼런스
@@ -137,40 +150,37 @@ const AntMain = () => {
           </div>
         </div>
 
-
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
-        <div className='py-12 lg:py-20 xl:px-60'>
-        <p
-          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
-          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-        >
-          " 우리 팀앤트는 여러분과의 쌍방향성 소통, 풍부한 경험과
-        </p>
-        <p
-          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
-          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-        >
-        레퍼런스를 통해, 코치로서의 역량을  발휘하며
-        </p>
-        <p
-          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
-          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-        >
-        여러분이 목표하는 바를 향해 갈 수 있도록 최선을 다할 것입니다.
+        <div className="py-12 lg:py-20 xl:px-60 px-10">
+          <p
+            className="mt-2 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            " 우리 팀앤트는 여러분과의 쌍방향성 소통, 풍부한 경험과
           </p>
           <p
-          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
-          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-        >
-        여러분의 가능성은 여러분이 생각하는 것보다 훨씬 높으며,
-
+            className="mt-2 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            레퍼런스를 통해, 코치로서의 역량을 발휘하며
           </p>
           <p
-          className="mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
-          style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
-        >
-        그 포텐셜과 잠재력을 끌어내 드리겠습니다. "
-
+            className="mt-2 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            여러분이 목표하는 바를 향해 갈 수 있도록 최선을 다할 것입니다.
+          </p>
+          <p
+            className="mt-2 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            여러분의 가능성은 여러분이 생각하는 것보다 훨씬 높으며,
+          </p>
+          <p
+            className="mt-2 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
+            style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
+          >
+            그 포텐셜과 잠재력을 끌어내 드리겠습니다. "
           </p>
         </div>
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
