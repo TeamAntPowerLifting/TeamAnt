@@ -11,13 +11,23 @@ import reviews4 from '../assets/images/reviews4.png';
 import reviews5 from '../assets/images/reviews5.png';
 import SubTtitle from '@/components/titles/SubTtitle';
 import reviews6 from '../assets/images/reviews6.png';
-
+import reviews7 from '../assets/images/reviews7.png';
+import reviews8 from '../assets/images/reviews8.png';
 
 // import required modules
 import { Pagination } from 'swiper';
 
 const AntReviews = () => {
-  const review = [reviews1, reviews3, reviews6, reviews4, reviews5, reviews2];
+  const review = [
+    reviews1,
+    reviews3,
+    reviews6,
+    reviews4,
+    reviews5,
+    reviews2,
+    reviews8,
+    reviews7,
+  ];
   return (
     <>
       <div className="flex flex-col h-screen ">
@@ -52,7 +62,9 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인 + 오프라인</span>
-                    <div className="blog-slider__title">운동에 대한 흥미와 열정을 일깨워준 수업</div>
+                    <div className="blog-slider__title">
+                      운동에 대한 흥미와 열정을 일깨워준 수업
+                    </div>
                     <div className="blog-slider__text">
                       안녕하세요 저는 1월 3일부터 정지훈 코치님께 오프라인
                       수업을 받고 있습니다. 수업은 너무너무 만족스럽고,
@@ -98,7 +110,9 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인 + 오프라인</span>
-                    <div className="blog-slider__title">TeamAnt를 선택한 3가지 이유</div>
+                    <div className="blog-slider__title">
+                      TeamAnt를 선택한 3가지 이유
+                    </div>
                     <div className="blog-slider__text">
                       일단 처음 온라인 코칭을 받게 된 계기는, 오프라인
                       원포인트로 정지훈 코치님께 스,벤,데 3세션을 모두 티칭
@@ -146,7 +160,9 @@ const AntReviews = () => {
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인 + 오프라인</span>
-                    <div className="blog-slider__title">이제는 대회 입상을 목표로</div>
+                    <div className="blog-slider__title">
+                      이제는 대회 입상을 목표로
+                    </div>
                     <div className="blog-slider__text">
                       삼대500을 목전에 두고 처음 앤트맨님께 원포인트 레슨을
                       받았습니다. 한달만에 4달간 못뚫었던 데드200을 뚫고 210을
@@ -173,11 +189,43 @@ const AntReviews = () => {
                   className=" blog-slider__item swiper-slide"
                 >
                   <div className="blog-slider__img">
+                    <img src={review[6]} alt="" />
+                  </div>
+                  <div className="blog-slider__content">
+                    <span className="blog-slider__code">온라인 + 오프라인</span>
+                    <div className="blog-slider__title">
+                      AI급 파워리프팅 코치진
+                    </div>
+                    <div className="blog-slider__text">
+                      무게를 들어올리는 운동인만큼 자세적인 부분이나 훈련 방법이
+                      중요하다고 생각하는데 자신에게 맞는 훈련 계획표를
+                      체계적으로 만들어주셔서 증량하는데 있어서 어려움 없이 잘
+                      진행 할 수 있었던것 같습니다! <br />
+                      <br />
+                      항상 운동 진행하는 동안 불편한 부분이 있는지 없는지 물음표
+                      살인마인 저에게 친절하게 다 대답해주시는 지훈코치님
+                      쏘친절😁 갬동ㅠ <br />
+                      <br />
+                      USAPL KOREA 대회를 진행하는 동안 혼자 운동할때 잘 안될때도
+                      있어서 스트레스 받을때가 많았는데 AI가 옆에서 서 말해주는
+                      것처럼 영상 피드백을 잘해주셔서 다음날이면 가볍게 운동
+                      완료 할 수 있었던 것 같습니다!
+                    </div>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide
+                  style={{ height: 'auto' }}
+                  className=" blog-slider__item swiper-slide"
+                >
+                  <div className="blog-slider__img">
                     <img src={review[3]} alt="" />
                   </div>
                   <div className="blog-slider__content">
                     <span className="blog-slider__code">온라인</span>
-                    <div className="blog-slider__title">★온라인 코칭 추천 포인트★</div>
+                    <div className="blog-slider__title">
+                      ★온라인 코칭 추천 포인트★
+                    </div>
                     <div className="blog-slider__text">
                       파워리프팅을 진지하게 하는사람으로서 정체기를 어떻게
                       뚫어야 하나 고민하던 중 마침 지훈코치님과 온라인코칭을
@@ -249,6 +297,60 @@ const AntReviews = () => {
                     </div>
                   </div>
                 </SwiperSlide>
+
+                <SwiperSlide className="blog-slider__item swiper-slide">
+                  <div className="blog-slider__img">
+                    <img src={review[7]} alt="" />
+                  </div>
+                  <div className="blog-slider__content">
+                    <span className="blog-slider__code">온라인</span>
+                    <div className="blog-slider__title">
+                      타 핸들러, 코치들과의 비교우위
+                    </div>
+                    <div className="blog-slider__text">
+                      계속 혼자 운동을 하다가 한계를 느꼈고, 마침 좋은 기회에
+                      온라인 코칭을 접하게 됐습니다. <br /> 하면서 느낀 장점들은
+                      다음과 같습니다. 셋 업과 움직임이 크게 개선됐습니다. 과거
+                      운동을 진행하고 영상을 보며 셀프 피드백을 했을 때와
+                      비교해보면 제가 전혀 생각지도 못했던 부분에서 발생하는
+                      문제들도 있었고, 다른 분들에게는 유효했던 동작들이
+                      저에게는 그렇게 효율적이지 못할 수도 있다는 점을
+                      깨달았습니다.
+                      <br />
+                      <br /> 이를 개선하는 과정에서 꽤 많은 중량 상승이
+                      있었습니다. 피로도 조절에 대한 부분을 배울 수 있었습니다.{' '}
+                      <br />그 전까지는 무조건 무겁고 많이 하면 자연스레 중량이
+                      늘 줄 알았고, 잔부상과 피로도 때문에 일상생활에 약간
+                      지장이 있을 정도였습니다.
+                      <br />
+                      <br />
+                      프로그램 내적으로도 피로도에 대한 조정이 들어갔고, 영상
+                      피드백에서도 항상 피로도를 염두에 두어 중량과 운동자각도에
+                      대한 피드백이 있었습니다. 덕분에 원래도 운동을 좋아하기는
+                      했지만 더더욱 즐겁게 운동을 할 수 있었습니다. <br />
+                      실제 대회장에서 많은 도움을 받았습니다. 첫 대회인 만큼
+                      전혀 어느 타이밍에 무엇을 해야 하는지, 어떤 방법으로
+                      준비를 해야 하는지 감을 잡을 수 없었는데 모든게 준비돼
+                      있어서 저는 리프팅에만 집중할 수 있는 환경이었습니다.{' '}
+                      <br />
+                      <br />
+                      코치님들 네 분 모두 대회 경험이 다수 있으신 덕에 이런 저런
+                      노하우를 전수받을 수 있었고 또, 네 분 모두 긴밀하게
+                      협조하고 계셔서 다양한 상황에서도 유연한 대처가
+                      가능했습니다.
+                      <br /> 이 부분은 확실히 다른 핸들러분들과도 비교우위가
+                      있다고 느꼈습니다. 만약 수도권지역이라면 어디에서 운동을
+                      하셔도 접근에 용이합니다. <br />
+                      <br /> 일단 코치님들이 다양한 리프팅짐에서 프리랜서로
+                      활동중이셔서 활동 반경이 넓으십니다. <br />
+                      덕분에 피킹을 준비할 때 오프라인으로도 많은 도움을 받을 수
+                      있었습니다. 만약 혼자 운동하시는데 한계를 느꼈다거나
+                      대회를 준비중이시라면 온라인 코칭을 긍정적으로
+                      고려해보시는걸 추천합니다! 저는 매우 만족했어요 ㅎㅎ
+                    </div>
+                  </div>
+                </SwiperSlide>
+
                 <SwiperSlide className="blog-slider__item swiper-slide">
                   <div className="blog-slider__img">
                     <img src={review[5]} alt="" />
@@ -483,6 +585,7 @@ body {
 .blog-slider__text {
   color: #4e4a67;
   margin-bottom: 30px;
+  margin-right : 20px;
   line-height: 1.5em;
 }
 .blog-slider__button {
