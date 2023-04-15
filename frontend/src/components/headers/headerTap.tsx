@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 const headerTap = (props: { location: { pathname: string } }) => {
   const navigate = useNavigate();
+  const url = 'https://www.naver.com';
 
   const moveToHome = () => {
     navigate('/');
@@ -34,7 +35,9 @@ const headerTap = (props: { location: { pathname: string } }) => {
   const moveToCantact = () => {
     navigate('/contact');
   };
-
+  const moveToStore = () => {
+    window.open(url);
+  };
   if (props.location.pathname == '/') {
     return (
       <>
@@ -75,6 +78,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -133,6 +142,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -185,6 +200,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
@@ -243,6 +264,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -298,6 +325,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -350,6 +383,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
@@ -408,6 +447,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -463,6 +508,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToArticle}
         >
           Article
@@ -515,6 +566,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           onClick={moveToReviews}
         >
           Testimonial
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStore}
+        >
+          Store
         </div>
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
