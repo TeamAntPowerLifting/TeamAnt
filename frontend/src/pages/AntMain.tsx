@@ -142,7 +142,7 @@ const AntMain = () => {
               모든 코치진의 국제시합 경험
             </p>
             <p
-              className="md:mt-4 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
+              className="md:mt-8 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               풍부한 티칭경험과 레퍼런스
