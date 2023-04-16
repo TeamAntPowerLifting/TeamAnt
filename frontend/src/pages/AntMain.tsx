@@ -71,7 +71,7 @@ const AntMain = () => {
             className="font-serif break-normal text-center text-black-900 capitalize lg:text-8xl md:text-7xl sm:text-6xl xs:text-4xl"
             style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
           >
-            We Life Weights
+            We Lift Weights
           </p>
         </div>
 
@@ -96,7 +96,7 @@ const AntMain = () => {
               className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
-              '정지훈' 56kg Powerlifter
+              '정지훈' 59kg Powerlifter
             </p>
           </div>
           <div className="w-full h-fit mt-10">
@@ -157,7 +157,7 @@ const AntMain = () => {
             className="mt-1 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-2xl sm:text-2xl xs:text-1xl"
             style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
           >
-            " 우리 팀앤트는 여러분과의 쌍방향성 소통, 풍부한 경험과
+            "   우리 팀앤트는 여러분과의 쌍방향성 소통, 풍부한 경험과
           </p>
           <p
             className="mt-1 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
@@ -181,7 +181,7 @@ const AntMain = () => {
             className="mt-1 sm:mt-5 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-4xl md:text-3xl sm:text-2xl xs:text-1xl"
             style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
           >
-            그 포텐셜과 잠재력을 끌어내 드리겠습니다. "
+            그 포텐셜과 잠재력을 끌어내 드리겠습니다.   "
           </p>
         </div>
         <div className="border-b-2 border-red w-4/5 mx-auto"></div>
@@ -266,7 +266,7 @@ const AntMain = () => {
                 style={{ textShadow: ' 1.5px 1.5px 2px #C0C0C0' }}
                 className="mt-5 break-normal text-md hover:subpixel-antialiased text-md sm:text-lg font-extrabold text-gray-800 capitalize lg:text-3xl sm:w-auto mb-5 "
               >
-                파워리프팅 온리인 코칭이란?
+                파워리프팅 온라인 코칭이란?
               </h3>
               <p
                 className="2xl:mr-36 para break-normal text-md font-extrabold text-gray-800 capitalize lg:text-2xl sm:w-auto"
