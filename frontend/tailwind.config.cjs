@@ -17,6 +17,9 @@ module.exports = {
       fontFamily: {
         sans: ['Merriweather Sans', 'sans-serif'],
       },
+      fontSize: {
+        mainmobile : '',
+      }
     },
   },
   plugins: [require('tailwindcss-animate')],
