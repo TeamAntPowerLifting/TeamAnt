@@ -12,4 +12,3 @@ function generateSitemap() {
 }
 
 generateSitemap();
-export {};

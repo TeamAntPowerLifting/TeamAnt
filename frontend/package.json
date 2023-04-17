@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "sitemap": "babel-node ./src/sitemaGenerator.js",
+    "sitemap": "babel-node ./src/sitemapGenerator.cjs",
     "predeploy": "npm run sitemap"
   },
   "dependencies": {
