@@ -3,6 +3,7 @@ import Coache2 from '../../assets/images/Coache2.jpg';
 import Coache3 from '../../assets/images/Coache3.jpg';
 import Coache4 from '../../assets/images/Coache4.jpg';
 import fmgym from '../../assets/images/fmgym.jpeg';
+import coach_gym from '../../assets/images/coach_gym.jpeg';
 import actgym from '../../assets/images/actgym.png';
 import gym from '../../assets/images/gym.png';
 import strength from '../../assets/images/strength.jpeg';
@@ -67,6 +68,10 @@ const CoacheContext = [
       '2022 IPF Busan Powerlifting Championship -93kg체급 1위',
       '2022 Korea Powerlifting Championship -83kg체급 3위',
       '용인대 체육학과',
+      '(전) 광교PT 킹스짐 2호점 프리랜서',
+      '(현) 닥터스트렝스 프리랜서',
+      '(현) 스트렝스 뮤지엄 프리랜서',
+      '(현) 코치짐 송파점 트레이너',
     ],
     image: Coache3,
     locationImage: [
@@ -74,6 +79,12 @@ const CoacheContext = [
         img: strength,
         location:
           'https://map.naver.com/v5/search/%EC%8A%A4%ED%8A%B8%EB%A0%9D%EC%8A%A4%EB%AE%A4%EC%A7%80%EC%97%84/place/1787752073?c=15,0,0,0,dh&isCorrectAnswer=true',
+        msg: null,
+      },
+      {
+        img: coach_gym,
+        location:
+          'https://map.naver.com/v5/entry/place/36929583?lng=127.1207547&lat=37.5064916&placePath=%2Fhome%3Fentry=plt&c=15,0,0,0,dh',
         msg: null,
       },
     ],

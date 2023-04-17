@@ -254,6 +254,10 @@ const onlineProcess = () => {
           </div>
         </div>
       </section>
+      <div className='mr-10 mt-10'>
+        <p className='text-right font-medium text-gray-500'>
+          ※코치마다의 코칭방식이 상이할 수 있습니다.</p>
+      </div>
     </div>
   );
 };
