@@ -66,7 +66,7 @@ const AntMain = () => {
           />
         </div>
 
-        <div className="w-full mt-8 ">
+        <div className="w-full mt-12 md:mt-24 ">
           <p
             className="font-serif break-normal text-center text-black-900 capitalize lg:text-8xl md:text-7xl sm:text-6xl xs:text-4xl"
             style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -75,7 +75,7 @@ const AntMain = () => {
           </p>
         </div>
 
-        <div className="items-center justify-center flex">
+        <div className="items-center justify-center flex md:mt-12 mt-8">
           <img
             className="object-fill mx-0 rounded-lg md:w-52 w-44"
             src={main1_logo}
@@ -93,27 +93,27 @@ const AntMain = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="w-full h-fit">
             <p
-              className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
+              className="my-4 para break-normal fonnt-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               '정지훈' 59kg Powerlifter
             </p>
           </div>
-          <div className="w-full h-fit mt-10">
+          <div className="w-full h-fit lg:mt-20 mt-10">
             <p
-              className="para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl"
+              className="lg:mt-8 mt-4 para break-normal font-semibold text-center text-black-900 capitalize lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               파워리프팅 아시아 1등
             </p>
             <p
-              className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl"
+              className="lg:mt-8 mt-4 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               아시아 스쿼트 신기록 보유자
             </p>
             <p
-              className="para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl"
+              className="lg:mt-8 mt-4 para break-normal font-semibold text-center text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               국내 최초 파워리프팅 국제시합 그랜드 슬램 달성
@@ -121,14 +121,14 @@ const AntMain = () => {
           </div>
         </div>
 
-        <div className="pt-8 pb-3 lg:py-20 xl:px-52 ">
+        <div className="md:pt-20 pt-12 pb-3 lg:py-20 xl:px-52 ">
           <img
             className=" object-fill w-full sm:h-[100%] h-52 "
             src={main1_2}
             alt=""
           />
 
-          <div className="w-full h-fit my-4">
+          <div className="w-full h-fit my-12">
             <p
               className="pl-1 font-serif break-normal text-left text-black-900 capitalize lg:text-6xl md:text-5xl sm:text-4xl x:text-3xl xs:text-xl"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
@@ -136,13 +136,13 @@ const AntMain = () => {
               Trust the Taper, Trust the Team
             </p>
             <p
-              className="md:mt-12 mt-4 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
+              className="md:mt-20 mt-8 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               모든 코치진의 국제시합 경험
             </p>
             <p
-              className="md:mt-8 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
+              className="md:mt-8 mt-4 mr-4 para break-normal font-semibold text-right text-black-900 capitalize  lg:text-5xl md:text-4xl sm:text-3xl x:text-xl xs:text-lg"
               style={{ textShadow: '1.5px 1.5px 2px #C0C0C0' }}
             >
               풍부한 티칭경험과 레퍼런스
