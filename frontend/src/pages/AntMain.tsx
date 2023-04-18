@@ -50,9 +50,9 @@ const AntMain = () => {
     review2,
   ];
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [location]);
+   useEffect(() => {
+     window.scrollTo(0, 0);
+   }, [location]);
 
   return (
     <div className="flex flex-col h-screen ">
