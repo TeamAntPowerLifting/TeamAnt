@@ -16,7 +16,7 @@ const footer = () => {
           </span>
           <div className="flex mt-4 space-x-6 justify-center mt-0">
             <a
-              href="https://www.naver.com"
+              href="http://smartstore.naver.com/antpowerlifting"
               className="text-gray-500 hover:text-white"
             >
               <svg
