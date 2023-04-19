@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 const headerTap = (props: { location: { pathname: string } }) => {
   const navigate = useNavigate();
-  const url = 'https://www.naver.com';
+  const url = 'http://smartstore.naver.com/antpowerlifting';
 
   const moveToHome = () => {
     navigate('/');

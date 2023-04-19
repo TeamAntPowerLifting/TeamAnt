@@ -1,9 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.min.css';
 import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
 import 'swiper/css';
+import { useLocation } from 'react-router-dom';
 import reviews1 from '../assets/images/reviews1.png';
 import reviews2 from '../assets/images/reviews2.png';
 import reviews3 from '../assets/images/reviews3.png';
@@ -18,6 +19,7 @@ import reviews8 from '../assets/images/reviews8.png';
 import { Pagination } from 'swiper';
 
 const AntReviews = () => {
+  
   const review = [
     reviews1,
     reviews3,
@@ -28,6 +30,9 @@ const AntReviews = () => {
     reviews8,
     reviews7,
   ];
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <>
       <div className="flex flex-col h-screen ">
