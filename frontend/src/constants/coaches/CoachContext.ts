@@ -23,6 +23,7 @@ const CoacheContext = [
       '파워리프팅 유튜브 59kg앤트맨 채널 운영중',
       'SBD Korea 공식 지원선수',
       'SBS 세상에 이런일이 1216회 출연',
+      'IPF 코칭 가능',
     ],
     locationImage: [
       {
@@ -42,7 +43,7 @@ const CoacheContext = [
   },
   {
     title: [
-      'IPF 74/83kg 파워리프터',
+      '74/75kg 파워리프터',
       '차의과대학교 스포츠의학대학원 선수트레이닝전공 석사과정',
       '대한운동사협회 자격증(KACEP)',
       '2022 IPF -74kg체급 국가대표',
@@ -50,6 +51,7 @@ const CoacheContext = [
       '2022 Korea Powerlifting Championship -66kg체급 1위',
       '2020 WPC/AWPC -67.5kg체급 2위',
       '강남대학교 스포츠복지전공',
+      'USAPL/WPC 코칭 가능'
     ],
     image: Coache2,
     locationImage: [
@@ -62,7 +64,7 @@ const CoacheContext = [
   },
   {
     title: [
-      'IPF 93kg 파워리프터',
+      '90/93kg 파워리프터',
       '2022 IPF -93kg체급 국가대표',
       '2022 IPF두바이 아시아 파워리프팅 선발전 -93kg체급 1위',
       '2022 IPF Busan Powerlifting Championship -93kg체급 1위',
@@ -72,6 +74,7 @@ const CoacheContext = [
       '(현) 닥터스트렝스 프리랜서',
       '(현) 스트렝스 뮤지엄 프리랜서',
       '(현) 코치짐 송파점 트레이너',
+      'USAPL/WPC 코칭 가능'
     ],
     image: Coache3,
     locationImage: [
@@ -91,13 +94,14 @@ const CoacheContext = [
   },
   {
     title: [
-      'IPF 66kg 파워리프터',
+      '66/67.5kg 파워리프터',
       '한국 -66kg체급 벤치프레스 신기록 보유',
       '2022 -66kg체급 국가대표',
       '2022 IPF두바이 아시아 파워리프팅 선발전 -66kg체급(Jr) 1위',
       '2019 IPF Korea -59kg체급 1위',
       'ICN 피지크 Junior 1위',
       '한서대 물리치료학과',
+      'USAPL/WPC 코칭 가능'
     ],
     image: Coache4,
     locationImage: [
