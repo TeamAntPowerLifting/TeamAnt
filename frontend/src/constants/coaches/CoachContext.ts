@@ -4,7 +4,7 @@ import Coache3 from '../../assets/images/Coache3.jpg';
 import Coache4 from '../../assets/images/Coache4.jpg';
 import fmgym from '../../assets/images/fmgym.jpeg';
 import coach_gym from '../../assets/images/coach_gym.jpeg';
-import actgym from '../../assets/images/actgym.png';
+import better_gym from '../../assets/images/better_gym.png';
 import gym from '../../assets/images/gym.png';
 import strength from '../../assets/images/strength.jpeg';
 
@@ -88,6 +88,12 @@ const CoacheContext = [
         img: coach_gym,
         location:
           'https://map.naver.com/v5/entry/place/36929583?lng=127.1207547&lat=37.5064916&placePath=%2Fhome%3Fentry=plt&c=15,0,0,0,dh',
+        msg: null,
+      },
+      {
+        img: better_gym,
+        location:
+          'https://map.naver.com/v5/entry/place/1961540936?lng=127.1017233&lat=37.5178190&placePath=%2Fhome%3Fentry=plt&c=15,0,0,0,dh',
         msg: null,
       },
     ],
