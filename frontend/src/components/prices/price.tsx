@@ -6,6 +6,7 @@ interface priceProps {
   price: string | null;
   month: string | null;
   content: string | null;
+  
 }
 type PtType = Pick<priceProps, 'tab' | 'month' | 'price' | 'content'>;
 
@@ -20,23 +21,39 @@ const Price = (props: PtType) => {
         <h3 className="text-xl font-semibold text-black mb-5">{props.tab}</h3>
         {props.tab == `Online coaching` ? (
           <div className="flex items-end mt-5">
+
             <div className="flex items-start">
               <span className="text-xl font-medium text-black"> ₩ </span>
               <p className="text-4xl font-medium tracking-tight">
                 {props.price}
               </p>
-            </div>
-            <span className="ml-0.5 text-lg text-gray-600">
+              <span className="ml-0.5 text-lg text-gray-600">
               {' '}
-              / {props.month}month{' '}
+              / {props.month}{' '}
             </span>
+            </div>
+
+
+
           </div>
         ) : (
           <div className="">
+            <div className="flex items-start mb-2">
+              <span className="text-xl font-medium text-black"> ₩ </span>
+              <p className="text-4xl font-medium tracking-tight">
+                {props.price}
+              </p> 
+              <span className="ml-0.5 text-lg text-gray-600">
+                {' '}
+                / {props.month}{' '}
+              </span>
+            </div>
+
             <span className="ml-0.5 text-lg text-gray-600">
               {' '}
               {props.content}
             </span>
+
           </div>
         )}
 
