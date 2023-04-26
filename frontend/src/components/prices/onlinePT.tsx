@@ -23,14 +23,14 @@ const OnlinePT = () => {
       <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
         <Price
           price={`140,000`}
-          month={`1`}
-          tab={`Online coaching`}
+          month={`1 month`}
+          tab={`Online Coaching`}
           content={null}
         />
         <Price
           price={`400,000`}
-          month={`3`}
-          tab={`Online coaching`}
+          month={`3 month`}
+          tab={`Online Coaching`}
           content={null}
         />
       </div>

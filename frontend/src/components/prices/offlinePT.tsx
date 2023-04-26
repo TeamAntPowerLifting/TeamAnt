@@ -19,18 +19,32 @@ const OfflinePT = () => {
       <p className="max-w-md text-center mx-auto mt-4 text-2xl leading-relaxed text-gray">
         Offline Coaching
       </p>
-      <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
+      <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9 white-space:pre-wrap">
         <Price
-          content={`/50min per session`}
-          tab={`Offline coaching`}
-          price={null}
-          month={null}
+          price={`480,000`}
+          month={'30 days'}
+          tab={`Offline Lesson 8 Times`}
+          content={'온라인 코칭 없이 오프라인 수업 진행 \n'}
         />
         <Price
-          content={`/50min per session`}
-          tab={`OnePoint Lesson`}
-          price={null}
-          month={null}
+          price={`600,000`}
+          content={`온라인 코칭 14만원 -> 12만원으로 할인해택 제공`}
+          tab={`Offline 8T & Online 1M`}
+          month={'30 days'}
+        />
+      </div>
+      <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
+        <Price
+          tab={`Offline Lesson 4 Times`}
+          price={`240,000`}
+          content={`오프라인 코칭 수강자에 한해 선택 가능`}
+          month={'30 days'}
+        />
+        <Price
+          price={'99,000'}
+          month={'1 day'}
+          tab={`One Point Lesson`}
+          content={'50분 수업 진행'}
         />
       </div>
       <div className="max-w-2xl mx-auto text-center">

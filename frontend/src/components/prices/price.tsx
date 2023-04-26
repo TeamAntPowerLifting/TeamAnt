@@ -25,17 +25,28 @@ const Price = (props: PtType) => {
               <p className="text-4xl font-medium tracking-tight">
                 {props.price}
               </p>
+              <span className="ml-0.5 text-lg text-gray-600">
+                {' '}
+                / {props.month}{' '}
+              </span>
             </div>
-            <span className="ml-0.5 text-lg text-gray-600">
-              {' '}
-              / {props.month}month{' '}
-            </span>
           </div>
         ) : (
           <div className="">
-            <span className="ml-0.5 text-lg text-gray-600">
+            <div className="flex items-start mb-2">
+              <span className="text-xl font-medium text-black"> ₩ </span>
+              <p className="text-4xl font-medium tracking-tight">
+                {props.price}
+              </p>
+              <span className="ml-0.5 text-lg text-gray-600">
+                {' '}
+                / {props.month}{' '}
+              </span>
+            </div>
+
+            <span className="ml-0.5 text-lg text-gray-600 whitespace-pre-wrap">
               {' '}
-              {props.content}
+              {props.content}{' '}
             </span>
           </div>
         )}
