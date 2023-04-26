@@ -24,7 +24,7 @@ const OfflinePT = () => {
           price={`480,000`}
           month={'30 days'}
           tab={`Offline Lesson 8 Times`}
-          content={'온라인 코칭 없이 오프라인 수업으로만 진행 '}
+          content={'온라인 코칭 없이 오프라인 수업 진행 \n'}
         />
         <Price
           price={`600,000`}
@@ -45,7 +45,6 @@ const OfflinePT = () => {
           month={'1 day'}
           tab={`One Point Lesson`}
           content={'50분 수업 진행'}
-
         />
       </div>
       <div className="max-w-2xl mx-auto text-center">
