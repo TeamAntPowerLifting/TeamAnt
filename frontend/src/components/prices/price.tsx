@@ -44,10 +44,6 @@ const Price = (props: PtType) => {
               </span>
             </div>
 
-            <span className="ml-0.5 text-lg text-gray-600 whitespace-pre-wrap">
-              {' '}
-              {props.content}{' '}
-            </span>
           </div>
         )}
 
@@ -59,6 +55,12 @@ const Price = (props: PtType) => {
         >
           문의하기
         </a>
+        <div className='mt-10'>
+          <span className="ml-0.5  text-md text-gray-600 whitespace-pre-wrap">
+            {'📢 '}
+            {props.content}{' '}
+          </span>
+        </div>
       </div>
     </div>
   );
