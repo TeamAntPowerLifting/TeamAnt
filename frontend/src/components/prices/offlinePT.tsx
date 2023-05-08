@@ -28,7 +28,7 @@ const OfflinePT = () => {
         />
         <Price
           price={`600,000`}
-          content={`온라인 코칭 14만원 -> 12만원으로 할인해택 제공`}
+          content={`온라인 코칭 14만원 -> 12만원으로 할인혜택 제공`}
           tab={`Offline 8T & Online 1M`}
           month={'30 days'}
         />
