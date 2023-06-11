@@ -25,13 +25,13 @@ const OnlinePT = () => {
           price={`140,000`}
           month={`1 month`}
           tab={`Online Coaching`}
-          content={null}
+          content={'📢 30일 기준 온라인 코칭 프로그램'}
         />
         <Price
           price={`400,000`}
           month={`3 month`}
           tab={`Online Coaching`}
-          content={null}
+          content={'📢 42만원 -> 40만원 할인 혜택 제공'}
         />
       </div>
 

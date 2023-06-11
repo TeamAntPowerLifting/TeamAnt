@@ -24,11 +24,11 @@ const OfflinePT = () => {
           price={`480,000`}
           month={'30 days'}
           tab={`Offline Lesson 8 Times`}
-          content={'온라인 코칭 없이 오프라인 수업 진행 \n'}
+          content={'📢 온라인 코칭 없이 오프라인 수업 진행 \n'}
         />
         <Price
           price={`600,000`}
-          content={`온라인 코칭 14만원 -> 12만원으로 할인혜택 제공`}
+          content={`📢 온라인 코칭 14만원 -> 12만원으로 할인혜택 제공`}
           tab={`Offline 8T & Online 1M`}
           month={'30 days'}
         />
@@ -37,14 +37,14 @@ const OfflinePT = () => {
         <Price
           tab={`Offline Lesson 4 Times`}
           price={`240,000`}
-          content={`오프라인 코칭 수강자에 한해 선택 가능`}
+          content={`📢 오프라인 코칭 수강자에 한해 선택 가능`}
           month={'30 days'}
         />
         <Price
           price={'99,000'}
           month={'1 day'}
           tab={`One Point Lesson`}
-          content={'50분 수업 진행'}
+          content={'📢 50분 수업 진행'}
         />
       </div>
       <div className="max-w-2xl mx-auto text-center">

@@ -57,7 +57,7 @@ const Price = (props: PtType) => {
         </a>
         <div className='mt-10'>
           <span className="ml-0.5  text-md text-gray-600 whitespace-pre-wrap">
-            {'📢 '}
+            {''}
             {props.content}{' '}
           </span>
         </div>
