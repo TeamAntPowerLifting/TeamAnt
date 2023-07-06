@@ -65,16 +65,17 @@ const CoacheContext = [
   {
     title: [
       '90/93kg 파워리프터',
+      '2023 USAPL Summer Slam -90kg체급 1위',
       '2022 IPF -93kg체급 국가대표',
       '2022 IPF두바이 아시아 파워리프팅 선발전 -93kg체급 1위',
       '2022 IPF Busan Powerlifting Championship -93kg체급 1위',
       '2022 Korea Powerlifting Championship -83kg체급 3위',
       '용인대 체육학과',
       '(전) 광교PT 킹스짐 2호점 프리랜서',
-      '(현) 닥터스트렝스 프리랜서',
-      '(현) 스트렝스 뮤지엄 프리랜서',
-      '(현) 코치짐 송파점 트레이너',
-      'USAPL/WPC 코칭 가능'
+      '(전) 닥터스트렝스 프리랜서',
+      '(전) 코치짐 트레이너',
+      '(현) 배럴스트렝스 프리랜서',
+      '(현) 스트렝스 뮤지엄 프리랜서'
     ],
     image: Coache3,
     locationImage: [
