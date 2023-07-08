@@ -86,12 +86,6 @@ const CoacheContext = [
         msg: null,
       },
       {
-        img: coach_gym,
-        location:
-          'https://map.naver.com/v5/entry/place/36929583?lng=127.1207547&lat=37.5064916&placePath=%2Fhome%3Fentry=plt&c=15,0,0,0,dh',
-        msg: null,
-      },
-      {
         img: better_gym,
         location:
           'https://map.naver.com/v5/entry/place/1961540936?lng=127.1017233&lat=37.5178190&placePath=%2Fhome%3Fentry=plt&c=15,0,0,0,dh',
