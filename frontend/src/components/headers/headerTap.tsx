@@ -78,6 +78,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -94,12 +100,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -145,6 +146,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -161,12 +168,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -212,6 +214,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -228,12 +236,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -279,6 +282,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -295,12 +304,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -345,6 +349,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           Coaches
         </div>
         <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
           onClick={moveToReviews}
         >
@@ -362,12 +372,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -413,6 +418,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -429,12 +440,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -480,6 +486,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -496,12 +508,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
           onClick={moveToCantact}
@@ -547,6 +554,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -563,12 +576,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -614,6 +622,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
         </div>
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
+          className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
           Testimonial
@@ -630,12 +644,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button text-gray-600 text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}
@@ -680,6 +689,12 @@ const headerTap = (props: { location: { pathname: string } }) => {
           Coaches
         </div>
         <div
+          className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
+          onClick={moveToStudio}
+        >
+          GYM
+        </div>
+        <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToReviews}
         >
@@ -697,12 +712,7 @@ const headerTap = (props: { location: { pathname: string } }) => {
         >
           Article
         </div>
-        <div
-          className="cursor-pointer hover:text-button border-b-2 border-red text-lg"
-          onClick={moveToStudio}
-        >
-          Studio
-        </div>
+
         <div
           className="cursor-pointer hover:text-button text-gray-600 text-lg"
           onClick={moveToCantact}

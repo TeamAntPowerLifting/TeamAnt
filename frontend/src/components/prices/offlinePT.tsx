@@ -36,7 +36,7 @@ const OfflinePT = () => {
       <div className="grid max-w-3xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 mt-14 md:gap-9">
         <Price
           tab={`One Point Lesson Set`}
-          price={`360,000`}
+          price={`350,000`}
           content={`📢 총 4회 One Point Lesson 제공`}
           month={'4 times'}
         />

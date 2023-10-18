@@ -101,7 +101,7 @@ const AntStudio = () => {
             <a
               href='https://map.naver.com/p/entry/place/1109130661?lng=126.7819485&lat=37.6705335&placePath=%2Fhome%3Fentry%3Dplt'
               title=""
-              className=" grid place-items-center para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4"
+              className=" grid place-items-center para break-normal text-md font-extrabold text-stone-600 capitalize lg:text-2xl sm:w-auto pb-4"
               role=""
             >
               오프라인 레슨 문의하기
