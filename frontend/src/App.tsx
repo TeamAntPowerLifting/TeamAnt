@@ -8,6 +8,7 @@ import AntContact from './pages/AntContact';
 import AntPrice from './pages/AntPrice';
 import AntArticle from './pages/AntArticle';
 import AntReviews from './pages/AntReviews';
+import AntStudio from './pages/AntStudio';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/article" element={<AntArticleList />} />
         <Route path="/article/:id" element={<AntArticle />} />
         <Route path="/contact" element={<AntContact />} />
+        <Route path="/studio" element={<AntStudio />} />
       </Routes>
     </Router>
   );

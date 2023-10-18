@@ -7,6 +7,8 @@ import coach_gym from '../../assets/images/coach_gym.jpeg';
 import better_gym from '../../assets/images/better_gym.png';
 import gym from '../../assets/images/gym.png';
 import strength from '../../assets/images/strength.jpeg';
+import antgym from '../../assets/images/antgym.jpeg';
+
 
 const CoacheContext = [
   {
@@ -27,15 +29,9 @@ const CoacheContext = [
     ],
     locationImage: [
       {
-        img: strength,
+        img: antgym,
         location:
-          'https://map.naver.com/v5/search/%EC%8A%A4%ED%8A%B8%EB%A0%9D%EC%8A%A4%EB%AE%A4%EC%A7%80%EC%97%84/place/1787752073?c=15,0,0,0,dh&isCorrectAnswer=true',
-        msg: null,
-      },
-      {
-        img: fmgym,
-        location:
-          'https://map.naver.com/v5/search/fmgym/place/1818968620?c=15,0,0,0,dh&isCorrectAnswer=true',
+          'https://map.naver.com/p/entry/place/1109130661?lng=126.7819485&lat=37.6705335&placePath=%2Fhome%3Fentry%3Dplt&c=15.00,0,0,0,dh',
         msg: null,
       },
     ],

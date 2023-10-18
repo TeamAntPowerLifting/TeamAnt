@@ -58,6 +58,14 @@ const OnlinePT = () => {
           </div>
         </div>
       </div>
+      <div className="max-w-4xl mx-auto text-center">
+        <p className="text-center text-lg">
+          {`※최초 가입비 3만원이 별도로 청구되며, 가입비에는 코칭 시작 전의 사전미팅,`}
+        </p>
+        <p className="text-center text-lg">
+          {`테크니컬 피드백, 프로그램 구성, 팀앤트 티셔츠 증정의 비용이 모두 포함되어 있습니다.`}
+        </p>
+      </div>
     </div>
   );
 };
