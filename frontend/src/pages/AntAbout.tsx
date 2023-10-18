@@ -1,11 +1,6 @@
 import React, { useEffect } from 'react';
 import Headers from '@/components/headers/headers';
 import Footer from '@/components/footers/footers';
-import about1 from '../assets/images/about1.jpg';
-import about2 from '../assets/images/about2.jpg';
-import about3 from '../assets/images/about3.jpg';
-import about4 from '../assets/images/about4.jpg';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'src/media.css';
 import { useLocation } from 'react-router-dom';
 import About from '@/components/abouts/About';

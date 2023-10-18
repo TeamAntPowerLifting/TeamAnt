@@ -41,7 +41,7 @@ const AntPrice = () => {
                     }}
                     href="#first"
                   >
-                    Online PT
+                    Online Coaching
                   </a>
                 </li>
 
@@ -54,7 +54,7 @@ const AntPrice = () => {
                     }}
                     href="#second"
                   >
-                    Offline PT
+                    Offline PT Lesson
                   </a>
                 </li>
               </ul>
@@ -63,13 +63,14 @@ const AntPrice = () => {
 
           <div className="px-full mx-auto max-w-screen-2xl">
             {/* 온라인 코칭 */}
-            <div className={openTab === 1 ? 'block' : 'hidden'} id="first">
+            {/* <div className={openTab === 1 ? 'block' : 'hidden'} id="first">
               <OnlinePT />
-            </div>
+            </div> */}
             {/* 오프라인 코칭 */}
-            <div className={openTab === 2 ? 'block' : 'hidden'} id="second">
+            {/* <div className={openTab === 2 ? 'block' : 'hidden'} id="second">
               <OfflinePT />
-            </div>
+            </div> */}
+            {openTab === 1 ? <OnlinePT/> :<OfflinePT/>}
           </div>
         </section>
       </div>
