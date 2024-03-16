@@ -81,24 +81,24 @@ const AntStudio = () => {
           </div>
           <div className="grid place-items-center">
             <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4">
-              Team ANT 대표 정지훈 코치 상주
+              1. Team ANT 대표 정지훈 코치 상주
             </p>
             <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4">
-              합리적인 가격으로 오프라인 레슨 수강 가능
+              2. 합리적인 가격으로 오프라인 레슨 수강 가능
             </p>
-            <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4">
-              3대운동 최적화 규격장비 구비 (엘리코 콤보랙, 오하이오 파워바,
+            <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4 mx-5">
+              3. 3대운동 최적화 규격장비 구비 (엘리코 콤보랙, 오하이오 파워바,
               주물원판, 데드리프트 플랫폼 등)
             </p>
             <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4">
-              오프라인 레슨 기간 내 온라인 코칭 서비스 무료제공
+              4. 오프라인 레슨 기간 내 온라인 코칭 서비스 무료제공
             </p>
             <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4">
-              정규레슨 등록시 팀앤트 티셔츠 증정
+              5. 정규레슨 등록시 팀앤트 티셔츠 증정
             </p>
-            <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4">
-              온라인 코칭 클라이언트 한정 스튜디오 무료개방 혜택 (*네이버 예약
-              필수)
+            <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4 mx-5">
+              6. 온라인 코칭 클라이언트 한정 스튜디오 무료개방 혜택 (*네이버
+              예약 필수)
             </p>
           </div>
           <div className="grid place-items-center pt-16 sm:py-8">
@@ -110,7 +110,7 @@ const AntStudio = () => {
             >
               오프라인 레슨 문의하기
             </a>
-            <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4 pt-12 sm:pt-4">
+            <p className="para break-normal text-md font-extrabold text-gray-500 capitalize lg:text-2xl sm:w-auto pb-4 pt-12 sm:pt-4 mx-5">
               경기도 고양시 일산동구 일산로 394번길 19-3 지하 팀앤트 파워리프팅
             </p>
           </div>
